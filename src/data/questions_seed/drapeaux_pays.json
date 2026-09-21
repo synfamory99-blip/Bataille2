@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "dp_001",
+    "category": "drapeaux_pays",
+    "question": "Dans quel ordre sont les couleurs du drapeau ivoirien, de la hampe vers l'extérieur ?",
+    "options": [
+      "Vert, blanc, orange",
+      "Orange, blanc, vert",
+      "Blanc, orange, vert",
+      "Orange, vert, blanc"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le drapeau ivoirien est orange, blanc, vert, de la hampe vers l'extérieur."
+  },
+  {
+    "id": "dp_002",
+    "category": "drapeaux_pays",
+    "question": "Quel pays a une feuille d'érable sur son drapeau ?",
+    "options": [
+      "Le Canada",
+      "Les États-Unis",
+      "Le Japon",
+      "La Suisse"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "La feuille d'érable rouge est l'emblème du drapeau canadien depuis 1965."
+  },
+  {
+    "id": "dp_003",
+    "category": "drapeaux_pays",
+    "question": "Quel est le seul drapeau national qui n'est pas de forme rectangulaire ?",
+    "options": [
+      "Celui de la Suisse",
+      "Celui du Népal",
+      "Celui du Bhoutan",
+      "Celui de la Jamaïque"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le drapeau du Népal est composé de deux triangles superposés, une forme unique au monde."
+  },
+  {
+    "id": "dp_004",
+    "category": "drapeaux_pays",
+    "question": "Quel est le pays le plus peuplé d'Afrique ?",
+    "options": [
+      "L'Égypte",
+      "L'Éthiopie",
+      "Le Nigeria",
+      "La RD Congo"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Le Nigeria est le pays le plus peuplé du continent africain."
+  },
+  {
+    "id": "dp_005",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de l'Égypte ?",
+    "options": [
+      "Alexandrie",
+      "Le Caire",
+      "Louxor",
+      "Gizeh"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le Caire est la capitale et la plus grande ville d'Égypte."
+  },
+  {
+    "id": "dp_006",
+    "category": "drapeaux_pays",
+    "question": "Quel pays scandinave a un drapeau rouge avec une croix blanche ?",
+    "options": [
+      "La Suède",
+      "La Norvège",
+      "Le Danemark",
+      "La Finlande"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Le drapeau danois, le Dannebrog, est rouge avec une croix scandinave blanche."
+  },
+  {
+    "id": "dp_007",
+    "category": "drapeaux_pays",
+    "question": "Quel est le plus petit pays du monde ?",
+    "options": [
+      "Monaco",
+      "Le Vatican",
+      "Saint-Marin",
+      "Le Liechtenstein"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le Vatican est le plus petit État souverain du monde, avec environ 0,49 km²."
+  },
+  {
+    "id": "dp_008",
+    "category": "drapeaux_pays",
+    "question": "Lequel de ces pays ne partage PAS de frontière terrestre avec la Côte d'Ivoire ?",
+    "options": [
+      "Le Mali",
+      "Le Burkina Faso",
+      "Le Ghana",
+      "Le Sénégal"
+    ],
+    "correctAnswer": 3,
+    "difficulty": "hard",
+    "explanation": "La Côte d'Ivoire est frontalière du Liberia, de la Guinée, du Mali, du Burkina Faso et du Ghana — mais pas du Sénégal."
+  },
+  {
+    "id": "dp_009",
+    "category": "drapeaux_pays",
+    "question": "Quel pays a un drapeau représentant un simple cercle rouge sur fond blanc ?",
+    "options": [
+      "La Corée du Sud",
+      "Le Japon",
+      "La Chine",
+      "Le Vietnam"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le drapeau japonais représente un disque rouge (le soleil) sur fond blanc."
+  },
+  {
+    "id": "dp_010",
+    "category": "drapeaux_pays",
+    "question": "En comptant ses territoires d'outre-mer, quel pays possède le plus grand nombre de fuseaux horaires au monde ?",
+    "options": [
+      "La Russie",
+      "Les États-Unis",
+      "La France",
+      "Le Royaume-Uni"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "Grâce à ses nombreux territoires d'outre-mer, la France s'étend sur 12 fuseaux horaires, plus que tout autre pays."
+  },
+  {
+    "id": "dp_011",
+    "category": "drapeaux_pays",
+    "question": "Quelle ville est la capitale du Canada ?",
+    "options": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver",
+      "Montréal"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Ottawa est la capitale fédérale du Canada, bien que Toronto soit sa ville la plus peuplée."
+  },
+  {
+    "id": "dp_012",
+    "category": "drapeaux_pays",
+    "question": "Quel pays a la particularité d'avoir trois capitales officielles distinctes (exécutive, législative et judiciaire) ?",
+    "options": [
+      "La Bolivie",
+      "Le Sri Lanka",
+      "L'Afrique du Sud",
+      "Les Pays-Bas"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "L'Afrique du Sud répartit ses fonctions de capitale entre Pretoria (exécutive), Le Cap (législative) et Bloemfontein (judiciaire)."
+  },
+  {
+    "id": "dp_013",
+    "category": "drapeaux_pays",
+    "question": "Quel est le plus grand pays d'Amérique du Sud, aussi bien par sa superficie que par sa population ?",
+    "options": [
+      "L'Argentine",
+      "Le Brésil",
+      "Le Pérou",
+      "La Colombie"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le Brésil est à la fois le plus vaste et le plus peuplé des pays d'Amérique du Sud."
+  },
+  {
+    "id": "dp_014",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de l'Argentine ?",
+    "options": [
+      "Santiago",
+      "Buenos Aires",
+      "Lima",
+      "Montevideo"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Buenos Aires est la capitale et la plus grande ville d'Argentine."
+  },
+  {
+    "id": "dp_015",
+    "category": "drapeaux_pays",
+    "question": "Quel micro-État, entièrement entouré par l'Italie, se revendique comme la plus ancienne république encore existante au monde ?",
+    "options": [
+      "Le Vatican",
+      "Monaco",
+      "Saint-Marin",
+      "Le Liechtenstein"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "Saint-Marin revendique une fondation en l'an 301 et se présente comme la plus ancienne république du monde encore en activité."
+  },
+  {
+    "id": "dp_016",
+    "category": "drapeaux_pays",
+    "question": "Quel pays africain a été brièvement occupé par l'Italie (1936-1941) mais n'a jamais été formellement colonisé par une puissance européenne ?",
+    "options": [
+      "Le Libéria",
+      "L'Éthiopie",
+      "La Somalie",
+      "L'Érythrée"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "L'Éthiopie, malgré une occupation italienne de 1936 à 1941, est l'un des rares pays africains à n'avoir jamais été formellement colonisé."
+  },
+  {
+    "id": "dp_017",
+    "category": "drapeaux_pays",
+    "question": "Quelle mer borde la côte nord du continent africain ?",
+    "options": [
+      "La mer Rouge",
+      "La mer Méditerranée",
+      "La mer Noire",
+      "La mer Caspienne"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La mer Méditerranée borde toute la côte nord de l'Afrique."
+  },
+  {
+    "id": "dp_018",
+    "category": "drapeaux_pays",
+    "question": "Quel pays d'Amérique du Sud porte un nom directement inspiré de sa position géographique, traversé par la ligne équatoriale ?",
+    "options": [
+      "La Colombie",
+      "Le Pérou",
+      "L'Équateur",
+      "Le Venezuela"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "L'Équateur (Ecuador) tire son nom de sa position sur la ligne équatoriale."
+  },
+  {
+    "id": "dp_019",
+    "category": "drapeaux_pays",
+    "question": "Quelle chaîne de montagnes longe la côte pacifique de l'Amérique du Sud ?",
+    "options": [
+      "Les montagnes Rocheuses",
+      "La cordillère des Andes",
+      "Les Alpes",
+      "L'Himalaya"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La cordillère des Andes est la plus longue chaîne de montagnes du monde, le long de la côte pacifique sud-américaine."
+  },
+  {
+    "id": "dp_020",
+    "category": "drapeaux_pays",
+    "question": "Quel pays d'Asie du Sud-Est est constitué de plus de 17 000 îles ?",
+    "options": [
+      "Les Philippines",
+      "L'Indonésie",
+      "La Malaisie",
+      "La Thaïlande"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'Indonésie est le plus vaste archipel du monde, avec plus de 17 000 îles."
+  },
+  {
+    "id": "dp_021",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Russie ?",
+    "options": [
+      "Saint-Pétersbourg",
+      "Moscou",
+      "Kiev",
+      "Minsk"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Moscou est la capitale de la Russie."
+  },
+  {
+    "id": "dp_022",
+    "category": "drapeaux_pays",
+    "question": "Quelle chaîne de montagnes sépare la France de l'Espagne ?",
+    "options": [
+      "Les Alpes",
+      "Les Pyrénées",
+      "Le Jura",
+      "Le Massif central"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Les Pyrénées forment la frontière naturelle entre la France et l'Espagne."
+  },
+  {
+    "id": "dp_023",
+    "category": "drapeaux_pays",
+    "question": "Quel pays a pour unique voisin le Lesotho, entièrement enclavé à l'intérieur de son territoire ?",
+    "options": [
+      "La Namibie",
+      "L'Afrique du Sud",
+      "Le Mozambique",
+      "Le Zimbabwe"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le Lesotho est un royaume entièrement enclavé dans le territoire de l'Afrique du Sud."
+  },
+  {
+    "id": "dp_024",
+    "category": "drapeaux_pays",
+    "question": "Les célèbres statues moaï se trouvent sur l'île de Pâques, qui appartient à quel pays ?",
+    "options": [
+      "Le Pérou",
+      "Le Chili",
+      "La Nouvelle-Zélande",
+      "Les Fidji"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'île de Pâques, dans le Pacifique, est un territoire chilien."
+  },
+  {
+    "id": "dp_025",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Corée du Sud ?",
+    "options": [
+      "Tokyo",
+      "Séoul",
+      "Pékin",
+      "Pyongyang"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Séoul est la capitale de la Corée du Sud."
+  },
+  {
+    "id": "dp_026",
+    "category": "drapeaux_pays",
+    "question": "Quel pays possède le plus long littoral du monde, notamment grâce à ses innombrables îles arctiques ?",
+    "options": [
+      "La Russie",
+      "L'Indonésie",
+      "Le Canada",
+      "L'Australie"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "En comptant toutes ses îles, le Canada possède le plus long littoral du monde."
+  },
+  {
+    "id": "dp_027",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale officielle du Maroc, souvent confondue avec Casablanca ?",
+    "options": [
+      "Casablanca",
+      "Marrakech",
+      "Rabat",
+      "Fès"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Rabat est la capitale administrative et politique du Maroc, Casablanca en étant la plus grande ville économique."
+  },
+  {
+    "id": "dp_028",
+    "category": "drapeaux_pays",
+    "question": "Quel océan borde la côte est du continent africain ?",
+    "options": [
+      "L'Atlantique",
+      "L'océan Indien",
+      "Le Pacifique",
+      "L'Arctique"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'océan Indien borde toute la façade est de l'Afrique."
+  },
+  {
+    "id": "dp_029",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de l'Allemagne ?",
+    "options": [
+      "Munich",
+      "Berlin",
+      "Francfort",
+      "Hambourg"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Berlin est la capitale de l'Allemagne depuis la réunification."
+  },
+  {
+    "id": "dp_030",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale du Portugal ?",
+    "options": [
+      "Porto",
+      "Lisbonne",
+      "Faro",
+      "Braga"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Lisbonne est la capitale du Portugal."
+  },
+  {
+    "id": "dp_031",
+    "category": "drapeaux_pays",
+    "question": "Quel est le plus petit continent du monde en superficie ?",
+    "options": [
+      "L'Europe",
+      "L'Antarctique",
+      "L'Océanie",
+      "L'Amérique du Sud"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "L'Océanie est le plus petit continent du monde en superficie."
+  },
+  {
+    "id": "dp_032",
+    "category": "drapeaux_pays",
+    "question": "Quel désert côtier, connu pour ses dunes rouges, se situe dans le sud-ouest de l'Afrique ?",
+    "options": [
+      "Le Kalahari",
+      "Le désert du Namib",
+      "Le Sahara",
+      "Le désert du Karoo"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le désert du Namib, en Namibie, est réputé pour ses hautes dunes rouges le long de la côte atlantique."
+  },
+  {
+    "id": "dp_033",
+    "category": "drapeaux_pays",
+    "question": "Quel pays d'Amérique centrale abrite un canal célèbre reliant l'océan Atlantique et l'océan Pacifique ?",
+    "options": [
+      "Le Costa Rica",
+      "Le Panama",
+      "Le Nicaragua",
+      "Le Honduras"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le canal de Panama, inauguré en 1914, relie l'Atlantique au Pacifique."
+  },
+  {
+    "id": "dp_034",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Grèce ?",
+    "options": [
+      "Thessalonique",
+      "Athènes",
+      "Corinthe",
+      "Héraklion"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Athènes est la capitale de la Grèce."
+  },
+  {
+    "id": "dp_035",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Suède ?",
+    "options": [
+      "Oslo",
+      "Copenhague",
+      "Stockholm",
+      "Helsinki"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Stockholm est la capitale de la Suède."
+  },
+  {
+    "id": "dp_036",
+    "category": "drapeaux_pays",
+    "question": "Quel pays partage la plus longue frontière terrestre avec les États-Unis ?",
+    "options": [
+      "Le Mexique",
+      "Le Canada",
+      "Cuba",
+      "Le Guatemala"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le Canada partage avec les États-Unis la plus longue frontière terrestre du monde entre deux pays."
+  },
+  {
+    "id": "dp_037",
+    "category": "drapeaux_pays",
+    "question": "Quel pays insulaire d'Afrique de l'Est est connu pour abriter des lémuriens que l'on ne trouve nulle part ailleurs ?",
+    "options": [
+      "Les Seychelles",
+      "Madagascar",
+      "Maurice",
+      "Les Comores"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Madagascar abrite une faune unique au monde, dont de nombreuses espèces de lémuriens."
+  },
+  {
+    "id": "dp_038",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale des Pays-Bas ?",
+    "options": [
+      "Rotterdam",
+      "La Haye",
+      "Amsterdam",
+      "Utrecht"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Amsterdam est la capitale constitutionnelle des Pays-Bas, même si le gouvernement siège à La Haye."
+  },
+  {
+    "id": "dp_039",
+    "category": "drapeaux_pays",
+    "question": "Avec la Bolivie, quel autre pays d'Amérique du Sud est entièrement enclavé, sans accès à la mer ?",
+    "options": [
+      "L'Équateur",
+      "Le Paraguay",
+      "L'Uruguay",
+      "La Guyane"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "La Bolivie et le Paraguay sont les deux seuls pays d'Amérique du Sud entièrement enclavés."
+  },
+  {
+    "id": "dp_040",
+    "category": "drapeaux_pays",
+    "question": "Quelle chaîne de montagnes traverse la Russie et est traditionnellement considérée comme la frontière entre l'Europe et l'Asie ?",
+    "options": [
+      "Le Caucase",
+      "L'Oural",
+      "Les Carpates",
+      "L'Altaï"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "La chaîne de l'Oural est traditionnellement considérée comme la limite entre l'Europe et l'Asie."
+  },
+  {
+    "id": "dp_041",
+    "category": "drapeaux_pays",
+    "question": "Après la France, quel pays possède le plus grand nombre de fuseaux horaires au monde ?",
+    "options": [
+      "Les États-Unis",
+      "La Chine",
+      "La Russie",
+      "Le Royaume-Uni"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "La Russie s'étend sur 11 fuseaux horaires, juste derrière la France et ses territoires d'outre-mer."
+  },
+  {
+    "id": "dp_042",
+    "category": "drapeaux_pays",
+    "question": "Quelle capitale européenne est traversée par le Danube et se situe en Hongrie ?",
+    "options": [
+      "Vienne",
+      "Bratislava",
+      "Budapest",
+      "Belgrade"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Budapest, capitale de la Hongrie, est traversée par le Danube."
+  },
+  {
+    "id": "dp_043",
+    "category": "drapeaux_pays",
+    "question": "Quel pays a pour capitale Vienne ?",
+    "options": [
+      "L'Allemagne",
+      "L'Autriche",
+      "La Suisse",
+      "La Belgique"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Vienne est la capitale de l'Autriche."
+  },
+  {
+    "id": "dp_044",
+    "category": "drapeaux_pays",
+    "question": "Quel est le plus grand lac d'Afrique ?",
+    "options": [
+      "Le lac Tchad",
+      "Le lac Victoria",
+      "Le lac Malawi",
+      "Le lac Tanganyika"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le lac Victoria est le plus grand lac d'Afrique par sa superficie."
+  },
+  {
+    "id": "dp_045",
+    "category": "drapeaux_pays",
+    "question": "Quel pays scandinave n'a pas rejoint l'Union européenne, contrairement au Danemark et à la Suède ?",
+    "options": [
+      "La Finlande",
+      "La Norvège",
+      "L'Islande",
+      "Le Groenland"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "La Norvège n'est pas membre de l'Union européenne, bien qu'elle soit très intégrée économiquement à travers l'Espace économique européen."
+  },
+  {
+    "id": "dp_046",
+    "category": "drapeaux_pays",
+    "question": "Quelle est généralement considérée comme la plus grande île de la mer Méditerranée ?",
+    "options": [
+      "La Corse",
+      "La Sardaigne",
+      "La Sicile",
+      "La Crète"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "La Sicile, au large de l'Italie, est la plus grande île de la mer Méditerranée."
+  },
+  {
+    "id": "dp_047",
+    "category": "drapeaux_pays",
+    "question": "Quel pays d'Afrique australe a pour capitale Harare ?",
+    "options": [
+      "La Zambie",
+      "Le Zimbabwe",
+      "Le Botswana",
+      "Le Mozambique"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Harare est la capitale du Zimbabwe."
+  },
+  {
+    "id": "dp_048",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale du Kenya ?",
+    "options": [
+      "Mombasa",
+      "Nairobi",
+      "Kisumu",
+      "Eldoret"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Nairobi est la capitale du Kenya."
+  },
+  {
+    "id": "dp_049",
+    "category": "drapeaux_pays",
+    "question": "Quel pays possède la plus grande superficie de forêt tropicale au monde, grâce à la forêt amazonienne ?",
+    "options": [
+      "La République démocratique du Congo",
+      "Le Brésil",
+      "L'Indonésie",
+      "Le Pérou"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le Brésil abrite la majeure partie de la forêt amazonienne, la plus vaste forêt tropicale du monde."
+  },
+  {
+    "id": "dp_050",
+    "category": "drapeaux_pays",
+    "question": "Quel pays d'Asie du Sud-Est est constitué de plus de 7000 îles, dont Luçon et Mindanao ?",
+    "options": [
+      "La Malaisie",
+      "Les Philippines",
+      "Le Vietnam",
+      "La Thaïlande"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Les Philippines forment un archipel de plus de 7000 îles."
+  },
+  {
+    "id": "dp_051",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale du Brésil (souvent confondue avec Rio de Janeiro ou São Paulo) ?",
+    "options": [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Brasilia",
+      "Salvador"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Brasilia, ville planifiée inaugurée en 1960, est la capitale du Brésil."
+  },
+  {
+    "id": "dp_052",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de l'Irlande ?",
+    "options": [
+      "Belfast",
+      "Dublin",
+      "Cork",
+      "Galway"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Dublin est la capitale de la République d'Irlande."
+  },
+  {
+    "id": "dp_053",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Pologne ?",
+    "options": [
+      "Cracovie",
+      "Varsovie",
+      "Gdansk",
+      "Wroclaw"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Varsovie est la capitale de la Pologne."
+  },
+  {
+    "id": "dp_054",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la République tchèque ?",
+    "options": [
+      "Bratislava",
+      "Prague",
+      "Brno",
+      "Vienne"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Prague est la capitale de la République tchèque."
+  },
+  {
+    "id": "dp_055",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Finlande ?",
+    "options": [
+      "Oslo",
+      "Stockholm",
+      "Helsinki",
+      "Reykjavik"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Helsinki est la capitale de la Finlande."
+  },
+  {
+    "id": "dp_056",
+    "category": "drapeaux_pays",
+    "question": "Quel détroit sépare l'Europe de l'Afrique entre l'Espagne et le Maroc ?",
+    "options": [
+      "Le détroit de Gibraltar",
+      "Le détroit du Bosphore",
+      "Le détroit de Béring",
+      "Le détroit de Malacca"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le détroit de Gibraltar sépare l'Espagne du Maroc, reliant l'Atlantique à la Méditerranée."
+  },
+  {
+    "id": "dp_057",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de l'Équateur ?",
+    "options": [
+      "Guayaquil",
+      "Quito",
+      "Cuenca",
+      "Manta"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Quito est la capitale de l'Équateur, perchée à plus de 2800 mètres d'altitude."
+  },
+  {
+    "id": "dp_058",
+    "category": "drapeaux_pays",
+    "question": "Quel pays compte le plus grand nombre de volcans actifs au monde ?",
+    "options": [
+      "Le Japon",
+      "L'Indonésie",
+      "Les Philippines",
+      "Le Chili"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "L'Indonésie, sur la Ceinture de feu du Pacifique, compte le plus grand nombre de volcans actifs au monde."
+  },
+  {
+    "id": "dp_059",
+    "category": "drapeaux_pays",
+    "question": "Quelle mer, entièrement entourée de terres, est la plus grande étendue d'eau fermée du monde ?",
+    "options": [
+      "La mer Morte",
+      "La mer Caspienne",
+      "La mer d'Aral",
+      "Le lac Baïkal"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La mer Caspienne, sans accès à l'océan, est la plus grande étendue d'eau intérieure du monde."
+  },
+  {
+    "id": "dp_060",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Tunisie ?",
+    "options": [
+      "Sfax",
+      "Tunis",
+      "Sousse",
+      "Bizerte"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Tunis est la capitale de la Tunisie."
+  },
+  {
+    "id": "dp_061",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Libye ?",
+    "options": [
+      "Benghazi",
+      "Tripoli",
+      "Misrata",
+      "Syrte"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Tripoli est la capitale de la Libye."
+  },
+  {
+    "id": "dp_062",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de l'Algérie ?",
+    "options": [
+      "Oran",
+      "Alger",
+      "Constantine",
+      "Annaba"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Alger est la capitale de l'Algérie."
+  },
+  {
+    "id": "dp_063",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la plus haute chaîne de montagnes du monde, qui abrite le mont Everest ?",
+    "options": [
+      "Les Andes",
+      "L'Himalaya",
+      "Les Alpes",
+      "Le Caucase"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'Himalaya, en Asie, abrite les plus hauts sommets du monde, dont l'Everest."
+  },
+  {
+    "id": "dp_064",
+    "category": "drapeaux_pays",
+    "question": "Quel pays insulaire d'Asie, souvent appelé \"pays du Soleil levant\", est composé de milliers d'îles ?",
+    "options": [
+      "La Corée du Sud",
+      "Le Japon",
+      "Taïwan",
+      "Les Philippines"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le Japon, surnommé \"pays du Soleil levant\", est un archipel composé de milliers d'îles."
+  },
+  {
+    "id": "dp_065",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale du Venezuela ?",
+    "options": [
+      "Bogotá",
+      "Caracas",
+      "Lima",
+      "Quito"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Caracas est la capitale du Venezuela."
+  },
+  {
+    "id": "dp_066",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Colombie ?",
+    "options": [
+      "Medellín",
+      "Bogotá",
+      "Cali",
+      "Cartagena"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Bogotá est la capitale de la Colombie."
+  },
+  {
+    "id": "dp_067",
+    "category": "drapeaux_pays",
+    "question": "Quel petit pays de la Corne de l'Afrique porte le même nom que sa capitale ?",
+    "options": [
+      "L'Érythrée",
+      "Djibouti",
+      "La Somalie",
+      "Le Soudan du Sud"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Djibouti est à la fois le nom du pays et celui de sa capitale."
+  },
+  {
+    "id": "dp_068",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Malaisie ?",
+    "options": [
+      "Singapour",
+      "Kuala Lumpur",
+      "Jakarta",
+      "Bangkok"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Kuala Lumpur est la capitale de la Malaisie."
+  },
+  {
+    "id": "dp_069",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de Cuba ?",
+    "options": [
+      "Santiago de Cuba",
+      "La Havane",
+      "Varadero",
+      "Camagüey"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La Havane est la capitale de Cuba."
+  },
+  {
+    "id": "dp_070",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale du Chili ?",
+    "options": [
+      "Valparaíso",
+      "Santiago",
+      "Concepción",
+      "Antofagasta"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Santiago est la capitale du Chili."
+  },
+  {
+    "id": "dp_071",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale du Pérou ?",
+    "options": [
+      "Cuzco",
+      "Lima",
+      "Arequipa",
+      "Trujillo"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Lima est la capitale du Pérou."
+  },
+  {
+    "id": "dp_072",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Jamaïque ?",
+    "options": [
+      "Montego Bay",
+      "Kingston",
+      "Ocho Rios",
+      "Spanish Town"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Kingston est la capitale de la Jamaïque."
+  },
+  {
+    "id": "dp_073",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale d'Haïti ?",
+    "options": [
+      "Cap-Haïtien",
+      "Port-au-Prince",
+      "Jacmel",
+      "Gonaïves"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Port-au-Prince est la capitale d'Haïti."
+  },
+  {
+    "id": "dp_074",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale du Sénégal ?",
+    "options": [
+      "Thiès",
+      "Dakar",
+      "Saint-Louis",
+      "Touba"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Dakar est la capitale du Sénégal."
+  },
+  {
+    "id": "dp_075",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale du Ghana ?",
+    "options": [
+      "Kumasi",
+      "Accra",
+      "Tamale",
+      "Cape Coast"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Accra est la capitale du Ghana."
+  },
+  {
+    "id": "dp_076",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale du Cameroun ?",
+    "options": [
+      "Douala",
+      "Yaoundé",
+      "Garoua",
+      "Bafoussam"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Yaoundé est la capitale politique du Cameroun, Douala en étant la capitale économique."
+  },
+  {
+    "id": "dp_077",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale du Mali ?",
+    "options": [
+      "Sikasso",
+      "Bamako",
+      "Mopti",
+      "Ségou"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Bamako est la capitale du Mali."
+  },
+  {
+    "id": "dp_078",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale du Burkina Faso ?",
+    "options": [
+      "Bobo-Dioulasso",
+      "Ouagadougou",
+      "Koudougou",
+      "Banfora"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Ouagadougou est la capitale du Burkina Faso."
+  },
+  {
+    "id": "dp_079",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Guinée ?",
+    "options": [
+      "Kankan",
+      "Conakry",
+      "Labé",
+      "Nzérékoré"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Conakry est la capitale de la Guinée."
+  },
+  {
+    "id": "dp_080",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale politique du Bénin, distincte de sa plus grande ville Cotonou ?",
+    "options": [
+      "Parakou",
+      "Porto-Novo",
+      "Abomey",
+      "Natitingou"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Porto-Novo est la capitale officielle du Bénin, bien que Cotonou en soit le siège du gouvernement et la plus grande ville."
+  },
+  {
+    "id": "dp_081",
+    "category": "drapeaux_pays",
+    "question": "Quel est le seul drapeau national au monde à représenter une arme à feu ?",
+    "options": [
+      "Le drapeau du Mozambique",
+      "Le drapeau de l'Angola",
+      "Le drapeau du Guatemala",
+      "Le drapeau de Cuba"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Le drapeau du Mozambique est le seul drapeau national au monde à représenter une arme à feu (un AK-47)."
+  },
+  {
+    "id": "dp_082",
+    "category": "drapeaux_pays",
+    "question": "Quel pays a la forme caractéristique d'une botte sur la carte du monde ?",
+    "options": [
+      "La Grèce",
+      "L'Italie",
+      "Le Portugal",
+      "La Croatie"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'Italie est facilement reconnaissable sur une carte grâce à sa forme de botte."
+  },
+  {
+    "id": "dp_083",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale la plus haute en altitude du monde ?",
+    "options": [
+      "Quito, en Équateur",
+      "La Paz, en Bolivie",
+      "Bogotá, en Colombie",
+      "Katmandou, au Népal"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La Paz, en Bolivie, est considérée comme la capitale la plus haute en altitude du monde."
+  },
+  {
+    "id": "dp_084",
+    "category": "drapeaux_pays",
+    "question": "Quel désert chilien est considéré comme l'un des endroits les plus arides du monde ?",
+    "options": [
+      "Le désert de Sonora",
+      "Le désert d'Atacama",
+      "Le désert de Patagonie",
+      "Le désert du Kalahari"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le désert d'Atacama, au Chili, est réputé comme l'un des lieux les plus arides de la planète."
+  },
+  {
+    "id": "dp_085",
+    "category": "drapeaux_pays",
+    "question": "Quel est le plus petit pays d'Afrique continentale par sa superficie ?",
+    "options": [
+      "Le Togo",
+      "La Gambie",
+      "Le Burundi",
+      "Le Rwanda"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "La Gambie est le plus petit pays d'Afrique continentale par sa superficie."
+  },
+  {
+    "id": "dp_086",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Gambie ?",
+    "options": [
+      "Serekunda",
+      "Banjul",
+      "Brikama",
+      "Farafenni"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Banjul est la capitale de la Gambie."
+  },
+  {
+    "id": "dp_087",
+    "category": "drapeaux_pays",
+    "question": "Quel pays entoure presque entièrement la Gambie, à l'exception de sa façade atlantique ?",
+    "options": [
+      "La Guinée-Bissau",
+      "Le Sénégal",
+      "La Mauritanie",
+      "Le Mali"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le Sénégal entoure presque entièrement le territoire de la Gambie."
+  },
+  {
+    "id": "dp_088",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Namibie ?",
+    "options": [
+      "Walvis Bay",
+      "Windhoek",
+      "Swakopmund",
+      "Oshakati"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Windhoek est la capitale de la Namibie."
+  },
+  {
+    "id": "dp_089",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de l'Angola ?",
+    "options": [
+      "Huambo",
+      "Luanda",
+      "Lobito",
+      "Benguela"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Luanda est la capitale de l'Angola."
+  },
+  {
+    "id": "dp_090",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale officielle de la Tanzanie, bien que Dar es Salaam en soit la plus grande ville ?",
+    "options": [
+      "Zanzibar",
+      "Dodoma",
+      "Arusha",
+      "Mwanza"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Dodoma est la capitale officielle de la Tanzanie depuis les années 1970, même si Dar es Salaam reste le principal centre économique."
+  },
+  {
+    "id": "dp_091",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de l'Ouganda ?",
+    "options": [
+      "Entebbe",
+      "Kampala",
+      "Jinja",
+      "Gulu"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Kampala est la capitale de l'Ouganda."
+  },
+  {
+    "id": "dp_092",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Zambie ?",
+    "options": [
+      "Livingstone",
+      "Lusaka",
+      "Ndola",
+      "Kitwe"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Lusaka est la capitale de la Zambie."
+  },
+  {
+    "id": "dp_093",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale du Mozambique ?",
+    "options": [
+      "Beira",
+      "Maputo",
+      "Nampula",
+      "Tete"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Maputo est la capitale du Mozambique."
+  },
+  {
+    "id": "dp_094",
+    "category": "drapeaux_pays",
+    "question": "Quel pays d'Amérique centrale a pour capitale San José ?",
+    "options": [
+      "Le Panama",
+      "Le Costa Rica",
+      "Le Honduras",
+      "Le Salvador"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "San José est la capitale du Costa Rica."
+  },
+  {
+    "id": "dp_095",
+    "category": "drapeaux_pays",
+    "question": "Quel pays d'Amérique centrale a pour capitale Managua ?",
+    "options": [
+      "Le Guatemala",
+      "Le Nicaragua",
+      "Le Honduras",
+      "Le Belize"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Managua est la capitale du Nicaragua."
+  },
+  {
+    "id": "dp_096",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la République dominicaine ?",
+    "options": [
+      "Santiago",
+      "Saint-Domingue",
+      "Punta Cana",
+      "La Romana"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Saint-Domingue est la capitale de la République dominicaine."
+  },
+  {
+    "id": "dp_097",
+    "category": "drapeaux_pays",
+    "question": "Quel océan borde la côte ouest de l'Amérique du Sud ?",
+    "options": [
+      "L'océan Atlantique",
+      "L'océan Pacifique",
+      "L'océan Indien",
+      "L'océan Arctique"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'océan Pacifique borde toute la côte ouest de l'Amérique du Sud."
+  },
+  {
+    "id": "dp_098",
+    "category": "drapeaux_pays",
+    "question": "Quelle mer sépare l'Europe de l'Asie Mineure, bordée par la Grèce et la Turquie ?",
+    "options": [
+      "La mer Noire",
+      "La mer Égée",
+      "La mer Adriatique",
+      "La mer Ionienne"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La mer Égée sépare la Grèce continentale de la Turquie, parsemée de nombreuses îles."
+  },
+  {
+    "id": "dp_099",
+    "category": "drapeaux_pays",
+    "question": "Quelle est la capitale de la Croatie ?",
+    "options": [
+      "Split",
+      "Zagreb",
+      "Dubrovnik",
+      "Rijeka"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Zagreb est la capitale de la Croatie."
+  },
+  {
+    "id": "dp_100",
+    "category": "drapeaux_pays",
+    "question": "Combien de pays africains sont, approximativement, entièrement enclavés sans accès direct à la mer ?",
+    "options": [
+      "Environ 8",
+      "Environ 16",
+      "Environ 25",
+      "Environ 35"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "L'Afrique compte environ 16 pays entièrement enclavés, sans accès direct à un océan ou une mer."
+  }
+]

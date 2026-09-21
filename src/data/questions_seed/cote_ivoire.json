@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "ci_001",
+    "category": "cote_ivoire",
+    "question": "Quelle est la capitale politique de la Côte d'Ivoire ?",
+    "options": [
+      "Abidjan",
+      "Bouaké",
+      "Yamoussoukro",
+      "Korhogo"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Yamoussoukro est la capitale politique et administrative de la Côte d'Ivoire."
+  },
+  {
+    "id": "ci_002",
+    "category": "cote_ivoire",
+    "question": "Quelle est la capitale économique de la Côte d'Ivoire ?",
+    "options": [
+      "Yamoussoukro",
+      "Abidjan",
+      "San-Pédro",
+      "Daloa"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Abidjan est la capitale économique et la ville la plus peuplée du pays."
+  },
+  {
+    "id": "ci_003",
+    "category": "cote_ivoire",
+    "question": "Quelle est la monnaie utilisée en Côte d'Ivoire ?",
+    "options": [
+      "Le Cedi",
+      "Le Franc CFA",
+      "Le Naira",
+      "Le Dollar"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La Côte d'Ivoire utilise le franc CFA (BCEAO), comme plusieurs pays d'Afrique de l'Ouest."
+  },
+  {
+    "id": "ci_004",
+    "category": "cote_ivoire",
+    "question": "En quelle année la Côte d'Ivoire a-t-elle obtenu son indépendance ?",
+    "options": [
+      "1958",
+      "1960",
+      "1962",
+      "1965"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La Côte d'Ivoire est devenue indépendante de la France le 7 août 1960."
+  },
+  {
+    "id": "ci_005",
+    "category": "cote_ivoire",
+    "question": "Qui fut le premier président de la Côte d'Ivoire ?",
+    "options": [
+      "Laurent Gbagbo",
+      "Félix Houphouët-Boigny",
+      "Henri Konan Bédié",
+      "Alassane Ouattara"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Félix Houphouët-Boigny a été le premier président, de 1960 à 1993."
+  },
+  {
+    "id": "ci_006",
+    "category": "cote_ivoire",
+    "question": "Quelle est la langue officielle de la Côte d'Ivoire ?",
+    "options": [
+      "L'anglais",
+      "Le français",
+      "Le dioula",
+      "Le baoulé"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le français est la langue officielle, héritée de la colonisation."
+  },
+  {
+    "id": "ci_007",
+    "category": "cote_ivoire",
+    "question": "La Basilique Notre-Dame de la Paix de Yamoussoukro s'est inspirée de quel monument ?",
+    "options": [
+      "Notre-Dame de Paris",
+      "La Basilique Saint-Pierre de Rome",
+      "Le Sacré-Cœur",
+      "Le Duomo de Milan"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Elle a été construite en s'inspirant de la Basilique Saint-Pierre du Vatican, qu'elle dépasse en hauteur de coupole."
+  },
+  {
+    "id": "ci_008",
+    "category": "cote_ivoire",
+    "question": "À quelle date la Côte d'Ivoire célèbre-t-elle sa fête nationale ?",
+    "options": [
+      "1er janvier",
+      "7 août",
+      "15 août",
+      "11 décembre"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le 7 août commémore l'indépendance du pays en 1960."
+  },
+  {
+    "id": "ci_009",
+    "category": "cote_ivoire",
+    "question": "Sur quelle lagune se trouve la ville d'Abidjan ?",
+    "options": [
+      "La lagune Aby",
+      "La lagune Ébrié",
+      "Le lac Léman",
+      "La baie d'Along"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Abidjan est construite autour de la lagune Ébrié, une vaste étendue d'eau saumâtre le long du littoral ivoirien."
+  },
+  {
+    "id": "ci_010",
+    "category": "cote_ivoire",
+    "question": "Quel est le plus long fleuve entièrement situé en Côte d'Ivoire ?",
+    "options": [
+      "Le Comoé",
+      "Le Bandama",
+      "Le Sassandra",
+      "Le Cavally"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le Bandama, avec environ 1050 km, est le plus long fleuve intégralement ivoirien."
+  },
+  {
+    "id": "ci_011",
+    "category": "cote_ivoire",
+    "question": "Quel parc national ivoirien, classé au patrimoine mondial de l'UNESCO, est réputé pour ses chimpanzés ?",
+    "options": [
+      "Le parc de la Comoé",
+      "Le parc de Taï",
+      "Le parc du Banco",
+      "Le parc de la Marahoué"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le parc national de Taï, dans le Sud-Ouest, abrite l'une des dernières grandes forêts primaires d'Afrique de l'Ouest et une importante population de chimpanzés."
+  },
+  {
+    "id": "ci_012",
+    "category": "cote_ivoire",
+    "question": "La Côte d'Ivoire coloniale faisait partie de quelle fédération administrée par la France ?",
+    "options": [
+      "L'Afrique Équatoriale Française",
+      "L'Afrique Occidentale Française",
+      "Le Congo belge",
+      "La Rhodésie"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La Côte d'Ivoire était un territoire de l'Afrique Occidentale Française (AOF) jusqu'à son indépendance en 1960."
+  },
+  {
+    "id": "ci_013",
+    "category": "cote_ivoire",
+    "question": "Quelle ville faisait office de capitale de la Côte d'Ivoire avant que Yamoussoukro ne soit désignée capitale politique en 1983 ?",
+    "options": [
+      "Bouaké",
+      "Korhogo",
+      "Abidjan",
+      "San-Pédro"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Abidjan a été la capitale du pays avant que ce statut politique soit officiellement transféré à Yamoussoukro."
+  },
+  {
+    "id": "ci_014",
+    "category": "cote_ivoire",
+    "question": "Quel plat ivoirien traditionnel est préparé à base de semoule de manioc fermenté ?",
+    "options": [
+      "Le foutou",
+      "L'attiéké",
+      "Le kedjenou",
+      "Le garba"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'attiéké, semoule de manioc fermenté et cuit à la vapeur, est l'un des plats les plus emblématiques de Côte d'Ivoire."
+  },
+  {
+    "id": "ci_015",
+    "category": "cote_ivoire",
+    "question": "Quel plat ivoirien est préparé à base de banane plantain frite ?",
+    "options": [
+      "L'alloco",
+      "L'attiéké",
+      "Le foutou",
+      "Le kedjenou"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "L'alloco, banane plantain mûre frite, est un plat de rue très populaire en Côte d'Ivoire."
+  },
+  {
+    "id": "ci_016",
+    "category": "cote_ivoire",
+    "question": "Comment appelle-t-on le langage populaire d'Abidjan, mélange de français et de langues locales ?",
+    "options": [
+      "Le pidgin",
+      "Le nouchi",
+      "Le créole",
+      "Le wolof"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le nouchi est un argot né à Abidjan, aujourd'hui largement répandu chez les jeunes ivoiriens."
+  },
+  {
+    "id": "ci_017",
+    "category": "cote_ivoire",
+    "question": "Le Stade de la Paix, l'un des sites de la CAN 2023, se trouve dans quelle ville ivoirienne ?",
+    "options": [
+      "San-Pédro",
+      "Korhogo",
+      "Bouaké",
+      "Daloa"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Le Stade de la Paix de Bouaké a été construit pour accueillir des matchs de la Coupe d'Afrique des Nations 2023."
+  },
+  {
+    "id": "ci_018",
+    "category": "cote_ivoire",
+    "question": "La Côte d'Ivoire fait partie de quelle union monétaire ouest-africaine ?",
+    "options": [
+      "La CEDEAO seule",
+      "L'UEMOA",
+      "La SADC",
+      "Le COMESA"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'UEMOA (Union Économique et Monétaire Ouest-Africaine) regroupe la Côte d'Ivoire et sept autres pays partageant le franc CFA."
+  },
+  {
+    "id": "ci_019",
+    "category": "cote_ivoire",
+    "question": "Quel écrivain ivoirien est l'auteur du roman \"Les Soleils des indépendances\" ?",
+    "options": [
+      "Bernard Dadié",
+      "Ahmadou Kourouma",
+      "Véronique Tadjo",
+      "Amadou Hampâté Bâ"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Ahmadou Kourouma a publié \"Les Soleils des indépendances\" en 1968, roman majeur de la littérature africaine francophone."
+  },
+  {
+    "id": "ci_020",
+    "category": "cote_ivoire",
+    "question": "Quel président ivoirien, ancien opposant, a pris ses fonctions en 2011 après la crise post-électorale ?",
+    "options": [
+      "Laurent Gbagbo",
+      "Alassane Ouattara",
+      "Henri Konan Bédié",
+      "Guillaume Soro"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Alassane Ouattara est devenu président en 2011 à l'issue de la crise post-électorale de 2010-2011."
+  },
+  {
+    "id": "ci_021",
+    "category": "cote_ivoire",
+    "question": "Quelle ville est considérée comme la capitale du Nord ivoirien, réputée pour son artisanat textile ?",
+    "options": [
+      "Man",
+      "Korhogo",
+      "Odienné",
+      "Bondoukou"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Korhogo, dans le pays sénoufo, est connue pour son artisanat, notamment les tissus peints traditionnels."
+  },
+  {
+    "id": "ci_022",
+    "category": "cote_ivoire",
+    "question": "Quel est le point culminant de la Côte d'Ivoire ?",
+    "options": [
+      "Le mont Tonkoui",
+      "Le mont Nimba",
+      "Le mont Sangbé",
+      "Les Dents de Man"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le mont Nimba, culminant à environ 1752 mètres à la frontière avec la Guinée et le Liberia, est le point le plus élevé du pays."
+  },
+  {
+    "id": "ci_023",
+    "category": "cote_ivoire",
+    "question": "Les masques traditionnels Dan et Gouro, utilisés dans les danses rituelles, sont surtout associés à quelle région de Côte d'Ivoire ?",
+    "options": [
+      "Le Nord",
+      "L'Ouest",
+      "Le Sud-Est",
+      "Le Centre-Est"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Les traditions de masques Dan et Gouro sont particulièrement vivantes dans l'Ouest ivoirien."
+  },
+  {
+    "id": "ci_024",
+    "category": "cote_ivoire",
+    "question": "Comment se nomme l'aéroport international d'Abidjan ?",
+    "options": [
+      "Aéroport de San-Pédro",
+      "Aéroport Félix-Houphouët-Boigny",
+      "Aéroport de Yamoussoukro",
+      "Aéroport de Bouaké"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'aéroport international d'Abidjan porte le nom du premier président ivoirien, Félix Houphouët-Boigny."
+  },
+  {
+    "id": "ci_025",
+    "category": "cote_ivoire",
+    "question": "Comment se nomme le pont à péage reliant le Plateau à Cocody, inauguré à Abidjan en 2014 ?",
+    "options": [
+      "Le pont Félix Houphouët-Boigny",
+      "Le pont Henri Konan Bédié",
+      "Le pont Charles de Gaulle",
+      "Le pont de Marcory"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le pont Henri Konan Bédié, aussi appelé pont à péage, a été inauguré en 2014 pour désengorger la circulation abidjanaise."
+  },
+  {
+    "id": "ci_026",
+    "category": "cote_ivoire",
+    "question": "Quelle est la deuxième plus grande ville de Côte d'Ivoire par sa population ?",
+    "options": [
+      "Daloa",
+      "Bouaké",
+      "San-Pédro",
+      "Korhogo"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Bouaké, au centre du pays, est la deuxième ville ivoirienne après Abidjan."
+  },
+  {
+    "id": "ci_027",
+    "category": "cote_ivoire",
+    "question": "Comment appelle-t-on le plat ivoirien à base de riz accompagné d'une sauce tomate épicée, très répandu en Afrique de l'Ouest ?",
+    "options": [
+      "Le riz gras",
+      "L'attiéké",
+      "Le foutou",
+      "Le kedjenou"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "Le riz gras, riz cuit dans une sauce tomate relevée, est un plat très populaire en Côte d'Ivoire et dans la sous-région."
+  },
+  {
+    "id": "ci_028",
+    "category": "cote_ivoire",
+    "question": "Quelle danse masquée ivoirienne, portée par le peuple Gouro, est inscrite au patrimoine culturel immatériel de l'UNESCO ?",
+    "options": [
+      "Le zouglou",
+      "Le zaouli",
+      "Le goli",
+      "Le coupé-décalé"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le zaouli est une danse masquée du peuple gouro, reconnue par l'UNESCO comme patrimoine culturel immatériel."
+  },
+  {
+    "id": "ci_029",
+    "category": "cote_ivoire",
+    "question": "Quel produit agricole place la Côte d'Ivoire au premier rang mondial des producteurs ?",
+    "options": [
+      "Le café",
+      "Le cacao",
+      "Le coton",
+      "L'huile de palme"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La Côte d'Ivoire est le premier producteur mondial de cacao, devant le Ghana."
+  },
+  {
+    "id": "ci_030",
+    "category": "cote_ivoire",
+    "question": "Quelle ville ivoirienne, ancienne capitale coloniale, est classée au patrimoine mondial de l'UNESCO ?",
+    "options": [
+      "Grand-Bassam",
+      "San-Pédro",
+      "Sassandra",
+      "Jacqueville"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Grand-Bassam, première capitale coloniale de Côte d'Ivoire, est inscrite au patrimoine mondial de l'UNESCO depuis 2012."
+  },
+  {
+    "id": "ci_031",
+    "category": "cote_ivoire",
+    "question": "Le parc national de la Comoé, l'une des plus grandes aires protégées d'Afrique de l'Ouest, se situe dans quelle partie du pays ?",
+    "options": [
+      "Le Sud-Ouest",
+      "Le Nord-Est",
+      "Le Centre",
+      "L'extrême Ouest"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le parc national de la Comoé, au nord-est du pays, est l'une des plus vastes aires protégées d'Afrique de l'Ouest."
+  },
+  {
+    "id": "ci_032",
+    "category": "cote_ivoire",
+    "question": "Que symbolise la couleur orange du drapeau ivoirien ?",
+    "options": [
+      "La savane du nord",
+      "La paix",
+      "Les forêts du sud",
+      "Le fleuve Bandama"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "L'orange du drapeau représente traditionnellement la savane et les terres du nord du pays."
+  },
+  {
+    "id": "ci_033",
+    "category": "cote_ivoire",
+    "question": "Que symbolise la couleur verte du drapeau ivoirien ?",
+    "options": [
+      "L'espoir uniquement",
+      "Les forêts du sud",
+      "La paix",
+      "Le cacao"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le vert représente les forêts et la végétation du sud du pays, ainsi que l'espoir."
+  },
+  {
+    "id": "ci_034",
+    "category": "cote_ivoire",
+    "question": "Que signifie le mot \"Akwaba\", souvent utilisé pour accueillir les visiteurs en Côte d'Ivoire ?",
+    "options": [
+      "Bienvenue",
+      "Merci",
+      "Bonne chance",
+      "Au revoir"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "\"Akwaba\" signifie \"bienvenue\" en langue akan/baoulé et est largement utilisé comme mot d'accueil."
+  },
+  {
+    "id": "ci_035",
+    "category": "cote_ivoire",
+    "question": "Le port de San-Pédro, dans le sud-ouest du pays, est notamment un point clé pour l'exportation de quel produit ?",
+    "options": [
+      "Le cacao",
+      "Le pétrole",
+      "Le coton",
+      "Le minerai de fer"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "San-Pédro est l'un des principaux ports d'exportation du cacao ivoirien."
+  },
+  {
+    "id": "ci_036",
+    "category": "cote_ivoire",
+    "question": "La ville de Man, à l'ouest du pays, est particulièrement connue pour son relief et ses...",
+    "options": [
+      "Plages et lagunes",
+      "Montagnes et cascades",
+      "Plaines rizicoles",
+      "Marchés flottants"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Man est réputée pour son cadre montagneux et ses cascades, dans l'ouest ivoirien."
+  },
+  {
+    "id": "ci_037",
+    "category": "cote_ivoire",
+    "question": "Quel parti politique, fondé par Félix Houphouët-Boigny en 1946, a longtemps dominé la vie politique ivoirienne ?",
+    "options": [
+      "Le RDR",
+      "Le FPI",
+      "Le PDCI-RDA",
+      "Le RHDP"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "Le PDCI-RDA (Parti Démocratique de Côte d'Ivoire) a été fondé par Houphouët-Boigny et a dirigé le pays de l'indépendance jusqu'en 1999."
+  },
+  {
+    "id": "ci_038",
+    "category": "cote_ivoire",
+    "question": "Quelle pratique sportive traditionnelle, très populaire dans le nord de la Côte d'Ivoire, oppose deux adversaires à mains nues ?",
+    "options": [
+      "La lutte traditionnelle",
+      "L'escrime",
+      "Le tir à l'arc",
+      "Le judo"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La lutte traditionnelle est une pratique sportive et culturelle très populaire dans le nord du pays."
+  },
+  {
+    "id": "ci_039",
+    "category": "cote_ivoire",
+    "question": "Quel océan borde le sud de la Côte d'Ivoire ?",
+    "options": [
+      "L'océan Indien",
+      "L'océan Atlantique",
+      "La mer Méditerranée",
+      "L'océan Pacifique"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La Côte d'Ivoire donne sur l'océan Atlantique, au sud du pays."
+  },
+  {
+    "id": "ci_040",
+    "category": "cote_ivoire",
+    "question": "La Côte d'Ivoire a intégré la CEDEAO (Communauté économique des États de l'Afrique de l'Ouest) en quelle décennie ?",
+    "options": [
+      "Les années 1960",
+      "Les années 1970",
+      "Les années 1980",
+      "Les années 1990"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La CEDEAO a été fondée en 1975, année où la Côte d'Ivoire en est devenue membre fondateur."
+  },
+  {
+    "id": "ci_041",
+    "category": "cote_ivoire",
+    "question": "Quel écrivain ivoirien est l'auteur du roman \"Climbié\", publié en 1956 ?",
+    "options": [
+      "Ahmadou Kourouma",
+      "Bernard Dadié",
+      "Véronique Tadjo",
+      "Jean-Marie Adiaffi"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Bernard Dadié, figure majeure des lettres ivoiriennes, est l'auteur de \"Climbié\"."
+  },
+  {
+    "id": "ci_042",
+    "category": "cote_ivoire",
+    "question": "Quelle ville du nord-est ivoirien est célèbre pour sa mosquée de style soudanais construite en terre ?",
+    "options": [
+      "Korhogo",
+      "Kong",
+      "Bouna",
+      "Ferkessédougou"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "La mosquée de Kong, construite en terre selon le style architectural soudanais, est un site historique notable."
+  },
+  {
+    "id": "ci_043",
+    "category": "cote_ivoire",
+    "question": "Combien de pays partagent une frontière terrestre avec la Côte d'Ivoire ?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "La Côte d'Ivoire est frontalière du Liberia, de la Guinée, du Mali, du Burkina Faso et du Ghana, soit 5 pays."
+  },
+  {
+    "id": "ci_044",
+    "category": "cote_ivoire",
+    "question": "Quel est le nom de la compagnie aérienne nationale actuelle de la Côte d'Ivoire ?",
+    "options": [
+      "Air Ivoire",
+      "Air Côte d'Ivoire",
+      "Ivorian Airlines",
+      "CI Airways"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Air Côte d'Ivoire est la compagnie aérienne nationale actuelle du pays."
+  },
+  {
+    "id": "ci_045",
+    "category": "cote_ivoire",
+    "question": "En plus du cacao, quel autre produit agricole est historiquement un pilier majeur des exportations ivoiriennes ?",
+    "options": [
+      "Le blé",
+      "Le café",
+      "Le riz",
+      "Le maïs"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le café a longtemps été, aux côtés du cacao, l'un des piliers de l'agriculture d'exportation ivoirienne."
+  },
+  {
+    "id": "ci_046",
+    "category": "cote_ivoire",
+    "question": "Comment s'appelle la principale université publique d'Abidjan, située à Cocody ?",
+    "options": [
+      "Université de Bouaké",
+      "Université Félix Houphouët-Boigny",
+      "Université de Yamoussoukro",
+      "Université d'Abidjan-Plateau"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'université Félix Houphouët-Boigny, à Cocody, est la plus ancienne et l'une des plus grandes universités du pays."
+  },
+  {
+    "id": "ci_047",
+    "category": "cote_ivoire",
+    "question": "Quelle fête musulmane, marquant la fin du pèlerinage à La Mecque, est largement célébrée en Côte d'Ivoire ?",
+    "options": [
+      "La Tabaski",
+      "Le Ramadan",
+      "Le Mawlid",
+      "L'Achoura"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "La Tabaski (Aïd al-Adha) est l'une des fêtes musulmanes les plus célébrées en Côte d'Ivoire."
+  },
+  {
+    "id": "ci_048",
+    "category": "cote_ivoire",
+    "question": "Comment appelle-t-on le plat de rue ivoirien composé de thon frit, d'attiéké et de piment ?",
+    "options": [
+      "Le kedjenou",
+      "Le garba",
+      "Le foutou",
+      "L'alloco"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le garba, très populaire dans la rue à Abidjan, associe thon frit, attiéké et sauce pimentée."
+  },
+  {
+    "id": "ci_049",
+    "category": "cote_ivoire",
+    "question": "Quelle langue, largement utilisée comme langue de commerce, est parlée par de nombreuses communautés en Côte d'Ivoire et dans la sous-région ouest-africaine ?",
+    "options": [
+      "Le wolof",
+      "Le dioula",
+      "Le haoussa",
+      "Le peul"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le dioula est largement utilisé comme langue véhiculaire et commerciale en Côte d'Ivoire et dans plusieurs pays voisins."
+  },
+  {
+    "id": "ci_050",
+    "category": "cote_ivoire",
+    "question": "Comment se nomme la ligne ferroviaire historique reliant Abidjan à Ouagadougou, au Burkina Faso ?",
+    "options": [
+      "Le Sitarail",
+      "L'Ivoirail",
+      "Le Transafrica",
+      "L'Abidjan Express"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Le Sitarail exploite la ligne ferroviaire reliant Abidjan à Ouagadougou."
+  },
+  {
+    "id": "ci_051",
+    "category": "cote_ivoire",
+    "question": "Quel type de climat caractérise le sud forestier de la Côte d'Ivoire ?",
+    "options": [
+      "Un climat désertique",
+      "Un climat équatorial humide",
+      "Un climat méditerranéen",
+      "Un climat polaire"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le sud du pays, couvert de forêts, connaît un climat équatorial chaud et humide toute l'année."
+  },
+  {
+    "id": "ci_052",
+    "category": "cote_ivoire",
+    "question": "Quel type de climat, marqué par une saison sèche prononcée, caractérise le nord de la Côte d'Ivoire ?",
+    "options": [
+      "Un climat tropical de type soudanien",
+      "Un climat équatorial",
+      "Un climat océanique",
+      "Un climat subarctique"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le nord du pays connaît un climat tropical soudanien, avec une longue saison sèche."
+  },
+  {
+    "id": "ci_053",
+    "category": "cote_ivoire",
+    "question": "Quel club de football basé à Abidjan est l'un des plus titrés de l'histoire du championnat ivoirien ?",
+    "options": [
+      "Le Stade d'Abidjan",
+      "L'ASEC Mimosas",
+      "Le SC Gagnoa",
+      "Le FC San-Pédro"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'ASEC Mimosas, basé à Abidjan, est l'un des clubs les plus titrés de Côte d'Ivoire."
+  },
+  {
+    "id": "ci_054",
+    "category": "cote_ivoire",
+    "question": "Quel autre grand club d'Abidjan est le rival historique de l'ASEC Mimosas ?",
+    "options": [
+      "L'Africa Sports",
+      "Le Racing Club d'Abidjan",
+      "Le Sewe Sport",
+      "Le Williamsville AC"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "L'Africa Sports d'Abidjan entretient une rivalité historique avec l'ASEC Mimosas."
+  },
+  {
+    "id": "ci_055",
+    "category": "cote_ivoire",
+    "question": "Comment appelle-t-on le tissu peint traditionnel, orné de figures symboliques, originaire de la région de Korhogo ?",
+    "options": [
+      "Le bogolan",
+      "Le pagne korhogo",
+      "Le kente",
+      "Le wax"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le pagne korhogo est un tissu de coton peint à la main, décoré de motifs symboliques, originaire de la région de Korhogo."
+  },
+  {
+    "id": "ci_056",
+    "category": "cote_ivoire",
+    "question": "Comment se nomme le grand barrage hydroélectrique construit sur le fleuve Bandama ?",
+    "options": [
+      "Le barrage de Kossou",
+      "Le barrage de Taabo",
+      "Le barrage de Buyo",
+      "Le barrage de Soubré"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Le barrage de Kossou, sur le Bandama, est l'un des plus importants ouvrages hydroélectriques du pays."
+  },
+  {
+    "id": "ci_057",
+    "category": "cote_ivoire",
+    "question": "La station balnéaire d'Assinie, réputée pour ses plages, borde quelle lagune ?",
+    "options": [
+      "La lagune Ébrié",
+      "La lagune Aby",
+      "Le lac de Buyo",
+      "La lagune de Grand-Lahou"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Assinie se situe au bord de la lagune Aby, dans le sud-est du pays."
+  },
+  {
+    "id": "ci_058",
+    "category": "cote_ivoire",
+    "question": "Comment se nomme le festival panafricain des musiques urbaines organisé chaque année à Anoumabo, à Abidjan ?",
+    "options": [
+      "Le FEMUA",
+      "Le FESPACO",
+      "Le MASA",
+      "Le FIB"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Le FEMUA (Festival des Musiques Urbaines d'Anoumabo) est un événement musical majeur organisé à Abidjan."
+  },
+  {
+    "id": "ci_059",
+    "category": "cote_ivoire",
+    "question": "Quelle monnaie traditionnelle, des coquillages, était utilisée dans la région avant l'introduction des monnaies coloniales ?",
+    "options": [
+      "Les cauris",
+      "Les perles de verre",
+      "L'or en poudre",
+      "Le sel"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Les cauris, coquillages utilisés comme monnaie d'échange, circulaient en Afrique de l'Ouest avant la colonisation."
+  },
+  {
+    "id": "ci_060",
+    "category": "cote_ivoire",
+    "question": "Comment se nomme le plus ancien pont d'Abidjan, reliant le Plateau à Treichville, construit en 1957 ?",
+    "options": [
+      "Le pont Charles de Gaulle",
+      "Le pont Félix Houphouët-Boigny",
+      "Le pont Henri Konan Bédié",
+      "Le pont de Marcory"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le pont Félix Houphouët-Boigny, construit en 1957, est le plus ancien pont reliant le Plateau à Treichville."
+  },
+  {
+    "id": "ci_061",
+    "category": "cote_ivoire",
+    "question": "Quel tubercule constitue un aliment de base particulièrement cultivé et consommé dans le nord de la Côte d'Ivoire ?",
+    "options": [
+      "La pomme de terre",
+      "L'igname",
+      "Le manioc uniquement",
+      "La patate douce"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'igname est un aliment de base traditionnel, particulièrement important dans le nord du pays."
+  },
+  {
+    "id": "ci_062",
+    "category": "cote_ivoire",
+    "question": "Comment se nomme le plus grand port en eaux profondes du pays, l'un des plus importants d'Afrique de l'Ouest ?",
+    "options": [
+      "Le port de San-Pédro",
+      "Le port autonome d'Abidjan",
+      "Le port de Sassandra",
+      "Le port de Fresco"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le port autonome d'Abidjan est l'un des plus grands ports d'Afrique de l'Ouest."
+  },
+  {
+    "id": "ci_063",
+    "category": "cote_ivoire",
+    "question": "En combien de grands groupes linguistiques les langues locales de Côte d'Ivoire sont-elles habituellement classées (mandé, kwa, gur, krou) ?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "Les langues ivoiriennes sont généralement classées en 4 grands groupes : mandé, kwa, gur (voltaïque) et krou."
+  },
+  {
+    "id": "ci_064",
+    "category": "cote_ivoire",
+    "question": "Comment se nomme le parc zoologique national situé à Abidjan ?",
+    "options": [
+      "Le Zoo national d'Abidjan",
+      "Le Parc animalier de Cocody",
+      "Le Jardin botanique d'Abidjan",
+      "Le Sanctuaire du Banco"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le Zoo national d'Abidjan est le principal parc zoologique du pays."
+  },
+  {
+    "id": "ci_065",
+    "category": "cote_ivoire",
+    "question": "Comment s'appelle la forêt classée située tout près d'Abidjan, servant de poumon vert à la ville ?",
+    "options": [
+      "La forêt du Banco",
+      "La forêt de Yapo",
+      "La forêt de Téné",
+      "La forêt de Sangoué"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La forêt du Banco, transformée en parc national, se trouve directement aux portes d'Abidjan."
+  },
+  {
+    "id": "ci_066",
+    "category": "cote_ivoire",
+    "question": "La ville de Katiola, dans le centre-nord du pays, est particulièrement réputée pour quel artisanat ?",
+    "options": [
+      "Le tissage",
+      "La poterie",
+      "La sculpture sur bois",
+      "La bijouterie"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Katiola est reconnue pour sa production traditionnelle de poterie."
+  },
+  {
+    "id": "ci_067",
+    "category": "cote_ivoire",
+    "question": "Comment appelle-t-on communément, en Côte d'Ivoire, les petits restaurants populaires en plein air où l'on mange et boit entre amis ?",
+    "options": [
+      "Le maquis",
+      "Le bistro",
+      "La guinguette",
+      "Le kiosque"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le terme \"maquis\" désigne en Côte d'Ivoire les restaurants populaires en plein air, très répandus dans le pays."
+  },
+  {
+    "id": "ci_068",
+    "category": "cote_ivoire",
+    "question": "Quel groupe économique régional ouest-africain, distinct de l'UEMOA, la Côte d'Ivoire a-t-elle rejoint en tant que membre fondateur en 1975 ?",
+    "options": [
+      "La CEDEAO",
+      "L'Union Africaine",
+      "Le COMESA",
+      "La SADC"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La Côte d'Ivoire est membre fondateur de la CEDEAO, créée en 1975."
+  },
+  {
+    "id": "ci_069",
+    "category": "cote_ivoire",
+    "question": "D'où vient le nom \"Côte d'Ivoire\" ?",
+    "options": [
+      "Du commerce historique de l'ivoire pratiqué sur cette portion de côte",
+      "De la couleur ivoire du sable de ses plages",
+      "D'un explorateur nommé Ivoire",
+      "D'une légende sur un éléphant blanc"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le nom \"Côte d'Ivoire\" vient du commerce de l'ivoire qui se pratiquait le long de cette portion du littoral ouest-africain."
+  },
+  {
+    "id": "ci_070",
+    "category": "cote_ivoire",
+    "question": "En quelle année la France a-t-elle officiellement établi son protectorat sur la Côte d'Ivoire ?",
+    "options": [
+      "1893",
+      "1900",
+      "1920",
+      "1946"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Le protectorat français sur la Côte d'Ivoire a été officiellement établi en 1893."
+  },
+  {
+    "id": "ci_071",
+    "category": "cote_ivoire",
+    "question": "Quelle ville fut la capitale coloniale de la Côte d'Ivoire entre 1900 et 1934, avant Abidjan ?",
+    "options": [
+      "Grand-Bassam",
+      "Bingerville",
+      "San-Pédro",
+      "Dabou"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Bingerville a succédé à Grand-Bassam comme capitale coloniale de 1900 à 1934, avant qu'Abidjan ne prenne ce rôle."
+  },
+  {
+    "id": "ci_072",
+    "category": "cote_ivoire",
+    "question": "Quel explorateur et administrateur français a donné son nom à la ville de Bingerville ?",
+    "options": [
+      "Louis-Gustave Binger",
+      "Marcel Treich-Laplène",
+      "Félix Houphouët-Boigny",
+      "Général Faidherbe"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Bingerville doit son nom à Louis-Gustave Binger, premier gouverneur de la colonie."
+  },
+  {
+    "id": "ci_073",
+    "category": "cote_ivoire",
+    "question": "Quelle légende raconte qu'une reine baoulé aurait sacrifié son fils pour permettre à son peuple de franchir un fleuve en fuite ?",
+    "options": [
+      "La légende de la reine Pokou",
+      "La légende du roi Gbagbo",
+      "Le mythe de Zaouli",
+      "La légende d'Akwaba"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La légende de la reine Pokou raconte la fondation du peuple baoulé lors d'une migration marquée par ce sacrifice."
+  },
+  {
+    "id": "ci_074",
+    "category": "cote_ivoire",
+    "question": "En plus du cacao, pour quel autre produit agricole la Côte d'Ivoire est-elle devenue le premier producteur mondial ?",
+    "options": [
+      "Le blé",
+      "La noix de cajou (anacarde)",
+      "Le riz",
+      "Le soja"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La Côte d'Ivoire est devenue le premier producteur mondial de noix de cajou."
+  },
+  {
+    "id": "ci_075",
+    "category": "cote_ivoire",
+    "question": "La Côte d'Ivoire est aussi l'un des principaux producteurs africains de quelle matière première, issue de l'hévéa ?",
+    "options": [
+      "Le coton",
+      "Le caoutchouc naturel",
+      "Le jute",
+      "Le lin"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La Côte d'Ivoire est l'un des principaux producteurs africains de caoutchouc naturel, issu de l'hévéa."
+  },
+  {
+    "id": "ci_076",
+    "category": "cote_ivoire",
+    "question": "Comment se nomme la réserve du centre du pays où des girafes ont été réintroduites ?",
+    "options": [
+      "La réserve d'Abokouamékro",
+      "Le parc de la Marahoué",
+      "Le parc d'Azagny",
+      "La réserve de Lamto"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "La réserve d'Abokouamékro, près de Yamoussoukro, est connue pour son programme de réintroduction de girafes."
+  },
+  {
+    "id": "ci_077",
+    "category": "cote_ivoire",
+    "question": "Comment se nomme le parc national formé de petites îles au large d'Adiaké, dans le sud-est du pays ?",
+    "options": [
+      "Les îles Éhotilé",
+      "L'archipel de Grand-Bassam",
+      "Les îles du Banco",
+      "L'archipel d'Assinie"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Le parc national des îles Éhotilé regroupe un ensemble de petites îles au large d'Adiaké."
+  },
+  {
+    "id": "ci_078",
+    "category": "cote_ivoire",
+    "question": "Comment s'appelle la fête traditionnelle du peuple n'zima, célébrée chaque année à Grand-Bassam ?",
+    "options": [
+      "L'Abissa",
+      "Le Dipri",
+      "Le Goli",
+      "Le Popo Carnaval"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "L'Abissa est une fête traditionnelle annuelle du peuple n'zima, célébrée à Grand-Bassam."
+  },
+  {
+    "id": "ci_079",
+    "category": "cote_ivoire",
+    "question": "Quel fruit à coque, offert traditionnellement en signe d'hospitalité ou lors de demandes en mariage en Afrique de l'Ouest, est cultivé en Côte d'Ivoire ?",
+    "options": [
+      "La noix de cola",
+      "L'arachide",
+      "La noix de coco",
+      "La châtaigne"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La noix de cola occupe une place importante dans les traditions sociales et rituelles ouest-africaines."
+  },
+  {
+    "id": "ci_080",
+    "category": "cote_ivoire",
+    "question": "Quel fleuve, à l'ouest du pays, marque en partie la frontière naturelle avec le Liberia ?",
+    "options": [
+      "Le Sassandra",
+      "Le Cavally",
+      "Le Bandama",
+      "Le Comoé"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le fleuve Cavally forme en partie la frontière naturelle entre la Côte d'Ivoire et le Liberia."
+  },
+  {
+    "id": "ci_081",
+    "category": "cote_ivoire",
+    "question": "Quel chanteur ivoirien de reggae, connu internationalement, est notamment l'auteur du titre \"Cocody Rock\" ?",
+    "options": [
+      "Alpha Blondy",
+      "Tiken Jah Fakoly",
+      "Meiway",
+      "DJ Arafat"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Alpha Blondy est l'un des artistes de reggae les plus connus au monde, originaire de Côte d'Ivoire."
+  },
+  {
+    "id": "ci_082",
+    "category": "cote_ivoire",
+    "question": "Comment s'appelle le plat ivoirien à base de sauce à l'huile de palme rouge, souvent servi avec de la viande ou du poisson ?",
+    "options": [
+      "La sauce graine",
+      "Le foutou",
+      "L'attiéké",
+      "Le kedjenou"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La sauce graine, à base de pulpe de noix de palme, est un plat traditionnel très apprécié en Côte d'Ivoire."
+  },
+  {
+    "id": "ci_083",
+    "category": "cote_ivoire",
+    "question": "Comment se nomme le grand lac artificiel formé par le barrage de Kossou, sur le fleuve Bandama ?",
+    "options": [
+      "Le lac de Kossou",
+      "Le lac de Buyo",
+      "Le lac de Taabo",
+      "Le lac de Soubré"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le lac de Kossou est le plan d'eau artificiel créé par la construction du barrage du même nom."
+  },
+  {
+    "id": "ci_084",
+    "category": "cote_ivoire",
+    "question": "Dans quel district d'Abidjan se trouve l'aéroport international du pays ?",
+    "options": [
+      "Cocody",
+      "Port-Bouët",
+      "Yopougon",
+      "Adjamé"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'aéroport international Félix-Houphouët-Boigny se trouve dans la commune de Port-Bouët."
+  },
+  {
+    "id": "ci_085",
+    "category": "cote_ivoire",
+    "question": "Comment se nomme le quartier central d'Abidjan, sur une presqu'île, qui concentre les ministères et sièges d'entreprises ?",
+    "options": [
+      "Le Plateau",
+      "Treichville",
+      "Cocody",
+      "Marcory"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le Plateau est le quartier des affaires et de l'administration d'Abidjan."
+  },
+  {
+    "id": "ci_086",
+    "category": "cote_ivoire",
+    "question": "Quelle commune populaire d'Abidjan, réputée pour sa vie nocturne, doit son nom à un administrateur colonial français ?",
+    "options": [
+      "Treichville",
+      "Yopougon",
+      "Koumassi",
+      "Abobo"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Treichville tire son nom de Marcel Treich-Laplène, explorateur et administrateur colonial."
+  },
+  {
+    "id": "ci_087",
+    "category": "cote_ivoire",
+    "question": "Quelle embarcation traditionnelle est utilisée pour la pêche sur la lagune Ébrié ?",
+    "options": [
+      "La pirogue",
+      "Le voilier",
+      "Le kayak",
+      "Le radeau"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "La pirogue est l'embarcation traditionnelle utilisée par les pêcheurs sur la lagune Ébrié."
+  },
+  {
+    "id": "ci_088",
+    "category": "cote_ivoire",
+    "question": "Après le football, quel sport collectif est particulièrement populaire en Côte d'Ivoire ?",
+    "options": [
+      "Le rugby",
+      "Le basketball",
+      "Le hockey sur gazon",
+      "Le cricket"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le basketball est, après le football, l'un des sports collectifs les plus populaires et pratiqués en Côte d'Ivoire."
+  },
+  {
+    "id": "ci_089",
+    "category": "cote_ivoire",
+    "question": "Comment appelle-t-on la courte saison sèche qui interrompt la grande saison des pluies dans le sud du pays ?",
+    "options": [
+      "La petite saison sèche",
+      "La mousson",
+      "L'harmattan",
+      "La saison intermédiaire"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Le climat du sud ivoirien alterne grande et petite saisons des pluies et des sècheresses, dont la petite saison sèche."
+  },
+  {
+    "id": "ci_090",
+    "category": "cote_ivoire",
+    "question": "Quelle céréale, à la base de nombreux plats du nord du pays, y est particulièrement cultivée ?",
+    "options": [
+      "Le blé",
+      "Le mil",
+      "L'orge",
+      "L'avoine"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le mil est une céréale traditionnellement cultivée et consommée dans le nord de la Côte d'Ivoire."
+  },
+  {
+    "id": "ci_091",
+    "category": "cote_ivoire",
+    "question": "Comment appelle-t-on la boisson traditionnelle fermentée, obtenue à partir de la sève du palmier ?",
+    "options": [
+      "Le vin de palme",
+      "Le bandji",
+      "Les deux à la fois, ce sont des synonymes",
+      "Le tchapalo"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Le vin de palme, aussi appelé \"bandji\" en Côte d'Ivoire, est une boisson traditionnelle fermentée à base de sève de palmier."
+  },
+  {
+    "id": "ci_092",
+    "category": "cote_ivoire",
+    "question": "Comment appelle-t-on les minibus de transport en commun emblématiques d'Abidjan ?",
+    "options": [
+      "Les gbaka",
+      "Les woro-woro (taxis uniquement)",
+      "Les zémidjans",
+      "Les bâchées"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Les gbaka sont les minibus de transport collectif très répandus à Abidjan."
+  },
+  {
+    "id": "ci_093",
+    "category": "cote_ivoire",
+    "question": "Quelle entreprise publique gère le réseau officiel de bus à Abidjan ?",
+    "options": [
+      "La SOTRA",
+      "La RATP",
+      "L'AGETU",
+      "La STIF"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La SOTRA (Société des Transports Abidjanais) exploite le réseau de bus officiel de la ville."
+  },
+  {
+    "id": "ci_094",
+    "category": "cote_ivoire",
+    "question": "Comment appelle-t-on les bateaux-bus permettant de traverser la lagune Ébrié à Abidjan ?",
+    "options": [
+      "Les bateaux-bus",
+      "Les pirogues à moteur",
+      "Les ferries lagunaires uniquement",
+      "Les vedettes"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Les bateaux-bus assurent une liaison rapide entre les différentes communes d'Abidjan à travers la lagune."
+  },
+  {
+    "id": "ci_095",
+    "category": "cote_ivoire",
+    "question": "Quelle ville du centre-est de la Côte d'Ivoire est traditionnellement réputée pour la culture du café et du cacao ?",
+    "options": [
+      "Abengourou",
+      "Daloa",
+      "Man",
+      "Odienné"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Abengourou est historiquement l'un des centres agricoles majeurs pour le café et le cacao."
+  },
+  {
+    "id": "ci_096",
+    "category": "cote_ivoire",
+    "question": "Sur quel fleuve le barrage hydroélectrique de Soubré, mis en service en 2017, a-t-il été construit ?",
+    "options": [
+      "Le Bandama",
+      "Le Sassandra",
+      "Le Comoé",
+      "Le Cavally"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le barrage de Soubré a été construit sur le fleuve Sassandra."
+  },
+  {
+    "id": "ci_097",
+    "category": "cote_ivoire",
+    "question": "Comment se nomme le grand hôtel emblématique du Plateau à Abidjan, longtemps l'un des plus hauts bâtiments du pays ?",
+    "options": [
+      "L'Hôtel Ivoire",
+      "Le Sofitel Abidjan",
+      "Le Palm Club",
+      "Le Novotel Plateau"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "L'Hôtel Ivoire, inauguré dans les années 1960, est un bâtiment emblématique d'Abidjan."
+  },
+  {
+    "id": "ci_098",
+    "category": "cote_ivoire",
+    "question": "Quelle institution financière panafricaine de développement a son siège à Abidjan ?",
+    "options": [
+      "La Banque Africaine de Développement",
+      "La Banque Mondiale",
+      "Le FMI",
+      "La BCEAO uniquement"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La Banque Africaine de Développement (BAD) a son siège à Abidjan."
+  },
+  {
+    "id": "ci_099",
+    "category": "cote_ivoire",
+    "question": "Comment se nomme la principale place boursière régionale d'Afrique de l'Ouest, basée à Abidjan ?",
+    "options": [
+      "La BRVM",
+      "La Bourse d'Abidjan",
+      "La CIVX",
+      "L'AWSE"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "La BRVM (Bourse Régionale des Valeurs Mobilières), basée à Abidjan, dessert les pays de l'UEMOA."
+  },
+  {
+    "id": "ci_100",
+    "category": "cote_ivoire",
+    "question": "Quel type de climat, avec quatre saisons alternées, caractérise la majeure partie du territoire ivoirien ?",
+    "options": [
+      "Un climat tropical humide de transition",
+      "Un climat désertique",
+      "Un climat méditerranéen",
+      "Un climat continental froid"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La majorité du territoire ivoirien connaît un climat tropical humide, avec une alternance de saisons sèches et pluvieuses."
+  }
+]

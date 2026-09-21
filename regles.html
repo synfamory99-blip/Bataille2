@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>BATAILLE — Règles du jeu</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="/src/styles/base.css" />
+  <link rel="stylesheet" href="/src/styles/footer.css" />
+  <link rel="stylesheet" href="/src/styles/pages/legal.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="/index.html">BATAILLE</a>
+    <nav class="header-nav">
+      <a href="/leaderboard.html">Classement</a>
+      <a href="/profile.html">Profil</a>
+    </nav>
+    <div class="auth-status" id="auth-status"></div>
+  </header>
+
+  <main class="container legal-page">
+    <a class="back-link" href="/index.html">← Retour à l'accueil</a>
+    <h1 class="legal-title">Règles du jeu</h1>
+    <div class="legal-content">
+      <div class="legal-faq-item">
+        <p class="legal-faq-question">Déroulement d'une partie</p>
+        <p>Une partie comporte 10 questions à choix multiples (4 réponses possibles, une seule correcte). Chaque question a un niveau de difficulté (facile, moyen, difficile), indiqué avant de répondre.</p>
+      </div>
+      <div class="legal-faq-item">
+        <p class="legal-faq-question">Score</p>
+        <p>Bonne réponse : 10 points. Bonus de rapidité : jusqu'à 5 points supplémentaires selon le temps de réponse. Mauvaise réponse : 0 point.</p>
+      </div>
+      <div class="legal-faq-item">
+        <p class="legal-faq-question">XP et niveaux</p>
+        <p>L'XP gagnée à la fin d'une partie dépend du score obtenu, avec un léger bonus pour les bonnes réponses aux questions difficiles. Chaque niveau demande un peu plus d'XP que le précédent pour être atteint.</p>
+      </div>
+      <div class="legal-faq-item">
+        <p class="legal-faq-question">Défi entre amis</p>
+        <p>Un défi oppose deux joueurs sur exactement la même série de 10 questions. Le joueur avec le score le plus élevé remporte la bataille ; en cas d'égalité, la partie est déclarée nulle.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script type="module" src="/src/pages/legal-page.js"></script>
+</body>
+</html>

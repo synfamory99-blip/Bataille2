@@ -1,0 +1,56 @@
+/* ========================================================================
+   Résultat de bataille
+   ======================================================================== */
+
+.battle-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: var(--space-5);
+  padding: var(--space-6);
+}
+
+.battle-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+}
+
+.battle-players {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  width: 100%;
+  max-width: 320px;
+}
+
+.battle-player-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4);
+  border-radius: var(--radius-card-sharp);
+}
+
+.battle-player-row.is-winner {
+  border: 2px solid var(--accent-victory);
+}
+
+.battle-player-name { font-weight: 700; }
+
+.battle-player-score {
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--accent-victory);
+}
+
+.battle-waiting {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+}

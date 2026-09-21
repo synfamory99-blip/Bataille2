@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "cg_001",
+    "category": "culture_generale",
+    "question": "Quel est le plus grand océan du monde ?",
+    "options": [
+      "Atlantique",
+      "Indien",
+      "Pacifique",
+      "Arctique"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "L'océan Pacifique est le plus vaste et le plus profond des océans."
+  },
+  {
+    "id": "cg_002",
+    "category": "culture_generale",
+    "question": "Combien de continents compte-t-on généralement ?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "On distingue généralement 7 continents : Afrique, Amérique du Nord, Amérique du Sud, Antarctique, Asie, Europe et Océanie."
+  },
+  {
+    "id": "cg_003",
+    "category": "culture_generale",
+    "question": "Qui a écrit « Le Petit Prince » ?",
+    "options": [
+      "Victor Hugo",
+      "Antoine de Saint-Exupéry",
+      "Albert Camus",
+      "Jules Verne"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Antoine de Saint-Exupéry a publié « Le Petit Prince » en 1943."
+  },
+  {
+    "id": "cg_004",
+    "category": "culture_generale",
+    "question": "Quelle langue a le plus grand nombre de locuteurs natifs au monde ?",
+    "options": [
+      "L'anglais",
+      "L'espagnol",
+      "Le mandarin",
+      "L'hindi"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Le mandarin est la langue maternelle la plus parlée au monde en nombre de locuteurs natifs."
+  },
+  {
+    "id": "cg_005",
+    "category": "culture_generale",
+    "question": "Quelle est la plus haute montagne du monde ?",
+    "options": [
+      "Le Kilimandjaro",
+      "Le Mont Blanc",
+      "L'Everest",
+      "Le K2"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "L'Everest culmine à plus de 8 800 mètres, à la frontière entre le Népal et le Tibet."
+  },
+  {
+    "id": "cg_006",
+    "category": "culture_generale",
+    "question": "Combien de jours compte une année bissextile ?",
+    "options": [
+      "364",
+      "365",
+      "366",
+      "367"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Une année bissextile compte 366 jours, avec un 29 février ajouté."
+  },
+  {
+    "id": "cg_007",
+    "category": "culture_generale",
+    "question": "Quelle est la capitale du Japon ?",
+    "options": [
+      "Osaka",
+      "Kyoto",
+      "Tokyo",
+      "Nagoya"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Tokyo est la capitale du Japon depuis 1868."
+  },
+  {
+    "id": "cg_008",
+    "category": "culture_generale",
+    "question": "Qui a peint la Joconde ?",
+    "options": [
+      "Michel-Ange",
+      "Léonard de Vinci",
+      "Raphaël",
+      "Botticelli"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Léonard de Vinci a peint la Joconde au début du XVIe siècle."
+  },
+  {
+    "id": "cg_009",
+    "category": "culture_generale",
+    "question": "Quel est le plus grand désert chaud du monde ?",
+    "options": [
+      "Le désert de Gobi",
+      "Le Sahara",
+      "Le Kalahari",
+      "L'Atacama"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le Sahara, en Afrique du Nord, est le plus grand désert chaud du monde."
+  },
+  {
+    "id": "cg_010",
+    "category": "culture_generale",
+    "question": "Quel est le plus petit des océans du globe ?",
+    "options": [
+      "L'océan Indien",
+      "L'océan Atlantique",
+      "L'océan Arctique",
+      "L'océan Pacifique"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "L'océan Arctique est le plus petit et le moins profond des cinq océans."
+  },
+  {
+    "id": "cg_011",
+    "category": "culture_generale",
+    "question": "Combien de temps la Terre met-elle environ pour faire un tour complet sur elle-même ?",
+    "options": [
+      "24 heures",
+      "12 heures",
+      "365 jours",
+      "1 heure"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "La rotation de la Terre sur son axe dure environ 24 heures, ce qui définit un jour."
+  },
+  {
+    "id": "cg_012",
+    "category": "culture_generale",
+    "question": "Combien de planètes compte le système solaire depuis la reclassification de Pluton en 2006 ?",
+    "options": [
+      "9",
+      "8",
+      "7",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Depuis que Pluton a été reclassée comme planète naine en 2006, le système solaire compte 8 planètes."
+  },
+  {
+    "id": "cg_013",
+    "category": "culture_generale",
+    "question": "Qui est l'auteur du roman \"Les Misérables\" ?",
+    "options": [
+      "Émile Zola",
+      "Alexandre Dumas",
+      "Victor Hugo",
+      "Gustave Flaubert"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Victor Hugo a publié \"Les Misérables\" en 1862."
+  },
+  {
+    "id": "cg_014",
+    "category": "culture_generale",
+    "question": "Quel est le plus grand pays du monde par sa superficie ?",
+    "options": [
+      "Le Canada",
+      "La Chine",
+      "La Russie",
+      "Les États-Unis"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "La Russie est, de loin, le plus vaste pays du monde par sa superficie."
+  },
+  {
+    "id": "cg_015",
+    "category": "culture_generale",
+    "question": "Quel pays est aujourd'hui le plus peuplé du monde ?",
+    "options": [
+      "La Chine",
+      "L'Inde",
+      "Les États-Unis",
+      "L'Indonésie"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'Inde a dépassé la Chine pour devenir le pays le plus peuplé du monde selon les estimations récentes des Nations unies."
+  },
+  {
+    "id": "cg_016",
+    "category": "culture_generale",
+    "question": "Quelle est la monnaie officielle du Japon ?",
+    "options": [
+      "Le won",
+      "Le yen",
+      "Le yuan",
+      "Le ringgit"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le yen est la monnaie officielle du Japon."
+  },
+  {
+    "id": "cg_017",
+    "category": "culture_generale",
+    "question": "Quel scientifique a formulé la théorie de la relativité ?",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galilée",
+      "Charles Darwin"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Albert Einstein a publié la théorie de la relativité restreinte en 1905, puis générale en 1915."
+  },
+  {
+    "id": "cg_018",
+    "category": "culture_generale",
+    "question": "Comment s'appelle la longue fortification visible depuis l'espace, construite en Chine ?",
+    "options": [
+      "Le mur d'Hadrien",
+      "La Grande Muraille de Chine",
+      "La ligne Maginot",
+      "Le mur de Berlin"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La Grande Muraille de Chine est l'une des plus longues constructions humaines de l'histoire."
+  },
+  {
+    "id": "cg_019",
+    "category": "culture_generale",
+    "question": "Combien de mois dure en moyenne une grossesse humaine ?",
+    "options": [
+      "7 mois",
+      "9 mois",
+      "10 mois",
+      "12 mois"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Une grossesse humaine dure en moyenne 9 mois, soit environ 40 semaines."
+  },
+  {
+    "id": "cg_020",
+    "category": "culture_generale",
+    "question": "Quel est le plus grand désert du monde, toutes catégories confondues (chaud et froid) ?",
+    "options": [
+      "Le Sahara",
+      "L'Antarctique",
+      "Le désert de Gobi",
+      "Le désert d'Arabie"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "L'Antarctique, désert froid et aride, est en réalité le plus grand désert du monde par sa superficie."
+  },
+  {
+    "id": "cg_021",
+    "category": "culture_generale",
+    "question": "Qui a peint le tableau \"La Nuit étoilée\" ?",
+    "options": [
+      "Claude Monet",
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Pierre-Auguste Renoir"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Vincent van Gogh a peint \"La Nuit étoilée\" en 1889."
+  },
+  {
+    "id": "cg_022",
+    "category": "culture_generale",
+    "question": "Quelle ville est la capitale de l'Australie ?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Perth"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Canberra, et non Sydney, est la capitale officielle de l'Australie."
+  },
+  {
+    "id": "cg_023",
+    "category": "culture_generale",
+    "question": "Quel est le plus grand pays d'Afrique par sa superficie ?",
+    "options": [
+      "La RD Congo",
+      "L'Algérie",
+      "La Libye",
+      "Le Soudan"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'Algérie est le plus grand pays d'Afrique par sa superficie."
+  },
+  {
+    "id": "cg_024",
+    "category": "culture_generale",
+    "question": "Combien de lettres compte l'alphabet français standard ?",
+    "options": [
+      "24",
+      "26",
+      "28",
+      "25"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'alphabet français compte 26 lettres."
+  },
+  {
+    "id": "cg_025",
+    "category": "culture_generale",
+    "question": "Quel physicien est célèbre pour sa loi de la gravitation universelle ?",
+    "options": [
+      "Albert Einstein",
+      "Galilée",
+      "Isaac Newton",
+      "Johannes Kepler"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Isaac Newton a formulé la loi de la gravitation universelle au XVIIe siècle."
+  },
+  {
+    "id": "cg_026",
+    "category": "culture_generale",
+    "question": "Comment se nomme le plus grand récif corallien du monde, situé au large de l'Australie ?",
+    "options": [
+      "Le récif de Belize",
+      "La Grande Barrière de corail",
+      "Le Triangle de corail",
+      "Le récif de Ningaloo"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La Grande Barrière de corail, au large du Queensland, est le plus grand système corallien au monde."
+  },
+  {
+    "id": "cg_027",
+    "category": "culture_generale",
+    "question": "Quelle est la langue officielle du Brésil ?",
+    "options": [
+      "L'espagnol",
+      "Le portugais",
+      "Le français",
+      "L'anglais"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le Brésil, ancienne colonie portugaise, a le portugais comme langue officielle."
+  },
+  {
+    "id": "cg_028",
+    "category": "culture_generale",
+    "question": "Combien de temps la lumière du Soleil met-elle environ pour atteindre la Terre ?",
+    "options": [
+      "1 minute",
+      "8 minutes",
+      "1 heure",
+      "1 seconde"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La lumière du Soleil met environ 8 minutes et 20 secondes pour atteindre la Terre."
+  },
+  {
+    "id": "cg_029",
+    "category": "culture_generale",
+    "question": "Qui a écrit la tragédie \"Roméo et Juliette\" ?",
+    "options": [
+      "Molière",
+      "William Shakespeare",
+      "Victor Hugo",
+      "Homère"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "William Shakespeare a écrit \"Roméo et Juliette\" à la fin du XVIe siècle."
+  },
+  {
+    "id": "cg_030",
+    "category": "culture_generale",
+    "question": "Quelle est la capitale de l'Italie ?",
+    "options": [
+      "Milan",
+      "Rome",
+      "Venise",
+      "Naples"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Rome est la capitale de l'Italie."
+  },
+  {
+    "id": "cg_031",
+    "category": "culture_generale",
+    "question": "Quel est le fleuve le plus long du continent africain ?",
+    "options": [
+      "Le Congo",
+      "Le Niger",
+      "Le Nil",
+      "Le Zambèze"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Le Nil, avec plus de 6600 km, est le plus long fleuve d'Afrique."
+  },
+  {
+    "id": "cg_032",
+    "category": "culture_generale",
+    "question": "Quelle monnaie est utilisée par la majorité des pays de l'Union européenne ?",
+    "options": [
+      "Le franc",
+      "L'euro",
+      "La livre",
+      "Le mark"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'euro est la monnaie officielle de la plupart des pays de l'Union européenne."
+  },
+  {
+    "id": "cg_033",
+    "category": "culture_generale",
+    "question": "Quel pays compte la plus grande population musulmane au monde ?",
+    "options": [
+      "L'Arabie saoudite",
+      "Le Pakistan",
+      "L'Indonésie",
+      "L'Égypte"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "L'Indonésie est le pays comptant le plus grand nombre de musulmans au monde."
+  },
+  {
+    "id": "cg_034",
+    "category": "culture_generale",
+    "question": "Quelle est la plus grande île du monde ?",
+    "options": [
+      "Madagascar",
+      "Le Groenland",
+      "Bornéo",
+      "La Nouvelle-Guinée"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le Groenland est la plus grande île du monde (l'Australie étant classée comme continent)."
+  },
+  {
+    "id": "cg_035",
+    "category": "culture_generale",
+    "question": "Environ combien de temps la Lune met-elle à effectuer une orbite complète autour de la Terre ?",
+    "options": [
+      "7 jours",
+      "14 jours",
+      "27 à 29 jours",
+      "90 jours"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "La Lune met environ 27 à 29 jours pour orbiter autour de la Terre, ce qui correspond à un mois lunaire."
+  },
+  {
+    "id": "cg_036",
+    "category": "culture_generale",
+    "question": "Quel explorateur est traditionnellement crédité d'avoir atteint l'Amérique en 1492 ?",
+    "options": [
+      "Vasco de Gama",
+      "Christophe Colomb",
+      "Fernand de Magellan",
+      "Marco Polo"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Christophe Colomb a atteint le continent américain en 1492, pour le compte de la couronne d'Espagne."
+  },
+  {
+    "id": "cg_037",
+    "category": "culture_generale",
+    "question": "Quel écrivain russe est l'auteur du roman \"Guerre et Paix\" ?",
+    "options": [
+      "Fiodor Dostoïevski",
+      "Léon Tolstoï",
+      "Anton Tchekhov",
+      "Alexandre Pouchkine"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Léon Tolstoï a publié \"Guerre et Paix\" entre 1865 et 1869."
+  },
+  {
+    "id": "cg_038",
+    "category": "culture_generale",
+    "question": "Quelle est la capitale de la Chine ?",
+    "options": [
+      "Shanghai",
+      "Hong Kong",
+      "Pékin",
+      "Canton"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Pékin est la capitale de la Chine, Shanghai en étant la ville la plus peuplée."
+  },
+  {
+    "id": "cg_039",
+    "category": "culture_generale",
+    "question": "Quel philosophe grec de l'Antiquité fut le précepteur d'Alexandre le Grand ?",
+    "options": [
+      "Socrate",
+      "Platon",
+      "Aristote",
+      "Pythagore"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Aristote fut le précepteur du jeune Alexandre le Grand avant qu'il ne devienne roi de Macédoine."
+  },
+  {
+    "id": "cg_040",
+    "category": "culture_generale",
+    "question": "Quelle est l'unité monétaire officielle du Royaume-Uni ?",
+    "options": [
+      "L'euro",
+      "Le dollar",
+      "La livre sterling",
+      "Le franc"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "La livre sterling est la monnaie officielle du Royaume-Uni."
+  },
+  {
+    "id": "cg_041",
+    "category": "culture_generale",
+    "question": "Quel est le continent le plus peuplé du monde ?",
+    "options": [
+      "L'Afrique",
+      "L'Asie",
+      "L'Europe",
+      "L'Amérique"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'Asie est de loin le continent le plus peuplé, abritant plus de la moitié de la population mondiale."
+  },
+  {
+    "id": "cg_042",
+    "category": "culture_generale",
+    "question": "Quel est le point le plus bas de la surface terrestre, sur la terre ferme ?",
+    "options": [
+      "La vallée de la Mort",
+      "La mer Morte",
+      "Le bassin du Congo",
+      "La dépression de Turfan"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Les rives de la mer Morte se situent à plus de 400 mètres sous le niveau de la mer, le point le plus bas de la surface terrestre."
+  },
+  {
+    "id": "cg_043",
+    "category": "culture_generale",
+    "question": "Quel scientifique britannique est crédité de la découverte de la pénicilline ?",
+    "options": [
+      "Charles Darwin",
+      "Alexander Fleming",
+      "Isaac Newton",
+      "James Watt"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Alexander Fleming a découvert la pénicilline en 1928, ouvrant la voie aux antibiotiques modernes."
+  },
+  {
+    "id": "cg_044",
+    "category": "culture_generale",
+    "question": "Parmi ces pays, lequel a la plus grande superficie ?",
+    "options": [
+      "L'Inde",
+      "Le Brésil",
+      "L'Australie",
+      "La Chine"
+    ],
+    "correctAnswer": 3,
+    "difficulty": "medium",
+    "explanation": "La Chine (environ 9,6 millions de km²) devance le Brésil, l'Australie et l'Inde en superficie."
+  },
+  {
+    "id": "cg_045",
+    "category": "culture_generale",
+    "question": "Comment se nomme la plus haute chute d'eau du monde, située au Venezuela ?",
+    "options": [
+      "Les chutes Victoria",
+      "Les chutes du Niagara",
+      "Les chutes Angel",
+      "Les chutes d'Iguazu"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "Les chutes Angel, au Venezuela, sont considérées comme les plus hautes chutes d'eau du monde."
+  },
+  {
+    "id": "cg_046",
+    "category": "culture_generale",
+    "question": "Quel roi de France est associé à la construction du château de Versailles ?",
+    "options": [
+      "Louis XIII",
+      "Louis XIV",
+      "Louis XV",
+      "Napoléon Bonaparte"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Louis XIV, le \"Roi Soleil\", a fait construire le château de Versailles au XVIIe siècle."
+  },
+  {
+    "id": "cg_047",
+    "category": "culture_generale",
+    "question": "Quelle est considérée comme l'une des plus anciennes civilisations connues, en Mésopotamie ?",
+    "options": [
+      "Les Égyptiens",
+      "Les Sumériens",
+      "Les Phéniciens",
+      "Les Perses"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Les Sumériens, en Mésopotamie, sont considérés comme l'une des plus anciennes civilisations connues."
+  },
+  {
+    "id": "cg_048",
+    "category": "culture_generale",
+    "question": "Quel gaz, plus léger que l'air, est utilisé pour gonfler les ballons qui flottent ?",
+    "options": [
+      "L'oxygène",
+      "L'azote",
+      "L'hélium",
+      "Le dioxyde de carbone"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "L'hélium, plus léger que l'air, est utilisé pour gonfler les ballons flottants."
+  },
+  {
+    "id": "cg_049",
+    "category": "culture_generale",
+    "question": "Qui a peint le plafond de la Chapelle Sixtine, au Vatican ?",
+    "options": [
+      "Léonard de Vinci",
+      "Michel-Ange",
+      "Raphaël",
+      "Le Caravage"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Michel-Ange a peint le plafond de la Chapelle Sixtine entre 1508 et 1512."
+  },
+  {
+    "id": "cg_050",
+    "category": "culture_generale",
+    "question": "Quel fleuve a le débit d'eau le plus important au monde ?",
+    "options": [
+      "Le Nil",
+      "L'Amazone",
+      "Le Mississippi",
+      "Le Congo"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'Amazone a de loin le débit le plus important de tous les fleuves du monde."
+  },
+  {
+    "id": "cg_051",
+    "category": "culture_generale",
+    "question": "Quel pays reconnaît 11 langues officielles ?",
+    "options": [
+      "L'Inde",
+      "L'Afrique du Sud",
+      "La Suisse",
+      "Le Nigeria"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "L'Afrique du Sud reconnaît 11 langues officielles dans sa constitution."
+  },
+  {
+    "id": "cg_052",
+    "category": "culture_generale",
+    "question": "Dans quelle ville indienne se trouve le mausolée du Taj Mahal ?",
+    "options": [
+      "New Delhi",
+      "Bombay",
+      "Agra",
+      "Jaipur"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Le Taj Mahal se trouve à Agra, dans le nord de l'Inde."
+  },
+  {
+    "id": "cg_053",
+    "category": "culture_generale",
+    "question": "Quel peintre espagnol est, avec Georges Braque, considéré comme le père du cubisme ?",
+    "options": [
+      "Salvador Dalí",
+      "Pablo Picasso",
+      "Joan Miró",
+      "Francisco de Goya"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Pablo Picasso, avec Georges Braque, est à l'origine du mouvement cubiste au début du XXe siècle."
+  },
+  {
+    "id": "cg_054",
+    "category": "culture_generale",
+    "question": "Quelle est la capitale de l'Espagne ?",
+    "options": [
+      "Barcelone",
+      "Séville",
+      "Madrid",
+      "Valence"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Madrid est la capitale de l'Espagne."
+  },
+  {
+    "id": "cg_055",
+    "category": "culture_generale",
+    "question": "Quelle est la capitale du Mexique ?",
+    "options": [
+      "Cancún",
+      "Guadalajara",
+      "Mexico",
+      "Monterrey"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Mexico (Ciudad de México) est la capitale du Mexique."
+  },
+  {
+    "id": "cg_056",
+    "category": "culture_generale",
+    "question": "Quel est le plus haut sommet d'Amérique du Sud, situé dans les Andes argentines ?",
+    "options": [
+      "Le Chimborazo",
+      "L'Aconcagua",
+      "Le Huascarán",
+      "Le Cotopaxi"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "L'Aconcagua, en Argentine, culmine à 6961 mètres et est le plus haut sommet d'Amérique du Sud."
+  },
+  {
+    "id": "cg_057",
+    "category": "culture_generale",
+    "question": "Quelle est la langue officielle de l'Égypte ?",
+    "options": [
+      "Le français",
+      "L'arabe",
+      "Le turc",
+      "L'hébreu"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'arabe est la langue officielle de l'Égypte."
+  },
+  {
+    "id": "cg_058",
+    "category": "culture_generale",
+    "question": "Quel philosophe français est connu pour la formule \"Je pense, donc je suis\" ?",
+    "options": [
+      "Voltaire",
+      "René Descartes",
+      "Jean-Jacques Rousseau",
+      "Blaise Pascal"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "René Descartes a formulé le \"cogito ergo sum\" au XVIIe siècle."
+  },
+  {
+    "id": "cg_059",
+    "category": "culture_generale",
+    "question": "Quelle est la capitale du Nigeria (souvent confondue avec Lagos) ?",
+    "options": [
+      "Lagos",
+      "Abuja",
+      "Kano",
+      "Ibadan"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Abuja est la capitale du Nigeria depuis 1991, Lagos en étant la ville la plus peuplée."
+  },
+  {
+    "id": "cg_060",
+    "category": "culture_generale",
+    "question": "Quel scientifique a formulé les lois de l'hérédité en étudiant des petits pois ?",
+    "options": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Louis Pasteur",
+      "Antoine Lavoisier"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Gregor Mendel a posé les bases de la génétique moderne grâce à ses expériences sur les petits pois."
+  },
+  {
+    "id": "cg_061",
+    "category": "culture_generale",
+    "question": "Quel peuple de l'Antiquité a construit les pyramides de Gizeh ?",
+    "options": [
+      "Les Sumériens",
+      "Les Égyptiens",
+      "Les Phéniciens",
+      "Les Babyloniens"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Les pyramides de Gizeh ont été construites par les Égyptiens de l'Ancien Empire."
+  },
+  {
+    "id": "cg_062",
+    "category": "culture_generale",
+    "question": "Comment se nomme la galaxie qui contient notre système solaire ?",
+    "options": [
+      "Andromède",
+      "La Voie lactée",
+      "Le Triangle",
+      "La galaxie du Tourbillon"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Notre système solaire fait partie de la Voie lactée."
+  },
+  {
+    "id": "cg_063",
+    "category": "culture_generale",
+    "question": "Quelle est la plus grande forêt tropicale du monde ?",
+    "options": [
+      "La forêt du Congo",
+      "La forêt amazonienne",
+      "La forêt de Bornéo",
+      "La forêt de Taï"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La forêt amazonienne est la plus grande forêt tropicale du monde."
+  },
+  {
+    "id": "cg_064",
+    "category": "culture_generale",
+    "question": "De quel pays la pizza et les pâtes sont-elles des spécialités culinaires emblématiques ?",
+    "options": [
+      "La France",
+      "L'Espagne",
+      "L'Italie",
+      "La Grèce"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "La pizza et les pâtes sont des spécialités emblématiques de la cuisine italienne."
+  },
+  {
+    "id": "cg_065",
+    "category": "culture_generale",
+    "question": "Quelle est la capitale de la Corée du Nord ?",
+    "options": [
+      "Séoul",
+      "Pyongyang",
+      "Kaesong",
+      "Wonsan"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Pyongyang est la capitale de la Corée du Nord."
+  },
+  {
+    "id": "cg_066",
+    "category": "culture_generale",
+    "question": "Quel traité, signé en 1919, a officiellement mis fin à la Première Guerre mondiale ?",
+    "options": [
+      "Le traité de Versailles",
+      "Le traité de Vienne",
+      "Le traité de Rome",
+      "Le traité de Westphalie"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le traité de Versailles, signé en 1919, a officiellement mis fin à la Première Guerre mondiale."
+  },
+  {
+    "id": "cg_067",
+    "category": "culture_generale",
+    "question": "Quelle statue emblématique, les bras ouverts, domine la ville de Rio de Janeiro ?",
+    "options": [
+      "La Liberté éclairant le monde",
+      "Le Christ Rédempteur",
+      "Le Colosse de Rhodes",
+      "La Vénus de Milo"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La statue du Christ Rédempteur domine Rio de Janeiro depuis le sommet du Corcovado."
+  },
+  {
+    "id": "cg_068",
+    "category": "culture_generale",
+    "question": "Comment se nomme le canal, en Égypte, qui relie la mer Méditerranée à la mer Rouge ?",
+    "options": [
+      "Le canal de Panama",
+      "Le canal de Suez",
+      "Le canal de Corinthe",
+      "Le canal du Nil"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le canal de Suez, inauguré en 1869, relie la Méditerranée à la mer Rouge."
+  },
+  {
+    "id": "cg_069",
+    "category": "culture_generale",
+    "question": "Qui a écrit le roman \"Don Quichotte\" ?",
+    "options": [
+      "Miguel de Cervantès",
+      "Lope de Vega",
+      "Federico García Lorca",
+      "Gabriel García Márquez"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Miguel de Cervantès a publié \"Don Quichotte\" au début du XVIIe siècle."
+  },
+  {
+    "id": "cg_070",
+    "category": "culture_generale",
+    "question": "Quel événement historique majeur a débuté en France en 1789 ?",
+    "options": [
+      "La Révolution française",
+      "La Commune de Paris",
+      "Le Directoire",
+      "La Restauration"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "La Révolution française a débuté en 1789, transformant profondément la société française."
+  },
+  {
+    "id": "cg_071",
+    "category": "culture_generale",
+    "question": "En quelle année le mur de Berlin est-il tombé ?",
+    "options": [
+      "1979",
+      "1989",
+      "1991",
+      "1999"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le mur de Berlin est tombé en 1989, marquant symboliquement la fin de la guerre froide en Europe."
+  },
+  {
+    "id": "cg_072",
+    "category": "culture_generale",
+    "question": "Qui a breveté le téléphone en 1876 ?",
+    "options": [
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Alexander Graham Bell a déposé le brevet du téléphone en 1876."
+  },
+  {
+    "id": "cg_073",
+    "category": "culture_generale",
+    "question": "Quelle est la fosse océanique la plus profonde du monde, dans l'océan Pacifique ?",
+    "options": [
+      "La fosse du Japon",
+      "La fosse des Mariannes",
+      "La fosse des Tonga",
+      "La fosse des Kouriles"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "La fosse des Mariannes, dans le Pacifique, est la fosse océanique la plus profonde connue."
+  },
+  {
+    "id": "cg_074",
+    "category": "culture_generale",
+    "question": "Quel est actuellement le plus haut gratte-ciel du monde, situé à Dubaï ?",
+    "options": [
+      "La Shanghai Tower",
+      "Le Burj Khalifa",
+      "La Willis Tower",
+      "Le One World Trade Center"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le Burj Khalifa, à Dubaï, est le plus haut gratte-ciel du monde."
+  },
+  {
+    "id": "cg_075",
+    "category": "culture_generale",
+    "question": "Dans la mythologie grecque, quel dieu est considéré comme le roi de tous les dieux ?",
+    "options": [
+      "Poséidon",
+      "Zeus",
+      "Hadès",
+      "Apollon"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Zeus est le roi des dieux de l'Olympe dans la mythologie grecque."
+  },
+  {
+    "id": "cg_076",
+    "category": "culture_generale",
+    "question": "Quel pays a inventé le système métrique, à la fin du XVIIIe siècle ?",
+    "options": [
+      "Le Royaume-Uni",
+      "La France",
+      "L'Allemagne",
+      "Les Pays-Bas"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le système métrique a été créé en France à la fin du XVIIIe siècle."
+  },
+  {
+    "id": "cg_077",
+    "category": "culture_generale",
+    "question": "Où se déroulaient les Jeux Olympiques dans l'Antiquité ?",
+    "options": [
+      "À Athènes",
+      "À Olympie, en Grèce",
+      "À Rome",
+      "À Sparte"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Les Jeux Olympiques antiques se déroulaient à Olympie, en Grèce."
+  },
+  {
+    "id": "cg_078",
+    "category": "culture_generale",
+    "question": "Quel ingénieur a conçu la tour Eiffel, construite pour l'Exposition universelle de 1889 ?",
+    "options": [
+      "Gustave Eiffel",
+      "Le Corbusier",
+      "Vauban",
+      "Baron Haussmann"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "Gustave Eiffel a conçu la tour qui porte son nom pour l'Exposition universelle de 1889."
+  },
+  {
+    "id": "cg_079",
+    "category": "culture_generale",
+    "question": "Quel nom portait Istanbul avant de prendre son nom actuel, capitale de l'Empire byzantin puis ottoman ?",
+    "options": [
+      "Constantinople",
+      "Byzance uniquement",
+      "Antioche",
+      "Éphèse"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Istanbul s'appelait Constantinople avant de prendre son nom actuel au XXe siècle."
+  },
+  {
+    "id": "cg_080",
+    "category": "culture_generale",
+    "question": "Quel cosmonaute soviétique est devenu le premier homme à voyager dans l'espace, en 1961 ?",
+    "options": [
+      "Valentina Terechkova",
+      "Youri Gagarine",
+      "Alexeï Leonov",
+      "Guerman Titov"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Youri Gagarine a été le premier homme envoyé dans l'espace, en avril 1961."
+  },
+  {
+    "id": "cg_081",
+    "category": "culture_generale",
+    "question": "Dans quelle ville la plupart des prix Nobel sont-ils remis chaque année, à l'exception du prix de la paix ?",
+    "options": [
+      "Oslo",
+      "Stockholm",
+      "Genève",
+      "Copenhague"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Les prix Nobel sont remis à Stockholm, à l'exception du prix de la paix."
+  },
+  {
+    "id": "cg_082",
+    "category": "culture_generale",
+    "question": "Dans quelle ville le prix Nobel de la paix est-il remis, contrairement aux autres catégories ?",
+    "options": [
+      "Stockholm",
+      "Oslo",
+      "Genève",
+      "Bruxelles"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Contrairement aux autres prix Nobel remis à Stockholm, le prix de la paix est remis à Oslo."
+  },
+  {
+    "id": "cg_083",
+    "category": "culture_generale",
+    "question": "Quel pseudonyme est utilisé par le créateur (ou les créateurs) anonyme du Bitcoin ?",
+    "options": [
+      "Satoshi Nakamoto",
+      "John Doe",
+      "Craig Wright",
+      "Alan Turing"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Satoshi Nakamoto est le pseudonyme utilisé par le ou les créateurs du Bitcoin, dont l'identité reste inconnue."
+  },
+  {
+    "id": "cg_084",
+    "category": "culture_generale",
+    "question": "Quel célèbre pont suspendu de couleur orange se trouve à San Francisco ?",
+    "options": [
+      "Le Golden Gate Bridge",
+      "Le Brooklyn Bridge",
+      "Le Tower Bridge",
+      "Le Bay Bridge"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "Le Golden Gate Bridge est l'un des monuments les plus emblématiques de San Francisco."
+  },
+  {
+    "id": "cg_085",
+    "category": "culture_generale",
+    "question": "Quel est le plus long fleuve d'Asie ?",
+    "options": [
+      "Le Gange",
+      "Le Yangtsé",
+      "Le Mékong",
+      "L'Indus"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le Yangtsé, en Chine, est le plus long fleuve d'Asie."
+  },
+  {
+    "id": "cg_086",
+    "category": "culture_generale",
+    "question": "Quelle est la plus haute montagne d'Afrique ?",
+    "options": [
+      "Le mont Kenya",
+      "Le Kilimandjaro",
+      "Le mont Nimba",
+      "Les Ruwenzori"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le Kilimandjaro, en Tanzanie, est la plus haute montagne d'Afrique."
+  },
+  {
+    "id": "cg_087",
+    "category": "culture_generale",
+    "question": "Laquelle des sept merveilles du monde antique est encore debout aujourd'hui ?",
+    "options": [
+      "Le Colosse de Rhodes",
+      "La Grande Pyramide de Gizeh",
+      "Le phare d'Alexandrie",
+      "Les jardins suspendus de Babylone"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La Grande Pyramide de Gizeh est la seule des sept merveilles du monde antique encore intacte."
+  },
+  {
+    "id": "cg_088",
+    "category": "culture_generale",
+    "question": "Qui a peint le célèbre tableau expressionniste \"Le Cri\" ?",
+    "options": [
+      "Edvard Munch",
+      "Vincent van Gogh",
+      "Gustav Klimt",
+      "Wassily Kandinsky"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le peintre norvégien Edvard Munch a réalisé \"Le Cri\" en 1893."
+  },
+  {
+    "id": "cg_089",
+    "category": "culture_generale",
+    "question": "Quel sculpteur français est l'auteur de l'œuvre \"Le Penseur\" ?",
+    "options": [
+      "Auguste Rodin",
+      "Camille Claudel",
+      "Antoine Bourdelle",
+      "Aristide Maillol"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Auguste Rodin a sculpté \"Le Penseur\", l'une de ses œuvres les plus célèbres."
+  },
+  {
+    "id": "cg_090",
+    "category": "culture_generale",
+    "question": "Quel écrivain russe est l'auteur de \"Crime et Châtiment\" ?",
+    "options": [
+      "Léon Tolstoï",
+      "Fiodor Dostoïevski",
+      "Anton Tchekhov",
+      "Nikolaï Gogol"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Fiodor Dostoïevski a publié \"Crime et Châtiment\" en 1866."
+  },
+  {
+    "id": "cg_091",
+    "category": "culture_generale",
+    "question": "Quel écrivain français, prix Nobel de littérature, est l'auteur de \"L'Étranger\" ?",
+    "options": [
+      "Jean-Paul Sartre",
+      "Albert Camus",
+      "André Gide",
+      "André Malraux"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Albert Camus, prix Nobel de littérature 1957, a publié \"L'Étranger\" en 1942."
+  },
+  {
+    "id": "cg_092",
+    "category": "culture_generale",
+    "question": "Quel écrivain tchèque est l'auteur de \"La Métamorphose\" ?",
+    "options": [
+      "Milan Kundera",
+      "Franz Kafka",
+      "Karel Čapek",
+      "Bohumil Hrabal"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Franz Kafka a écrit \"La Métamorphose\", publiée en 1915."
+  },
+  {
+    "id": "cg_093",
+    "category": "culture_generale",
+    "question": "Quel écrivain américain est l'auteur du \"Vieil homme et la mer\" ?",
+    "options": [
+      "Ernest Hemingway",
+      "William Faulkner",
+      "John Steinbeck",
+      "F. Scott Fitzgerald"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Ernest Hemingway a publié \"Le Vieil homme et la mer\" en 1952."
+  },
+  {
+    "id": "cg_094",
+    "category": "culture_generale",
+    "question": "Combien de tournois du Grand Chelem existe-t-il chaque année en tennis ?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Il existe 4 tournois du Grand Chelem : l'Open d'Australie, Roland-Garros, Wimbledon et l'US Open."
+  },
+  {
+    "id": "cg_095",
+    "category": "culture_generale",
+    "question": "Sur quelle surface se joue traditionnellement le tournoi de Roland-Garros ?",
+    "options": [
+      "Le gazon",
+      "La terre battue",
+      "Le dur",
+      "La moquette"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Roland-Garros est le seul tournoi du Grand Chelem disputé sur terre battue."
+  },
+  {
+    "id": "cg_096",
+    "category": "culture_generale",
+    "question": "Sur quelle surface se joue traditionnellement le tournoi de Wimbledon ?",
+    "options": [
+      "Le gazon",
+      "La terre battue",
+      "Le dur",
+      "Le synthétique"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Wimbledon est le seul tournoi du Grand Chelem disputé sur gazon."
+  },
+  {
+    "id": "cg_097",
+    "category": "culture_generale",
+    "question": "Quel dieu égyptien antique est associé au soleil ?",
+    "options": [
+      "Anubis",
+      "Rê (Ra)",
+      "Osiris",
+      "Horus"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Rê, ou Ra, est le dieu solaire de la mythologie égyptienne antique."
+  },
+  {
+    "id": "cg_098",
+    "category": "culture_generale",
+    "question": "Quelle civilisation antique est à l'origine du concept de démocratie, né à Athènes ?",
+    "options": [
+      "La civilisation romaine",
+      "La civilisation grecque",
+      "La civilisation égyptienne",
+      "La civilisation perse"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le concept de démocratie est né dans la Grèce antique, à Athènes."
+  },
+  {
+    "id": "cg_099",
+    "category": "culture_generale",
+    "question": "Comment se nomme la plus grande chaîne de montagnes sous-marine du monde, traversant plusieurs océans ?",
+    "options": [
+      "La fosse des Mariannes",
+      "La dorsale médio-océanique",
+      "Le plateau continental",
+      "La ceinture de feu"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "La dorsale médio-océanique est la plus longue chaîne de montagnes sous-marine, s'étendant sur plusieurs océans."
+  },
+  {
+    "id": "cg_100",
+    "category": "culture_generale",
+    "question": "Quel physicien allemand a formulé la théorie de la relativité, publiée au début du XXe siècle ?",
+    "options": [
+      "Max Planck",
+      "Albert Einstein",
+      "Werner Heisenberg",
+      "Niels Bohr"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Albert Einstein a formulé les théories de la relativité restreinte (1905) et générale (1915)."
+  }
+]

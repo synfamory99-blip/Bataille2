@@ -1,0 +1,90 @@
+/* ========================================================================
+   Défi entre amis
+   ======================================================================== */
+
+.challenge-page { padding-bottom: var(--space-8); }
+
+.challenge-intro { text-align: center; margin: var(--space-6) 0; }
+
+.challenge-tabs {
+  display: flex;
+  gap: var(--space-2);
+  margin-bottom: var(--space-5);
+  background: var(--surface);
+  padding: var(--space-1);
+  border-radius: var(--radius-pill);
+}
+
+.challenge-tab {
+  flex: 1;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+}
+
+.challenge-tab[aria-selected="true"] {
+  background: var(--accent-battle);
+  color: var(--text-on-accent);
+}
+
+.challenge-panel { display: none; flex-direction: column; gap: var(--space-4); }
+
+.challenge-panel.is-active { display: flex; }
+
+.mini-theme-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-2);
+}
+
+@media (min-width: 640px) {
+  .mini-theme-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.mini-theme-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  border-radius: var(--radius-card-sharp);
+}
+
+.mini-theme-card.is-selected {
+  border: 2px solid var(--accent-battle);
+}
+
+.mini-theme-card .theme-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-input);
+  background: var(--surface-raised);
+}
+.mini-theme-card .theme-icon svg { width: 18px; height: 18px; }
+.mini-theme-card .theme-name { font-size: var(--text-sm); font-weight: 600; }
+
+.code-share {
+  text-align: center;
+  padding: var(--space-6);
+}
+
+.code-value {
+  font-family: var(--font-display);
+  font-size: var(--text-4xl);
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: var(--accent-victory);
+  margin: var(--space-3) 0;
+}
+
+.join-input {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+}

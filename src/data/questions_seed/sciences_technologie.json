@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "sc_001",
+    "category": "sciences_technologie",
+    "question": "Quel est le symbole chimique de l'eau ?",
+    "options": [
+      "O2",
+      "H2O",
+      "CO2",
+      "NaCl"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'eau est composée de deux atomes d'hydrogène et un atome d'oxygène : H2O."
+  },
+  {
+    "id": "sc_002",
+    "category": "sciences_technologie",
+    "question": "Quelle est la planète la plus proche du Soleil ?",
+    "options": [
+      "Vénus",
+      "Mercure",
+      "Mars",
+      "Terre"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Mercure est la planète la plus proche du Soleil dans notre système solaire."
+  },
+  {
+    "id": "sc_003",
+    "category": "sciences_technologie",
+    "question": "Quelle est la vitesse approximative de la lumière dans le vide ?",
+    "options": [
+      "150 000 km/s",
+      "300 000 km/s",
+      "450 000 km/s",
+      "1 000 000 km/s"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La lumière se déplace à environ 300 000 kilomètres par seconde dans le vide."
+  },
+  {
+    "id": "sc_004",
+    "category": "sciences_technologie",
+    "question": "À qui attribue-t-on généralement l'invention de l'ampoule électrique moderne ?",
+    "options": [
+      "Nikola Tesla",
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "James Watt"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Thomas Edison est généralement crédité pour avoir rendu l'ampoule à incandescence viable commercialement."
+  },
+  {
+    "id": "sc_005",
+    "category": "sciences_technologie",
+    "question": "Combien de chromosomes possède une cellule humaine normale ?",
+    "options": [
+      "23",
+      "44",
+      "46",
+      "48"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "Une cellule humaine possède 46 chromosomes, organisés en 23 paires."
+  },
+  {
+    "id": "sc_006",
+    "category": "sciences_technologie",
+    "question": "Quel gaz les plantes absorbent-elles principalement pour la photosynthèse ?",
+    "options": [
+      "L'oxygène",
+      "L'azote",
+      "Le dioxyde de carbone",
+      "L'hydrogène"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Les plantes absorbent le CO2 et rejettent de l'oxygène lors de la photosynthèse."
+  },
+  {
+    "id": "sc_007",
+    "category": "sciences_technologie",
+    "question": "Quelle est l'unité de mesure de la puissance électrique ?",
+    "options": [
+      "Le volt",
+      "L'ampère",
+      "Le watt",
+      "L'ohm"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Le watt (W) est l'unité de mesure de la puissance dans le Système international."
+  },
+  {
+    "id": "sc_008",
+    "category": "sciences_technologie",
+    "question": "Quel langage de programmation a été créé par Guido van Rossum ?",
+    "options": [
+      "Java",
+      "Python",
+      "Ruby",
+      "PHP"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Guido van Rossum a créé le langage Python, publié pour la première fois en 1991."
+  },
+  {
+    "id": "sc_009",
+    "category": "sciences_technologie",
+    "question": "Quel organe du corps humain assure la circulation du sang ?",
+    "options": [
+      "Le foie",
+      "Le cœur",
+      "Le rein",
+      "Le poumon"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le cœur est la pompe qui fait circuler le sang dans tout le corps."
+  },
+  {
+    "id": "sc_010",
+    "category": "sciences_technologie",
+    "question": "Combien d'os compte approximativement le squelette d'un être humain adulte ?",
+    "options": [
+      "150",
+      "206",
+      "300",
+      "180"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le squelette humain adulte compte environ 206 os."
+  },
+  {
+    "id": "sc_011",
+    "category": "sciences_technologie",
+    "question": "Quel gaz est le plus abondant dans l'atmosphère terrestre ?",
+    "options": [
+      "L'oxygène",
+      "L'azote",
+      "Le dioxyde de carbone",
+      "L'argon"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'azote représente environ 78% de l'atmosphère terrestre, loin devant l'oxygène (environ 21%)."
+  },
+  {
+    "id": "sc_012",
+    "category": "sciences_technologie",
+    "question": "Quelle est l'unité de température du Système international d'unités ?",
+    "options": [
+      "Le celsius",
+      "Le kelvin",
+      "Le fahrenheit",
+      "Le joule"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le kelvin est l'unité de température de base du Système international."
+  },
+  {
+    "id": "sc_013",
+    "category": "sciences_technologie",
+    "question": "Quel scientifique est à l'origine de la théorie de l'évolution par sélection naturelle ?",
+    "options": [
+      "Gregor Mendel",
+      "Charles Darwin",
+      "Louis Pasteur",
+      "Jean-Baptiste Lamarck"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Charles Darwin a publié sa théorie de l'évolution par sélection naturelle dans \"L'Origine des espèces\" en 1859."
+  },
+  {
+    "id": "sc_014",
+    "category": "sciences_technologie",
+    "question": "Comment appelle-t-on le passage de l'eau de l'état liquide à l'état gazeux ?",
+    "options": [
+      "La condensation",
+      "L'évaporation",
+      "La sublimation",
+      "La solidification"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'évaporation est le passage de l'état liquide à l'état gazeux."
+  },
+  {
+    "id": "sc_015",
+    "category": "sciences_technologie",
+    "question": "Quelle particule subatomique porte une charge électrique négative ?",
+    "options": [
+      "Le proton",
+      "Le neutron",
+      "L'électron",
+      "Le photon"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "L'électron porte une charge électrique négative, contrairement au proton qui est chargé positivement."
+  },
+  {
+    "id": "sc_016",
+    "category": "sciences_technologie",
+    "question": "Quel métal est liquide à température ambiante et a longtemps été utilisé dans les thermomètres ?",
+    "options": [
+      "Le plomb",
+      "Le mercure",
+      "L'étain",
+      "Le zinc"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le mercure est le seul métal liquide à température ambiante."
+  },
+  {
+    "id": "sc_017",
+    "category": "sciences_technologie",
+    "question": "Quelle entreprise a développé le système d'exploitation Windows ?",
+    "options": [
+      "Apple",
+      "Microsoft",
+      "Google",
+      "IBM"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Microsoft a développé Windows, lancé pour la première fois en 1985."
+  },
+  {
+    "id": "sc_018",
+    "category": "sciences_technologie",
+    "question": "Que désigne le sigle CPU, souvent traduit par \"unité centrale de traitement\" ?",
+    "options": [
+      "La mémoire vive de l'ordinateur",
+      "Le processeur de l'ordinateur",
+      "Le disque dur de l'ordinateur",
+      "La carte graphique de l'ordinateur"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le CPU (Central Processing Unit) est le processeur, composant central qui exécute les instructions d'un ordinateur."
+  },
+  {
+    "id": "sc_019",
+    "category": "sciences_technologie",
+    "question": "Quelle agence spatiale américaine a envoyé les premiers hommes sur la Lune en 1969 ?",
+    "options": [
+      "L'ESA",
+      "La NASA",
+      "Roscosmos",
+      "SpaceX"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La NASA a mené le programme Apollo qui a permis aux premiers hommes de marcher sur la Lune en 1969."
+  },
+  {
+    "id": "sc_020",
+    "category": "sciences_technologie",
+    "question": "Qui a été le premier homme à marcher sur la Lune ?",
+    "options": [
+      "Buzz Aldrin",
+      "Youri Gagarine",
+      "Neil Armstrong",
+      "John Glenn"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Neil Armstrong a été le premier homme à poser le pied sur la Lune, le 21 juillet 1969."
+  },
+  {
+    "id": "sc_021",
+    "category": "sciences_technologie",
+    "question": "Quelle est la formule chimique du sel de cuisine ?",
+    "options": [
+      "H2O",
+      "NaCl",
+      "CO2",
+      "KCl"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le sel de cuisine est du chlorure de sodium, de formule chimique NaCl."
+  },
+  {
+    "id": "sc_022",
+    "category": "sciences_technologie",
+    "question": "Quel type d'énergie est directement capté par des panneaux à partir du rayonnement du Soleil ?",
+    "options": [
+      "L'énergie éolienne",
+      "L'énergie solaire",
+      "L'énergie hydraulique",
+      "L'énergie géothermique"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Les panneaux photovoltaïques captent l'énergie solaire pour la transformer en électricité."
+  },
+  {
+    "id": "sc_023",
+    "category": "sciences_technologie",
+    "question": "Quel organe humain filtre le sang pour produire l'urine ?",
+    "options": [
+      "Le foie",
+      "Les poumons",
+      "Les reins",
+      "La rate"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Les reins filtrent le sang et produisent l'urine, éliminant les déchets de l'organisme."
+  },
+  {
+    "id": "sc_024",
+    "category": "sciences_technologie",
+    "question": "Quelle invention de Johannes Gutenberg, au XVe siècle, a révolutionné la diffusion de l'écrit ?",
+    "options": [
+      "Le télescope",
+      "L'imprimerie à caractères mobiles",
+      "La boussole",
+      "Le microscope"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Gutenberg a mis au point l'imprimerie à caractères mobiles vers 1450, en Europe."
+  },
+  {
+    "id": "sc_025",
+    "category": "sciences_technologie",
+    "question": "Quel est le plus grand organe du corps humain ?",
+    "options": [
+      "Le foie",
+      "La peau",
+      "Le cerveau",
+      "L'intestin"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La peau est le plus grand organe du corps humain, en surface comme en poids."
+  },
+  {
+    "id": "sc_026",
+    "category": "sciences_technologie",
+    "question": "Quelle est l'unité de base mesurant la quantité d'information numérique (8 unités forment un octet) ?",
+    "options": [
+      "Le byte",
+      "Le bit",
+      "Le pixel",
+      "Le hertz"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le bit est l'unité de base de l'information numérique ; un octet (byte) est composé de 8 bits."
+  },
+  {
+    "id": "sc_027",
+    "category": "sciences_technologie",
+    "question": "Quel scientifique français est connu pour ses travaux sur la pasteurisation et le vaccin contre la rage ?",
+    "options": [
+      "Antoine Lavoisier",
+      "Louis Pasteur",
+      "Marie Curie",
+      "Alexander Fleming"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Louis Pasteur a développé la pasteurisation et le premier vaccin contre la rage."
+  },
+  {
+    "id": "sc_028",
+    "category": "sciences_technologie",
+    "question": "Quelle est la vitesse approximative du son dans l'air, à température ambiante ?",
+    "options": [
+      "34 mètres par seconde",
+      "340 mètres par seconde",
+      "3400 mètres par seconde",
+      "3 400 000 mètres par seconde"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le son se propage dans l'air à environ 340 mètres par seconde à température ambiante."
+  },
+  {
+    "id": "sc_029",
+    "category": "sciences_technologie",
+    "question": "Quel est l'élément chimique le plus abondant dans l'univers ?",
+    "options": [
+      "L'hélium",
+      "L'hydrogène",
+      "L'oxygène",
+      "Le carbone"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'hydrogène est l'élément chimique le plus abondant de l'univers."
+  },
+  {
+    "id": "sc_030",
+    "category": "sciences_technologie",
+    "question": "Combien de litres de sang, environ, contient le corps d'un adulte ?",
+    "options": [
+      "2 litres",
+      "5 litres",
+      "8 litres",
+      "12 litres"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Un adulte contient en moyenne environ 5 litres de sang."
+  },
+  {
+    "id": "sc_031",
+    "category": "sciences_technologie",
+    "question": "Quelle planète est surnommée la \"planète rouge\" ?",
+    "options": [
+      "Vénus",
+      "Mars",
+      "Jupiter",
+      "Mercure"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Mars est surnommée la \"planète rouge\" en raison de l'oxyde de fer présent à sa surface."
+  },
+  {
+    "id": "sc_032",
+    "category": "sciences_technologie",
+    "question": "Quel est le plus grand organe interne du corps humain (hors peau) ?",
+    "options": [
+      "Le cœur",
+      "Le foie",
+      "Le cerveau",
+      "L'estomac"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le foie est le plus grand organe interne du corps humain."
+  },
+  {
+    "id": "sc_033",
+    "category": "sciences_technologie",
+    "question": "Quelle invention, perfectionnée par James Watt au XVIIIe siècle, a été un moteur de la révolution industrielle ?",
+    "options": [
+      "Le moteur électrique",
+      "La machine à vapeur",
+      "Le moteur à combustion",
+      "La turbine hydraulique"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "James Watt a perfectionné la machine à vapeur, moteur essentiel de la révolution industrielle."
+  },
+  {
+    "id": "sc_034",
+    "category": "sciences_technologie",
+    "question": "Quel est le symbole chimique de l'or ?",
+    "options": [
+      "Ag",
+      "Au",
+      "Or",
+      "Go"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le symbole chimique de l'or est Au, du latin \"aurum\"."
+  },
+  {
+    "id": "sc_035",
+    "category": "sciences_technologie",
+    "question": "Quel est le symbole chimique du fer ?",
+    "options": [
+      "Fe",
+      "Fr",
+      "Ir",
+      "Fn"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le symbole chimique du fer est Fe, du latin \"ferrum\"."
+  },
+  {
+    "id": "sc_036",
+    "category": "sciences_technologie",
+    "question": "Quelle entreprise a créé le smartphone iPhone ?",
+    "options": [
+      "Samsung",
+      "Apple",
+      "Google",
+      "Nokia"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Apple a lancé le premier iPhone en 2007."
+  },
+  {
+    "id": "sc_037",
+    "category": "sciences_technologie",
+    "question": "Quelle scientifique est connue pour ses travaux sur la radioactivité et a remporté deux prix Nobel ?",
+    "options": [
+      "Rosalind Franklin",
+      "Marie Curie",
+      "Ada Lovelace",
+      "Lise Meitner"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Marie Curie a remporté le prix Nobel de physique en 1903 et celui de chimie en 1911 pour ses travaux sur la radioactivité."
+  },
+  {
+    "id": "sc_038",
+    "category": "sciences_technologie",
+    "question": "Quelle unité mesure la fréquence d'une onde, comme les ondes radio ?",
+    "options": [
+      "Le watt",
+      "Le hertz",
+      "Le volt",
+      "L'ampère"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le hertz (Hz) est l'unité de mesure de la fréquence."
+  },
+  {
+    "id": "sc_039",
+    "category": "sciences_technologie",
+    "question": "Quel gaz, utilisé dans certains extincteurs, contribue également à l'effet de serre ?",
+    "options": [
+      "L'azote",
+      "Le dioxyde de carbone",
+      "L'hélium",
+      "L'hydrogène"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le dioxyde de carbone (CO2) est utilisé dans certains extincteurs et est l'un des principaux gaz à effet de serre."
+  },
+  {
+    "id": "sc_040",
+    "category": "sciences_technologie",
+    "question": "Comment appelle-t-on le processus par lequel une cellule se divise en deux cellules identiques ?",
+    "options": [
+      "La méiose",
+      "La mitose",
+      "La photosynthèse",
+      "L'osmose"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "La mitose est le processus de division cellulaire produisant deux cellules filles identiques."
+  },
+  {
+    "id": "sc_041",
+    "category": "sciences_technologie",
+    "question": "Qui sont les deux fondateurs de Google ?",
+    "options": [
+      "Steve Jobs et Steve Wozniak",
+      "Larry Page et Sergey Brin",
+      "Bill Gates et Paul Allen",
+      "Mark Zuckerberg et Eduardo Saverin"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Larry Page et Sergey Brin ont fondé Google en 1998."
+  },
+  {
+    "id": "sc_042",
+    "category": "sciences_technologie",
+    "question": "Comment appelle-t-on le réseau mondial d'ordinateurs interconnectés ?",
+    "options": [
+      "Le web",
+      "Internet",
+      "Le cloud",
+      "Le LAN"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Internet est le réseau mondial reliant les ordinateurs entre eux ; le web est l'un des services qui fonctionne sur ce réseau."
+  },
+  {
+    "id": "sc_043",
+    "category": "sciences_technologie",
+    "question": "Quelle unité de base du Système international mesure la quantité de matière, utilisée en chimie ?",
+    "options": [
+      "Le gramme",
+      "La mole",
+      "Le litre",
+      "Le kelvin"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "La mole est l'unité de mesure de la quantité de matière en chimie."
+  },
+  {
+    "id": "sc_044",
+    "category": "sciences_technologie",
+    "question": "Quel astronome et physicien italien a perfectionné le télescope et défendu le système héliocentrique ?",
+    "options": [
+      "Nicolas Copernic",
+      "Galilée",
+      "Johannes Kepler",
+      "Tycho Brahe"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Galilée a perfectionné le télescope et soutenu activement le modèle héliocentrique de Copernic."
+  },
+  {
+    "id": "sc_045",
+    "category": "sciences_technologie",
+    "question": "Comment se nomme la couche de l'atmosphère qui nous protège des rayons ultraviolets du Soleil ?",
+    "options": [
+      "La couche d'ozone",
+      "La stratosphère uniquement",
+      "La ionosphère",
+      "L'exosphère"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La couche d'ozone, dans la stratosphère, filtre une grande partie des rayons ultraviolets."
+  },
+  {
+    "id": "sc_046",
+    "category": "sciences_technologie",
+    "question": "À quelle température l'eau gèle-t-elle, en degrés Celsius, au niveau de la mer ?",
+    "options": [
+      "-10°C",
+      "0°C",
+      "10°C",
+      "32°C"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'eau gèle à 0°C au niveau de la mer, à pression atmosphérique normale."
+  },
+  {
+    "id": "sc_047",
+    "category": "sciences_technologie",
+    "question": "À quelle température l'eau entre-t-elle en ébullition, en degrés Celsius, au niveau de la mer ?",
+    "options": [
+      "90°C",
+      "100°C",
+      "110°C",
+      "212°C"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'eau bout à 100°C au niveau de la mer, à pression atmosphérique normale."
+  },
+  {
+    "id": "sc_048",
+    "category": "sciences_technologie",
+    "question": "Comment se nomme le premier ordinateur personnel grand public d'Apple, lancé en 1984 avec une interface graphique ?",
+    "options": [
+      "L'Apple II",
+      "Le Macintosh",
+      "Le Lisa",
+      "L'iMac"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le Macintosh, lancé en 1984, a popularisé l'interface graphique auprès du grand public."
+  },
+  {
+    "id": "sc_049",
+    "category": "sciences_technologie",
+    "question": "Comment se nomme la théorie scientifique qui explique l'origine de l'univers à partir d'un point unique en expansion ?",
+    "options": [
+      "La théorie de la relativité",
+      "Le Big Bang",
+      "La théorie des cordes",
+      "Le principe d'incertitude"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La théorie du Big Bang décrit l'expansion de l'univers depuis un état initial extrêmement dense et chaud."
+  },
+  {
+    "id": "sc_050",
+    "category": "sciences_technologie",
+    "question": "Quelle planète du système solaire est célèbre pour ses anneaux particulièrement visibles ?",
+    "options": [
+      "Jupiter",
+      "Saturne",
+      "Uranus",
+      "Neptune"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Saturne est célèbre pour son système d'anneaux, le plus spectaculaire du système solaire."
+  },
+  {
+    "id": "sc_051",
+    "category": "sciences_technologie",
+    "question": "Combien de chambres (cavités) compte le cœur humain ?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Le cœur humain compte 4 chambres : deux oreillettes et deux ventricules."
+  },
+  {
+    "id": "sc_052",
+    "category": "sciences_technologie",
+    "question": "Comment se nomme le plus petit os du corps humain, situé dans l'oreille ?",
+    "options": [
+      "Le marteau",
+      "L'étrier",
+      "L'enclume",
+      "Le tympan"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "L'étrier, situé dans l'oreille moyenne, est le plus petit os du corps humain."
+  },
+  {
+    "id": "sc_053",
+    "category": "sciences_technologie",
+    "question": "Quelle unité sert à mesurer l'énergie contenue dans les aliments ?",
+    "options": [
+      "Le joule uniquement",
+      "La calorie",
+      "Le watt",
+      "Le newton"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La calorie (ou kilocalorie) est couramment utilisée pour mesurer l'énergie apportée par les aliments."
+  },
+  {
+    "id": "sc_054",
+    "category": "sciences_technologie",
+    "question": "Quel type de rayonnement invisible à l'œil nu est utilisé dans les télécommandes ?",
+    "options": [
+      "Les ultraviolets",
+      "Les infrarouges",
+      "Les rayons X",
+      "Les micro-ondes"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Les télécommandes utilisent des infrarouges pour transmettre leurs signaux."
+  },
+  {
+    "id": "sc_055",
+    "category": "sciences_technologie",
+    "question": "Comment se nomme la mission spatiale qui a permis aux premiers hommes de marcher sur la Lune en 1969 ?",
+    "options": [
+      "Apollo 11",
+      "Gemini 8",
+      "Mercury 7",
+      "Artemis 1"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La mission Apollo 11 a permis à Neil Armstrong et Buzz Aldrin de marcher sur la Lune en juillet 1969."
+  },
+  {
+    "id": "sc_056",
+    "category": "sciences_technologie",
+    "question": "Qui est le principal fondateur du réseau social Facebook ?",
+    "options": [
+      "Mark Zuckerberg",
+      "Jack Dorsey",
+      "Evan Spiegel",
+      "Kevin Systrom"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "Mark Zuckerberg a fondé Facebook en 2004 avec plusieurs camarades d'université."
+  },
+  {
+    "id": "sc_057",
+    "category": "sciences_technologie",
+    "question": "Quel langage de balisage est utilisé pour structurer le contenu des pages web ?",
+    "options": [
+      "Le CSS",
+      "Le HTML",
+      "Le Python",
+      "Le SQL"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le HTML (HyperText Markup Language) sert à structurer le contenu des pages web."
+  },
+  {
+    "id": "sc_058",
+    "category": "sciences_technologie",
+    "question": "Quelle unité mesure la résistance électrique ?",
+    "options": [
+      "Le volt",
+      "L'ampère",
+      "L'ohm",
+      "Le watt"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "L'ohm est l'unité de mesure de la résistance électrique."
+  },
+  {
+    "id": "sc_059",
+    "category": "sciences_technologie",
+    "question": "Comment se nomme le processus par lequel les plantes convertissent la lumière en énergie chimique ?",
+    "options": [
+      "La respiration",
+      "La photosynthèse",
+      "La fermentation",
+      "L'osmose"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La photosynthèse permet aux plantes de convertir la lumière du soleil en énergie chimique."
+  },
+  {
+    "id": "sc_060",
+    "category": "sciences_technologie",
+    "question": "Comment se nomme la protéine responsable du transport de l'oxygène dans le sang ?",
+    "options": [
+      "L'insuline",
+      "L'hémoglobine",
+      "Le collagène",
+      "La kératine"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'hémoglobine, présente dans les globules rouges, transporte l'oxygène dans tout le corps."
+  },
+  {
+    "id": "sc_061",
+    "category": "sciences_technologie",
+    "question": "Comment se nomme le premier satellite artificiel mis en orbite, lancé par l'URSS en 1957 ?",
+    "options": [
+      "Spoutnik 1",
+      "Vostok 1",
+      "Mir",
+      "Soyouz 1"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Spoutnik 1, lancé par l'URSS en 1957, fut le premier satellite artificiel en orbite autour de la Terre."
+  },
+  {
+    "id": "sc_062",
+    "category": "sciences_technologie",
+    "question": "Comment se nomme la particule, découverte au CERN en 2012, qui donne leur masse aux autres particules ?",
+    "options": [
+      "Le photon",
+      "Le boson de Higgs",
+      "Le neutrino",
+      "Le quark"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le boson de Higgs, confirmé expérimentalement au CERN en 2012, explique l'origine de la masse des particules."
+  },
+  {
+    "id": "sc_063",
+    "category": "sciences_technologie",
+    "question": "Quel est l'os le plus long du corps humain, situé dans la cuisse ?",
+    "options": [
+      "Le tibia",
+      "Le fémur",
+      "L'humérus",
+      "Le radius"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le fémur, situé dans la cuisse, est le plus long os du corps humain."
+  },
+  {
+    "id": "sc_064",
+    "category": "sciences_technologie",
+    "question": "Quelle est l'unité de mesure de la pression atmosphérique dans le Système international ?",
+    "options": [
+      "Le bar",
+      "Le pascal",
+      "Le newton",
+      "Le torr"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le pascal (Pa) est l'unité de pression du Système international."
+  },
+  {
+    "id": "sc_065",
+    "category": "sciences_technologie",
+    "question": "Comment appelle-t-on le passage direct d'une substance de l'état solide à l'état gazeux, sans passer par l'état liquide ?",
+    "options": [
+      "L'évaporation",
+      "La sublimation",
+      "La condensation",
+      "La fusion"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La sublimation est le passage direct de l'état solide à l'état gazeux."
+  },
+  {
+    "id": "sc_066",
+    "category": "sciences_technologie",
+    "question": "Quel type d'énergie est produit par la fission d'atomes lourds comme l'uranium ?",
+    "options": [
+      "L'énergie solaire",
+      "L'énergie nucléaire",
+      "L'énergie éolienne",
+      "L'énergie géothermique"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'énergie nucléaire est produite par la fission d'atomes lourds comme l'uranium."
+  },
+  {
+    "id": "sc_067",
+    "category": "sciences_technologie",
+    "question": "Quelle entreprise a développé le système d'exploitation mobile Android ?",
+    "options": [
+      "Apple",
+      "Google",
+      "Microsoft",
+      "Samsung"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Google a développé et distribue le système d'exploitation Android."
+  },
+  {
+    "id": "sc_068",
+    "category": "sciences_technologie",
+    "question": "Quel gaz inerte est utilisé pour remplir les ampoules à incandescence afin de prolonger la durée de vie du filament ?",
+    "options": [
+      "L'hélium",
+      "L'argon",
+      "Le néon",
+      "Le xénon"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "L'argon est couramment utilisé dans les ampoules à incandescence pour ralentir l'évaporation du filament."
+  },
+  {
+    "id": "sc_069",
+    "category": "sciences_technologie",
+    "question": "Comment se nomme la structure en double hélice qui contient l'information génétique des êtres vivants ?",
+    "options": [
+      "L'ARN uniquement",
+      "L'ADN",
+      "La protéine",
+      "Le chromosome uniquement"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'ADN (acide désoxyribonucléique) contient l'information génétique sous forme de double hélice."
+  },
+  {
+    "id": "sc_070",
+    "category": "sciences_technologie",
+    "question": "Quels scientifiques sont crédités d'avoir découvert la structure en double hélice de l'ADN, en 1953 ?",
+    "options": [
+      "James Watson et Francis Crick",
+      "Gregor Mendel et Charles Darwin",
+      "Louis Pasteur et Robert Koch",
+      "Rosalind Franklin et Marie Curie"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "James Watson et Francis Crick ont publié la structure en double hélice de l'ADN en 1953, en s'appuyant notamment sur les travaux de Rosalind Franklin."
+  },
+  {
+    "id": "sc_071",
+    "category": "sciences_technologie",
+    "question": "Combien de groupes sanguins principaux existe-t-il dans le système ABO ?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Le système ABO comprend 4 groupes sanguins principaux : A, B, AB et O."
+  },
+  {
+    "id": "sc_072",
+    "category": "sciences_technologie",
+    "question": "Quel médecin britannique est à l'origine du tout premier vaccin, contre la variole, à la fin du XVIIIe siècle ?",
+    "options": [
+      "Edward Jenner",
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Joseph Lister"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Edward Jenner a mis au point le premier vaccin, contre la variole, en 1796."
+  },
+  {
+    "id": "sc_073",
+    "category": "sciences_technologie",
+    "question": "Quel chimiste russe a créé le tableau périodique des éléments, en 1869 ?",
+    "options": [
+      "Dmitri Mendeleïev",
+      "Antoine Lavoisier",
+      "Marie Curie",
+      "Ernest Rutherford"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Dmitri Mendeleïev a établi le tableau périodique des éléments en 1869."
+  },
+  {
+    "id": "sc_074",
+    "category": "sciences_technologie",
+    "question": "Quelle est la valeur approximative du nombre pi, utilisée notamment pour les calculs sur le cercle ?",
+    "options": [
+      "2,71828",
+      "3,14159",
+      "1,61803",
+      "4,66920"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le nombre pi vaut environ 3,14159."
+  },
+  {
+    "id": "sc_075",
+    "category": "sciences_technologie",
+    "question": "Quel théorème mathématique relie les longueurs des trois côtés d'un triangle rectangle ?",
+    "options": [
+      "Le théorème de Thalès",
+      "Le théorème de Pythagore",
+      "Le théorème de Fermat",
+      "Le théorème d'Euclide"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le théorème de Pythagore relie le carré de l'hypoténuse à la somme des carrés des deux autres côtés."
+  },
+  {
+    "id": "sc_076",
+    "category": "sciences_technologie",
+    "question": "Quelle est la formule la plus célèbre d'Albert Einstein, reliant énergie, masse et vitesse de la lumière ?",
+    "options": [
+      "F = ma",
+      "E = mc²",
+      "PV = nRT",
+      "a² + b² = c²"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "E = mc² est la célèbre équation d'équivalence masse-énergie formulée par Einstein."
+  },
+  {
+    "id": "sc_077",
+    "category": "sciences_technologie",
+    "question": "Quel système, développé initialement à des fins militaires, permet la géolocalisation par satellite ?",
+    "options": [
+      "Le Wi-Fi",
+      "Le GPS",
+      "Le Bluetooth",
+      "La 4G"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le GPS (Global Positioning System) a été développé à l'origine par l'armée américaine."
+  },
+  {
+    "id": "sc_078",
+    "category": "sciences_technologie",
+    "question": "Qui a créé, à l'origine en 1991, le système d'exploitation Linux ?",
+    "options": [
+      "Bill Gates",
+      "Linus Torvalds",
+      "Steve Jobs",
+      "Dennis Ritchie"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Linus Torvalds a créé le noyau Linux en 1991, alors qu'il était étudiant."
+  },
+  {
+    "id": "sc_079",
+    "category": "sciences_technologie",
+    "question": "Qui a fondé l'encyclopédie collaborative Wikipédia, en 2001 ?",
+    "options": [
+      "Jimmy Wales",
+      "Larry Page",
+      "Tim Berners-Lee",
+      "Mark Zuckerberg"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Jimmy Wales a cofondé Wikipédia en 2001."
+  },
+  {
+    "id": "sc_080",
+    "category": "sciences_technologie",
+    "question": "Comment se nomme le premier ordinateur électronique entièrement numérique, construit dans les années 1940 aux États-Unis ?",
+    "options": [
+      "L'ENIAC",
+      "L'UNIVAC",
+      "L'IBM 701",
+      "Le Colossus"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "L'ENIAC, mis en service en 1945, est considéré comme le premier ordinateur électronique numérique à grande échelle."
+  },
+  {
+    "id": "sc_081",
+    "category": "sciences_technologie",
+    "question": "Quelle agence spatiale américaine gère, avec ses partenaires internationaux, la Station spatiale internationale (ISS) ?",
+    "options": [
+      "L'ESA",
+      "La NASA",
+      "Roscosmos",
+      "La JAXA"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La NASA, avec ses partenaires internationaux, gère la Station spatiale internationale."
+  },
+  {
+    "id": "sc_082",
+    "category": "sciences_technologie",
+    "question": "Quel télescope spatial, lancé en 1990, a révolutionné l'observation astronomique depuis l'orbite terrestre ?",
+    "options": [
+      "Le télescope James Webb",
+      "Le télescope spatial Hubble",
+      "Le télescope Kepler",
+      "Le télescope Spitzer"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le télescope spatial Hubble, lancé en 1990, a transformé l'astronomie moderne."
+  },
+  {
+    "id": "sc_083",
+    "category": "sciences_technologie",
+    "question": "Quel type de micro-organisme, plus petit qu'une bactérie, ne peut se reproduire qu'à l'intérieur d'une cellule hôte ?",
+    "options": [
+      "Un champignon",
+      "Un virus",
+      "Un parasite",
+      "Une algue"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Un virus a besoin d'infecter une cellule hôte pour pouvoir se reproduire."
+  },
+  {
+    "id": "sc_084",
+    "category": "sciences_technologie",
+    "question": "Quel continent est particulièrement concerné par le trou observé dans la couche d'ozone ?",
+    "options": [
+      "L'Arctique",
+      "L'Antarctique",
+      "L'Amérique du Sud",
+      "L'Asie"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le trou dans la couche d'ozone est principalement observé au-dessus de l'Antarctique."
+  },
+  {
+    "id": "sc_085",
+    "category": "sciences_technologie",
+    "question": "Quel est l'élément chimique naturel le plus lourd que l'on trouve dans la croûte terrestre ?",
+    "options": [
+      "Le plomb",
+      "L'uranium",
+      "Le plutonium",
+      "Le mercure"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "L'uranium est l'élément naturel le plus lourd présent en quantité notable dans la croûte terrestre."
+  },
+  {
+    "id": "sc_086",
+    "category": "sciences_technologie",
+    "question": "Quel roi danois du Xe siècle a donné son nom, par analogie, à la technologie sans fil Bluetooth ?",
+    "options": [
+      "Harald à la Dent bleue",
+      "Canute le Grand",
+      "Sven à la Barbe fourchue",
+      "Gorm l'Ancien"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Le nom \"Bluetooth\" fait référence au roi Harald à la Dent bleue, qui unifia le Danemark."
+  },
+  {
+    "id": "sc_087",
+    "category": "sciences_technologie",
+    "question": "Quelle technologie, inventée au Japon en 1994, permet de stocker des informations sous forme de code carré scannable ?",
+    "options": [
+      "Le code-barres",
+      "Le QR code",
+      "La puce NFC",
+      "Le code Data Matrix"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le QR code a été inventé en 1994 par l'entreprise japonaise Denso Wave."
+  },
+  {
+    "id": "sc_088",
+    "category": "sciences_technologie",
+    "question": "En quelle décennie le premier message électronique (e-mail) a-t-il été envoyé ?",
+    "options": [
+      "Les années 1960",
+      "Les années 1970",
+      "Les années 1980",
+      "Les années 1990"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le premier e-mail a été envoyé au début des années 1970."
+  },
+  {
+    "id": "sc_089",
+    "category": "sciences_technologie",
+    "question": "Comment se nomme le processus par lequel le corps humain régule sa température interne ?",
+    "options": [
+      "La transpiration uniquement",
+      "La thermorégulation",
+      "La vasoconstriction uniquement",
+      "L'homéostasie glycémique"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La thermorégulation est le processus global par lequel le corps maintient sa température interne stable."
+  },
+  {
+    "id": "sc_090",
+    "category": "sciences_technologie",
+    "question": "Combien de lobes principaux compte le cerveau humain (frontal, pariétal, temporal, occipital) ?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Le cerveau humain est généralement divisé en 4 lobes principaux."
+  },
+  {
+    "id": "sc_091",
+    "category": "sciences_technologie",
+    "question": "Quel organe du système respiratoire permet les échanges gazeux entre l'air inspiré et le sang ?",
+    "options": [
+      "La trachée",
+      "Les poumons",
+      "Le larynx",
+      "Le diaphragme"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Les poumons permettent les échanges gazeux entre l'air et le sang."
+  },
+  {
+    "id": "sc_092",
+    "category": "sciences_technologie",
+    "question": "Quelle vitamine, produite par la peau grâce à l'exposition au soleil, est essentielle à la santé des os ?",
+    "options": [
+      "La vitamine A",
+      "La vitamine D",
+      "La vitamine E",
+      "La vitamine K"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La vitamine D, synthétisée par la peau sous l'effet du soleil, est essentielle à la santé osseuse."
+  },
+  {
+    "id": "sc_093",
+    "category": "sciences_technologie",
+    "question": "Comment se nomme la cellule reproductrice masculine chez l'être humain ?",
+    "options": [
+      "L'ovule",
+      "Le spermatozoïde",
+      "Le zygote",
+      "La gamète femelle"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le spermatozoïde est la cellule reproductrice masculine chez l'humain."
+  },
+  {
+    "id": "sc_094",
+    "category": "sciences_technologie",
+    "question": "Comment se nomme le processus par lequel une graine se transforme en jeune plante ?",
+    "options": [
+      "La photosynthèse",
+      "La germination",
+      "La pollinisation",
+      "La fermentation"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La germination est le processus par lequel une graine commence à se développer en plante."
+  },
+  {
+    "id": "sc_095",
+    "category": "sciences_technologie",
+    "question": "Quelle unité du Système international mesure la quantité de charge électrique ?",
+    "options": [
+      "Le volt",
+      "Le coulomb",
+      "L'ampère-heure",
+      "Le farad"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le coulomb est l'unité de mesure de la charge électrique."
+  },
+  {
+    "id": "sc_096",
+    "category": "sciences_technologie",
+    "question": "Quel gaz, produit par la respiration cellulaire, est rejeté par les humains et absorbé par les plantes ?",
+    "options": [
+      "L'oxygène",
+      "Le dioxyde de carbone",
+      "L'azote",
+      "L'hydrogène"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le dioxyde de carbone (CO2) est rejeté lors de la respiration et absorbé par les plantes pour la photosynthèse."
+  },
+  {
+    "id": "sc_097",
+    "category": "sciences_technologie",
+    "question": "Quelle machine allemande de chiffrement, décryptée notamment grâce aux travaux d'Alan Turing, a marqué la Seconde Guerre mondiale ?",
+    "options": [
+      "La machine Enigma",
+      "Le Colossus",
+      "La Bombe de Turing",
+      "Le Lorenz SZ"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La machine Enigma, utilisée par l'Allemagne nazie pour chiffrer ses communications, a été décryptée notamment grâce aux travaux d'Alan Turing."
+  },
+  {
+    "id": "sc_098",
+    "category": "sciences_technologie",
+    "question": "Quel mathématicien britannique est considéré comme un pionnier de l'informatique moderne pour ses travaux sur le calcul et le décryptage ?",
+    "options": [
+      "Alan Turing",
+      "John von Neumann",
+      "Claude Shannon",
+      "Tim Berners-Lee"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Alan Turing est considéré comme l'un des pères fondateurs de l'informatique théorique moderne."
+  },
+  {
+    "id": "sc_099",
+    "category": "sciences_technologie",
+    "question": "Quelle unité de mesure informatique équivaut à environ 1000 (ou 1024) gigaoctets ?",
+    "options": [
+      "Le mégaoctet",
+      "Le téraoctet",
+      "Le kilooctet",
+      "Le pétaoctet"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Un téraoctet équivaut à environ 1000 (ou 1024) gigaoctets."
+  },
+  {
+    "id": "sc_100",
+    "category": "sciences_technologie",
+    "question": "Quel type de mémoire informatique perd son contenu lorsque l'ordinateur est éteint ?",
+    "options": [
+      "Le disque dur",
+      "La mémoire vive (RAM)",
+      "La mémoire flash",
+      "Le SSD"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La mémoire vive (RAM) est une mémoire volatile qui perd son contenu à l'extinction de l'ordinateur."
+  }
+]

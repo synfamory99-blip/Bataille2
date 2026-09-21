@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "mu_001",
+    "category": "musique",
+    "question": "Combien de touches compte un piano standard ?",
+    "options": [
+      "76",
+      "88",
+      "92",
+      "100"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Un piano standard compte 88 touches : 52 blanches et 36 noires."
+  },
+  {
+    "id": "mu_002",
+    "category": "musique",
+    "question": "Quel instrument est emblématique du flamenco ?",
+    "options": [
+      "Le violon",
+      "La guitare",
+      "La flûte",
+      "Le piano"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La guitare flamenca est au cœur de cette musique traditionnelle espagnole."
+  },
+  {
+    "id": "mu_003",
+    "category": "musique",
+    "question": "Dans quel pays le reggae est-il né ?",
+    "options": [
+      "Jamaïque",
+      "Cuba",
+      "Brésil",
+      "Nigéria"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "Le reggae est né en Jamaïque dans les années 1960."
+  },
+  {
+    "id": "mu_004",
+    "category": "musique",
+    "question": "Qui a composé la 9e symphonie, incluant l'« Ode à la joie » ?",
+    "options": [
+      "Mozart",
+      "Bach",
+      "Beethoven",
+      "Chopin"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Beethoven a composé sa 9e symphonie, achevée en 1824."
+  },
+  {
+    "id": "mu_005",
+    "category": "musique",
+    "question": "Comment se nomme le genre musical ivoirien né dans les années 1990, associé au monde étudiant ?",
+    "options": [
+      "Le coupé-décalé",
+      "Le zouglou",
+      "Le ndombolo",
+      "Le mapouka"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le zouglou est né dans les cités universitaires ivoiriennes au début des années 1990."
+  },
+  {
+    "id": "mu_006",
+    "category": "musique",
+    "question": "Combien de cordes compte une guitare classique standard ?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "La guitare classique standard compte 6 cordes."
+  },
+  {
+    "id": "mu_007",
+    "category": "musique",
+    "question": "Comment s'appelle cet instrument ouest-africain à lamelles de bois et résonateurs en calebasse, parfois surnommé « piano africain » ?",
+    "options": [
+      "La kora",
+      "Le djembé",
+      "Le balafon",
+      "Le talking drum"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "Le balafon est un xylophone traditionnel d'Afrique de l'Ouest."
+  },
+  {
+    "id": "mu_008",
+    "category": "musique",
+    "question": "Quel artiste est surnommé le « roi de la pop » ?",
+    "options": [
+      "Prince",
+      "Michael Jackson",
+      "Elvis Presley",
+      "Stevie Wonder"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Michael Jackson est surnommé le « King of Pop »."
+  },
+  {
+    "id": "mu_009",
+    "category": "musique",
+    "question": "Quel instrument à vent est particulièrement emblématique du jazz, aux côtés de la trompette ?",
+    "options": [
+      "La clarinette",
+      "La flûte traversière",
+      "Le saxophone",
+      "Le hautbois"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Le saxophone est l'un des instruments les plus emblématiques du jazz depuis le début du XXe siècle."
+  },
+  {
+    "id": "mu_010",
+    "category": "musique",
+    "question": "Quel groupe britannique a interprété \"Bohemian Rhapsody\" ?",
+    "options": [
+      "The Beatles",
+      "Queen",
+      "Pink Floyd",
+      "The Rolling Stones"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "\"Bohemian Rhapsody\" est un titre emblématique du groupe Queen, sorti en 1975."
+  },
+  {
+    "id": "mu_011",
+    "category": "musique",
+    "question": "Quel artiste est à l'origine du titre \"Thriller\", sorti en 1982 ?",
+    "options": [
+      "Prince",
+      "Stevie Wonder",
+      "Michael Jackson",
+      "James Brown"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "\"Thriller\" est un titre emblématique de Michael Jackson, extrait de l'album du même nom."
+  },
+  {
+    "id": "mu_012",
+    "category": "musique",
+    "question": "Quel genre de musique électronique, né dans les clubs de Chicago dans les années 1980, repose sur une pulsation régulière en 4 temps ?",
+    "options": [
+      "La techno",
+      "La house",
+      "La trance",
+      "Le dubstep"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "La house music est née à Chicago au début des années 1980, tandis que la techno est née à Detroit peu après."
+  },
+  {
+    "id": "mu_013",
+    "category": "musique",
+    "question": "Parmi les voix masculines classiques, laquelle est la plus aiguë ?",
+    "options": [
+      "La basse",
+      "Le baryton",
+      "Le ténor",
+      "L'alto"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Le ténor est la voix masculine la plus aiguë parmi les registres classiques standards (basse, baryton, ténor)."
+  },
+  {
+    "id": "mu_014",
+    "category": "musique",
+    "question": "Quel instrument à vent, à sac et tuyaux, est associé à la culture écossaise ?",
+    "options": [
+      "L'accordéon",
+      "La cornemuse",
+      "Le violon",
+      "La harpe"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La cornemuse est un instrument emblématique de l'Écosse."
+  },
+  {
+    "id": "mu_015",
+    "category": "musique",
+    "question": "Le coupé-décalé, genre musical né dans la diaspora ivoirienne en France, a émergé durant quelle décennie ?",
+    "options": [
+      "Les années 1980",
+      "Les années 1990",
+      "Les années 2000",
+      "Les années 2010"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Le coupé-décalé est apparu au début des années 2000 dans les communautés ivoiriennes de la diaspora."
+  },
+  {
+    "id": "mu_016",
+    "category": "musique",
+    "question": "Quel compositeur autrichien du XVIIIe siècle a écrit l'opéra \"La Flûte enchantée\" ?",
+    "options": [
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach",
+      "Joseph Haydn"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Mozart a composé \"La Flûte enchantée\", créée en 1791."
+  },
+  {
+    "id": "mu_017",
+    "category": "musique",
+    "question": "Combien de cordes possède un violon standard ?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le violon standard possède 4 cordes, accordées en quintes."
+  },
+  {
+    "id": "mu_018",
+    "category": "musique",
+    "question": "Quel instrument à percussion, joué à la main, est un symbole de la musique ouest-africaine ?",
+    "options": [
+      "La kora",
+      "Le djembé",
+      "Le tama",
+      "Le balafon"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le djembé est un tambour joué à mains nues, emblématique d'Afrique de l'Ouest."
+  },
+  {
+    "id": "mu_019",
+    "category": "musique",
+    "question": "La kora, instrument ouest-africain, appartient à quelle famille d'instruments ?",
+    "options": [
+      "Les tambours",
+      "Les harpes-luths à cordes pincées",
+      "Les instruments à vent",
+      "Les xylophones"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La kora est une harpe-luth à 21 cordes, originaire de la région mandingue d'Afrique de l'Ouest."
+  },
+  {
+    "id": "mu_020",
+    "category": "musique",
+    "question": "Quel pays est considéré comme le berceau du tango ?",
+    "options": [
+      "L'Espagne",
+      "Le Brésil",
+      "L'Argentine",
+      "Cuba"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Le tango est né à Buenos Aires, en Argentine, à la fin du XIXe siècle."
+  },
+  {
+    "id": "mu_021",
+    "category": "musique",
+    "question": "Quel style musical jamaïcain, apparu dans les années 1960, est considéré comme le précurseur du reggae ?",
+    "options": [
+      "Le dub",
+      "Le ska",
+      "Le dancehall",
+      "Le roots"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le ska, né en Jamaïque au tournant des années 1960, a précédé et influencé le reggae."
+  },
+  {
+    "id": "mu_022",
+    "category": "musique",
+    "question": "Comment appelle-t-on un ensemble de musiciens jouant de la musique classique, dirigé par un chef ?",
+    "options": [
+      "Un chœur",
+      "Une fanfare",
+      "Un orchestre",
+      "Un ensemble de chambre"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Un orchestre (symphonique ou philharmonique) est dirigé par un chef d'orchestre."
+  },
+  {
+    "id": "mu_023",
+    "category": "musique",
+    "question": "Comment se nomme la flûte de pan traditionnelle des Andes, faite de tubes de bambou attachés côte à côte ?",
+    "options": [
+      "La quena",
+      "La zampoña",
+      "Le charango",
+      "Le bombo"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La zampoña, ou flûte de pan andine, est composée de plusieurs tubes de longueurs différentes."
+  },
+  {
+    "id": "mu_024",
+    "category": "musique",
+    "question": "Quelle chanteuse américaine est surnommée la \"Queen of Soul\" ?",
+    "options": [
+      "Whitney Houston",
+      "Diana Ross",
+      "Aretha Franklin",
+      "Tina Turner"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Aretha Franklin, surnommée la \"Queen of Soul\", est l'une des voix les plus influentes de la musique soul."
+  },
+  {
+    "id": "mu_025",
+    "category": "musique",
+    "question": "Comment se nomme la cérémonie annuelle qui récompense les meilleurs artistes musicaux aux États-Unis, organisée par la Recording Academy ?",
+    "options": [
+      "Les Oscars",
+      "Les Grammy Awards",
+      "Les Emmy Awards",
+      "Les Tony Awards"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Les Grammy Awards récompensent chaque année les meilleures productions musicales."
+  },
+  {
+    "id": "mu_026",
+    "category": "musique",
+    "question": "Comment appelle-t-on une chanson interprétée par des voix seules, sans accompagnement instrumental ?",
+    "options": [
+      "Acoustique",
+      "A cappella",
+      "Playback",
+      "Chœur"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le terme \"a cappella\" désigne un chant exécuté sans instrument, uniquement avec des voix."
+  },
+  {
+    "id": "mu_027",
+    "category": "musique",
+    "question": "Quel chanteur sénégalais a popularisé le mbalax à l'international, notamment avec le titre \"7 Seconds\" ?",
+    "options": [
+      "Salif Keita",
+      "Baaba Maal",
+      "Youssou N'Dour",
+      "Ismaël Lô"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Youssou N'Dour est l'un des ambassadeurs les plus connus de la musique sénégalaise à l'international."
+  },
+  {
+    "id": "mu_028",
+    "category": "musique",
+    "question": "Comment se nomme le genre musical dansant né en République démocratique du Congo dans les années 1940-1950, précurseur du soukous ?",
+    "options": [
+      "Le makossa",
+      "La rumba congolaise",
+      "Le highlife",
+      "L'afrobeat"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "La rumba congolaise, influencée par les musiques afro-cubaines, est à l'origine de nombreux styles musicaux d'Afrique centrale."
+  },
+  {
+    "id": "mu_029",
+    "category": "musique",
+    "question": "Quel groupe suédois est connu pour les titres \"Dancing Queen\" et \"Mamma Mia\" ?",
+    "options": [
+      "Roxette",
+      "ABBA",
+      "Ace of Base",
+      "Europe"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "ABBA est un groupe suédois emblématique des années 1970, notamment connu pour \"Dancing Queen\"."
+  },
+  {
+    "id": "mu_030",
+    "category": "musique",
+    "question": "Quel chanteur américain est surnommé \"The King\" du rock'n'roll ?",
+    "options": [
+      "Elvis Presley",
+      "Chuck Berry",
+      "Little Richard",
+      "Jerry Lee Lewis"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "Elvis Presley est surnommé \"The King\" en référence à son statut dans l'histoire du rock'n'roll."
+  },
+  {
+    "id": "mu_031",
+    "category": "musique",
+    "question": "Quel instrument à clavier et à tuyaux est traditionnellement associé à la musique d'église ?",
+    "options": [
+      "Le clavecin",
+      "Le piano",
+      "L'orgue",
+      "L'accordéon"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "L'orgue à tuyaux est un instrument emblématique de la musique religieuse occidentale."
+  },
+  {
+    "id": "mu_032",
+    "category": "musique",
+    "question": "Quelle chanteuse française est connue pour l'interprétation de \"La Vie en rose\" ?",
+    "options": [
+      "Édith Piaf",
+      "Dalida",
+      "Barbara",
+      "Juliette Gréco"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Édith Piaf a rendu \"La Vie en rose\" célèbre dans le monde entier."
+  },
+  {
+    "id": "mu_033",
+    "category": "musique",
+    "question": "Quel style musical, mêlant blues et ragtime, est né à La Nouvelle-Orléans au début du XXe siècle ?",
+    "options": [
+      "Le blues",
+      "Le jazz",
+      "Le funk",
+      "Le gospel"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le jazz est né à La Nouvelle-Orléans au tournant du XXe siècle."
+  },
+  {
+    "id": "mu_034",
+    "category": "musique",
+    "question": "Quel compositeur italien est célèbre pour ses opéras \"La Traviata\" et \"Aïda\" ?",
+    "options": [
+      "Giacomo Puccini",
+      "Giuseppe Verdi",
+      "Gioachino Rossini",
+      "Antonio Vivaldi"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Giuseppe Verdi est l'un des plus grands compositeurs d'opéra italiens du XIXe siècle."
+  },
+  {
+    "id": "mu_035",
+    "category": "musique",
+    "question": "Quel instrument à vent, à pistons, est traditionnellement associé aux fanfares ?",
+    "options": [
+      "Le trombone",
+      "La trompette",
+      "Le cor",
+      "Le tuba"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La trompette est l'un des instruments à vent les plus utilisés dans les fanfares et la musique militaire."
+  },
+  {
+    "id": "mu_036",
+    "category": "musique",
+    "question": "Quel chanteur américain, surnommé \"The Boss\", est connu pour \"Born in the USA\" ?",
+    "options": [
+      "Bob Dylan",
+      "Bruce Springsteen",
+      "Billy Joel",
+      "Tom Petty"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Bruce Springsteen, surnommé \"The Boss\", est l'auteur de l'album et du titre \"Born in the USA\"."
+  },
+  {
+    "id": "mu_037",
+    "category": "musique",
+    "question": "En musique, quel terme italien indique un tempo rapide et vif ?",
+    "options": [
+      "Adagio",
+      "Andante",
+      "Allegro",
+      "Largo"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "\"Allegro\" indique un tempo rapide et enjoué."
+  },
+  {
+    "id": "mu_038",
+    "category": "musique",
+    "question": "En musique, quel terme italien indique un tempo lent ?",
+    "options": [
+      "Presto",
+      "Allegro",
+      "Vivace",
+      "Adagio"
+    ],
+    "correctAnswer": 3,
+    "difficulty": "medium",
+    "explanation": "\"Adagio\" indique un tempo lent et posé."
+  },
+  {
+    "id": "mu_039",
+    "category": "musique",
+    "question": "Combien de notes compte la gamme diatonique majeure (do ré mi fa sol la si) ?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "La gamme diatonique majeure compte 7 notes avant de revenir au do de l'octave supérieure."
+  },
+  {
+    "id": "mu_040",
+    "category": "musique",
+    "question": "Quel pays est considéré comme le berceau du flamenco ?",
+    "options": [
+      "Le Portugal",
+      "L'Espagne",
+      "L'Italie",
+      "La Grèce"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le flamenco est né dans le sud de l'Espagne, en Andalousie."
+  },
+  {
+    "id": "mu_041",
+    "category": "musique",
+    "question": "Quel événement musical gratuit a lieu en France chaque 21 juin ?",
+    "options": [
+      "Le Printemps de Bourges",
+      "La Fête de la Musique",
+      "Les Victoires de la Musique",
+      "Le Festival d'Avignon"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La Fête de la Musique, créée en 1982, a lieu chaque 21 juin en France et dans de nombreux pays."
+  },
+  {
+    "id": "mu_042",
+    "category": "musique",
+    "question": "Quel groupe de rock britannique est connu pour l'album \"The Dark Side of the Moon\" ?",
+    "options": [
+      "Led Zeppelin",
+      "Pink Floyd",
+      "The Who",
+      "Queen"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Pink Floyd a publié \"The Dark Side of the Moon\" en 1973, l'un des albums les plus vendus de l'histoire."
+  },
+  {
+    "id": "mu_043",
+    "category": "musique",
+    "question": "Quel objet le chef d'orchestre tient-il généralement pour diriger les musiciens ?",
+    "options": [
+      "Un archet",
+      "Une baguette",
+      "Un pupitre",
+      "Une partition"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le chef d'orchestre dirige généralement à l'aide d'une baguette."
+  },
+  {
+    "id": "mu_044",
+    "category": "musique",
+    "question": "Quelle danse de couple, associée au carnaval de Rio, est originaire du Brésil ?",
+    "options": [
+      "La salsa",
+      "La samba",
+      "Le tango",
+      "La bachata"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La samba est une danse et un genre musical emblématiques du Brésil, au cœur du carnaval de Rio."
+  },
+  {
+    "id": "mu_045",
+    "category": "musique",
+    "question": "Quel genre musical jamaïcain, dérivé du reggae, met l'accent sur le chant parlé sur un rythme instrumental ?",
+    "options": [
+      "Le ska",
+      "Le dub",
+      "Le dancehall",
+      "Le roots"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "Le dancehall, apparu à la fin des années 1970 en Jamaïque, met l'accent sur le chant parlé rythmé (le \"toasting\")."
+  },
+  {
+    "id": "mu_046",
+    "category": "musique",
+    "question": "Dans quelle unité mesure-t-on l'intensité d'un son ?",
+    "options": [
+      "Le hertz",
+      "Le décibel",
+      "Le watt",
+      "Le kelvin"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'intensité sonore se mesure en décibels (dB)."
+  },
+  {
+    "id": "mu_047",
+    "category": "musique",
+    "question": "Quel musicien nigérian est considéré comme le pionnier de l'afrobeat dans les années 1970 ?",
+    "options": [
+      "Fela Kuti",
+      "King Sunny Adé",
+      "Femi Kuti",
+      "Burna Boy"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Fela Kuti a créé et popularisé l'afrobeat au Nigeria dans les années 1970."
+  },
+  {
+    "id": "mu_048",
+    "category": "musique",
+    "question": "Quel est le nom de la voix féminine la plus aiguë en chant classique ?",
+    "options": [
+      "L'alto",
+      "Le mezzo-soprano",
+      "La soprano",
+      "La contralto"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "La soprano est la voix féminine la plus aiguë parmi les registres classiques."
+  },
+  {
+    "id": "mu_049",
+    "category": "musique",
+    "question": "Quel groupe britannique, avec \"Hey Jude\" et \"Let It Be\", est considéré comme l'un des plus influents de l'histoire ?",
+    "options": [
+      "The Rolling Stones",
+      "The Beatles",
+      "Led Zeppelin",
+      "The Who"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "The Beatles sont considérés comme l'un des groupes les plus influents de l'histoire de la musique populaire."
+  },
+  {
+    "id": "mu_050",
+    "category": "musique",
+    "question": "Quel instrument à cordes pincées, typique du Portugal, accompagne traditionnellement le fado ?",
+    "options": [
+      "La guitare portugaise",
+      "Le luth",
+      "La mandoline",
+      "Le banjo"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La guitare portugaise, à la sonorité particulière, est indissociable du fado."
+  },
+  {
+    "id": "mu_051",
+    "category": "musique",
+    "question": "Quel genre musical portugais mélancolique, joué à la guitare portugaise, exprime le sentiment de \"saudade\" ?",
+    "options": [
+      "Le flamenco",
+      "Le fado",
+      "Le rebetiko",
+      "Le tango"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le fado est un genre musical portugais empreint de mélancolie, exprimant la \"saudade\"."
+  },
+  {
+    "id": "mu_052",
+    "category": "musique",
+    "question": "Quel compositeur russe a écrit le ballet \"Le Lac des cygnes\" ?",
+    "options": [
+      "Igor Stravinsky",
+      "Piotr Ilitch Tchaïkovski",
+      "Sergueï Prokofiev",
+      "Modeste Moussorgski"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Tchaïkovski a composé le célèbre ballet \"Le Lac des cygnes\" en 1875-1876."
+  },
+  {
+    "id": "mu_053",
+    "category": "musique",
+    "question": "Comment se nommait le piano à ses origines, au début du XVIIIe siècle ?",
+    "options": [
+      "Le clavicorde",
+      "Le pianoforte",
+      "L'épinette",
+      "Le virginal"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "L'instrument inventé par Bartolomeo Cristofori était appelé \"pianoforte\", nom raccourci plus tard en \"piano\"."
+  },
+  {
+    "id": "mu_054",
+    "category": "musique",
+    "question": "Quel style de musique électronique, caractérisé par des basses lourdes et des rythmes syncopés, est né au Royaume-Uni dans les années 2000 ?",
+    "options": [
+      "La house",
+      "Le dubstep",
+      "La trance",
+      "Le hardstyle"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le dubstep est né dans le sud de Londres au début des années 2000."
+  },
+  {
+    "id": "mu_055",
+    "category": "musique",
+    "question": "Quelle chanteuse québécoise est mondialement connue pour \"My Heart Will Go On\", thème du film Titanic ?",
+    "options": [
+      "Céline Dion",
+      "Shania Twain",
+      "Avril Lavigne",
+      "Alanis Morissette"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "Céline Dion a interprété \"My Heart Will Go On\", devenu un immense succès mondial."
+  },
+  {
+    "id": "mu_056",
+    "category": "musique",
+    "question": "Comment se nomme le festival de musique tenu en 1969 aux États-Unis, devenu symbole de la contre-culture ?",
+    "options": [
+      "Coachella",
+      "Woodstock",
+      "Glastonbury",
+      "Lollapalooza"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le festival de Woodstock, en 1969, est devenu un symbole de la contre-culture des années 1960."
+  },
+  {
+    "id": "mu_057",
+    "category": "musique",
+    "question": "Quel groupe, mené par Bob Marley, a fait connaître le reggae au monde entier dans les années 1970 ?",
+    "options": [
+      "Bob Marley and the Wailers",
+      "Toots and the Maytals",
+      "Black Uhuru",
+      "Steel Pulse"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Bob Marley and the Wailers ont grandement contribué à la popularisation internationale du reggae."
+  },
+  {
+    "id": "mu_058",
+    "category": "musique",
+    "question": "Quel chanteur jamaïcain, auteur de \"No Woman No Cry\", est la figure la plus emblématique du reggae ?",
+    "options": [
+      "Peter Tosh",
+      "Bob Marley",
+      "Jimmy Cliff",
+      "Burning Spear"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Bob Marley reste l'artiste le plus emblématique du reggae à l'échelle mondiale."
+  },
+  {
+    "id": "mu_059",
+    "category": "musique",
+    "question": "Comment appelle-t-on une œuvre classique en plusieurs mouvements, écrite pour un soliste accompagné d'un orchestre ?",
+    "options": [
+      "Une symphonie",
+      "Un concerto",
+      "Une sonate",
+      "Un oratorio"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Un concerto met en valeur un instrument soliste accompagné d'un orchestre."
+  },
+  {
+    "id": "mu_060",
+    "category": "musique",
+    "question": "Quelle œuvre orchestrale célèbre, en quatre parties, décrit musicalement les saisons de l'année ?",
+    "options": [
+      "Les Quatre Saisons",
+      "La Symphonie pastorale",
+      "Les Planètes",
+      "Le Boléro"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "\"Les Quatre Saisons\" est une suite de quatre concertos pour violon décrivant chaque saison."
+  },
+  {
+    "id": "mu_061",
+    "category": "musique",
+    "question": "Quel compositeur italien du XVIIIe siècle a écrit \"Les Quatre Saisons\" ?",
+    "options": [
+      "Antonio Vivaldi",
+      "Domenico Scarlatti",
+      "Arcangelo Corelli",
+      "Alessandro Scarlatti"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Antonio Vivaldi a composé \"Les Quatre Saisons\" vers 1725."
+  },
+  {
+    "id": "mu_062",
+    "category": "musique",
+    "question": "Comment se nomme la célèbre salle d'opéra parisienne inaugurée en 1875 ?",
+    "options": [
+      "L'Opéra Bastille",
+      "L'Opéra Garnier",
+      "Le Théâtre du Châtelet",
+      "La Salle Pleyel"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "L'Opéra Garnier, inauguré en 1875, est l'un des monuments emblématiques de Paris."
+  },
+  {
+    "id": "mu_063",
+    "category": "musique",
+    "question": "Quel genre musical très dansant, mêlant percussions et cuivres, est originaire de Cuba ?",
+    "options": [
+      "La bossa nova",
+      "La salsa",
+      "Le merengue",
+      "La cumbia"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La salsa trouve ses racines dans la musique cubaine, avant de se développer notamment à New York."
+  },
+  {
+    "id": "mu_064",
+    "category": "musique",
+    "question": "Comment se nomme l'instrument à cordes indien, popularisé en Occident notamment via les Beatles ?",
+    "options": [
+      "Le sitar",
+      "Le tabla",
+      "Le sarod",
+      "Le santour"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le sitar a été popularisé en Occident dans les années 1960, notamment grâce à George Harrison des Beatles."
+  },
+  {
+    "id": "mu_065",
+    "category": "musique",
+    "question": "Quel musicien indien, virtuose du sitar, a contribué à faire connaître cet instrument en Occident ?",
+    "options": [
+      "Ravi Shankar",
+      "Zakir Hussain",
+      "Ali Akbar Khan",
+      "Anoushka Shankar"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Ravi Shankar a fait découvrir le sitar à un large public occidental dans les années 1960."
+  },
+  {
+    "id": "mu_066",
+    "category": "musique",
+    "question": "Quel genre musical, né dans le quartier du Bronx à New York dans les années 1970, mêle paroles rythmées et samples ?",
+    "options": [
+      "Le funk",
+      "Le hip-hop",
+      "Le disco",
+      "Le R&B"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le hip-hop est né dans le Bronx, à New York, au cours des années 1970."
+  },
+  {
+    "id": "mu_067",
+    "category": "musique",
+    "question": "Comment appelle-t-on un ensemble de musique de chambre composé de deux violons, un alto et un violoncelle ?",
+    "options": [
+      "Un trio",
+      "Un quatuor à cordes",
+      "Un quintette",
+      "Un octuor"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le quatuor à cordes, formation classique, réunit deux violons, un alto et un violoncelle."
+  },
+  {
+    "id": "mu_068",
+    "category": "musique",
+    "question": "Quel est l'instrument le plus grave de la famille des cordes frottées, plus grand que le violoncelle ?",
+    "options": [
+      "L'alto",
+      "Le violoncelle",
+      "La contrebasse",
+      "Le violon"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "La contrebasse est le plus grand et le plus grave des instruments à cordes frottées de l'orchestre."
+  },
+  {
+    "id": "mu_069",
+    "category": "musique",
+    "question": "Quel chanteur britannique, connu pour ses personnages scéniques dont Ziggy Stardust, est une icône du rock des années 1970-1980 ?",
+    "options": [
+      "Elton John",
+      "David Bowie",
+      "Rod Stewart",
+      "Phil Collins"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "David Bowie est célèbre pour ses réinventions artistiques, dont le personnage de Ziggy Stardust."
+  },
+  {
+    "id": "mu_070",
+    "category": "musique",
+    "question": "Quelle chanteuse américaine, décédée en 2012, est connue pour \"I Will Always Love You\" ?",
+    "options": [
+      "Mariah Carey",
+      "Whitney Houston",
+      "Toni Braxton",
+      "Anita Baker"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Whitney Houston a rendu \"I Will Always Love You\" mondialement célèbre."
+  },
+  {
+    "id": "mu_071",
+    "category": "musique",
+    "question": "Quel musicien américain aveugle, virtuose du piano et de l'harmonica, est une légende de la soul et de la Motown ?",
+    "options": [
+      "Ray Charles",
+      "Stevie Wonder",
+      "Marvin Gaye",
+      "Smokey Robinson"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Stevie Wonder, aveugle depuis son enfance, est l'une des plus grandes figures de la musique soul."
+  },
+  {
+    "id": "mu_072",
+    "category": "musique",
+    "question": "Quel compositeur allemand du baroque est notamment connu pour ses \"Concertos brandebourgeois\" ?",
+    "options": [
+      "Georg Friedrich Haendel",
+      "Jean-Sébastien Bach",
+      "Antonio Vivaldi",
+      "Georg Philipp Telemann"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Jean-Sébastien Bach a composé les \"Concertos brandebourgeois\" au début du XVIIIe siècle."
+  },
+  {
+    "id": "mu_073",
+    "category": "musique",
+    "question": "Quel compositeur polonais, virtuose du piano, est célèbre pour ses nocturnes et ses valses romantiques ?",
+    "options": [
+      "Franz Liszt",
+      "Frédéric Chopin",
+      "Johannes Brahms",
+      "Robert Schumann"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Frédéric Chopin, compositeur polonais, est réputé pour ses œuvres pour piano, dont ses nocturnes."
+  },
+  {
+    "id": "mu_074",
+    "category": "musique",
+    "question": "Quel compositeur français impressionniste est l'auteur de \"Clair de lune\" ?",
+    "options": [
+      "Maurice Ravel",
+      "Claude Debussy",
+      "Gabriel Fauré",
+      "Erik Satie"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Claude Debussy a composé \"Clair de lune\", extrait de la \"Suite bergamasque\"."
+  },
+  {
+    "id": "mu_075",
+    "category": "musique",
+    "question": "Quel style musical, né dans le delta du Mississippi à la fin du XIXe siècle, est à l'origine du jazz et du rock ?",
+    "options": [
+      "Le gospel",
+      "Le blues",
+      "Le ragtime",
+      "Le folk"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le blues, né dans le sud des États-Unis, a fortement influencé le jazz et le rock."
+  },
+  {
+    "id": "mu_076",
+    "category": "musique",
+    "question": "Quel genre musical, apparu au Royaume-Uni et aux États-Unis dans les années 1970, se caractérise par un son brut et une attitude contestataire ?",
+    "options": [
+      "Le punk",
+      "Le disco",
+      "Le funk",
+      "Le glam rock"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le punk est né au milieu des années 1970, porté par une attitude anticonformiste et un son volontairement brut."
+  },
+  {
+    "id": "mu_077",
+    "category": "musique",
+    "question": "Quel petit instrument à quatre cordes, originaire d'Hawaï, est souvent associé à la musique tropicale ?",
+    "options": [
+      "Le banjo",
+      "Le ukulélé",
+      "La mandoline",
+      "Le charango"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le ukulélé est un petit instrument à cordes originaire d'Hawaï."
+  },
+  {
+    "id": "mu_078",
+    "category": "musique",
+    "question": "Quel instrument à vent traditionnel aborigène australien produit un son grave et continu ?",
+    "options": [
+      "Le didgeridoo",
+      "Le shofar",
+      "Le cor des Alpes",
+      "La conque"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le didgeridoo est un instrument à vent traditionnel des peuples aborigènes d'Australie."
+  },
+  {
+    "id": "mu_079",
+    "category": "musique",
+    "question": "Quelle grande compétition musicale télévisée européenne, organisée depuis 1956, voit chaque pays présenter une chanson ?",
+    "options": [
+      "Le Festival de Cannes",
+      "L'Eurovision",
+      "Les Victoires de la Musique",
+      "Le Midem"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le Concours Eurovision de la chanson est organisé chaque année depuis 1956."
+  },
+  {
+    "id": "mu_080",
+    "category": "musique",
+    "question": "Comment se nomme la structure de 5 lignes horizontales sur laquelle s'écrit la musique ?",
+    "options": [
+      "La clé",
+      "La portée",
+      "La mesure",
+      "L'armure"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La portée, composée de 5 lignes, est le support sur lequel s'écrit la notation musicale."
+  },
+  {
+    "id": "mu_081",
+    "category": "musique",
+    "question": "Quelle clé musicale est la plus couramment utilisée pour les instruments aigus comme le violon ?",
+    "options": [
+      "La clé de fa",
+      "La clé de sol",
+      "La clé d'ut",
+      "La clé de si"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La clé de sol est utilisée pour les instruments et voix aiguës, comme le violon."
+  },
+  {
+    "id": "mu_082",
+    "category": "musique",
+    "question": "Quelle clé musicale est généralement utilisée pour les instruments graves comme le violoncelle ?",
+    "options": [
+      "La clé de sol",
+      "La clé de fa",
+      "La clé d'ut",
+      "La clé de ré"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La clé de fa est utilisée pour les instruments graves, comme le violoncelle ou la contrebasse."
+  },
+  {
+    "id": "mu_083",
+    "category": "musique",
+    "question": "En musique, quel terme italien indique une augmentation progressive de l'intensité sonore ?",
+    "options": [
+      "Diminuendo",
+      "Crescendo",
+      "Staccato",
+      "Legato"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "\"Crescendo\" indique une augmentation progressive du volume sonore."
+  },
+  {
+    "id": "mu_084",
+    "category": "musique",
+    "question": "Dans un opéra, comment appelle-t-on un morceau chanté en solo par un personnage ?",
+    "options": [
+      "Un chœur",
+      "Une aria",
+      "Un récitatif",
+      "Un intermezzo"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Une aria est un morceau chanté en solo, moment fort d'un opéra."
+  },
+  {
+    "id": "mu_085",
+    "category": "musique",
+    "question": "Quel célèbre théâtre d'opéra, l'un des plus prestigieux au monde, se trouve à Milan ?",
+    "options": [
+      "La Fenice",
+      "La Scala",
+      "Le Bolchoï",
+      "L'Opéra Bastille"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La Scala de Milan est l'un des théâtres d'opéra les plus prestigieux au monde."
+  },
+  {
+    "id": "mu_086",
+    "category": "musique",
+    "question": "Quel genre musical ghanéen, né au début du XXe siècle, mêle rythmes traditionnels et influences occidentales ?",
+    "options": [
+      "Le highlife",
+      "L'afrobeat",
+      "Le soukous",
+      "Le mbalax"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Le highlife est né au Ghana au début du XXe siècle, mêlant instruments occidentaux et rythmes locaux."
+  },
+  {
+    "id": "mu_087",
+    "category": "musique",
+    "question": "Quel genre musical dansant, originaire de République dominicaine, est devenu très populaire à l'international ?",
+    "options": [
+      "La bachata",
+      "Le merengue uniquement",
+      "La cumbia",
+      "Le vallenato"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La bachata, née en République dominicaine, connaît un grand succès international."
+  },
+  {
+    "id": "mu_088",
+    "category": "musique",
+    "question": "Quel genre musical, né à Porto Rico, mêle reggae, hip-hop et rythmes latins ?",
+    "options": [
+      "Le reggaeton",
+      "La salsa",
+      "La bachata",
+      "Le merengue"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le reggaeton est né à Porto Rico, mélangeant influences reggae, hip-hop et latines."
+  },
+  {
+    "id": "mu_089",
+    "category": "musique",
+    "question": "Dans la classification des instruments d'orchestre, à quelle famille appartiennent la flûte et la clarinette ?",
+    "options": [
+      "Les cuivres",
+      "Les bois",
+      "Les percussions",
+      "Les cordes"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La flûte et la clarinette appartiennent à la famille des bois, malgré leurs matériaux variés."
+  },
+  {
+    "id": "mu_090",
+    "category": "musique",
+    "question": "Dans la classification des instruments d'orchestre, à quelle famille appartiennent la trompette et le trombone ?",
+    "options": [
+      "Les bois",
+      "Les cuivres",
+      "Les cordes",
+      "Les percussions"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La trompette et le trombone appartiennent à la famille des cuivres."
+  },
+  {
+    "id": "mu_091",
+    "category": "musique",
+    "question": "Quel est le titre de l'hymne national français, composé en 1792 ?",
+    "options": [
+      "Le Chant du départ",
+      "La Marseillaise",
+      "L'Hymne à la joie",
+      "Le Chant des partisans"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "\"La Marseillaise\" est l'hymne national français, composé en 1792."
+  },
+  {
+    "id": "mu_092",
+    "category": "musique",
+    "question": "Qui a composé \"La Marseillaise\" ?",
+    "options": [
+      "Claude Joseph Rouget de Lisle",
+      "Hector Berlioz",
+      "Charles Gounod",
+      "Jean-Baptiste Lully"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Claude Joseph Rouget de Lisle a composé \"La Marseillaise\" en une nuit, en 1792."
+  },
+  {
+    "id": "mu_093",
+    "category": "musique",
+    "question": "Quel genre musical sud-coréen, mêlant pop, danse chorégraphiée et esthétique soignée, connaît un succès mondial depuis les années 2010 ?",
+    "options": [
+      "Le J-pop",
+      "La K-pop",
+      "Le C-pop",
+      "Le Mandopop"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La K-pop, originaire de Corée du Sud, connaît un immense succès international depuis les années 2010."
+  },
+  {
+    "id": "mu_094",
+    "category": "musique",
+    "question": "Quel terme italien indique de jouer doucement, à l'opposé de \"forte\" ?",
+    "options": [
+      "Forte",
+      "Piano",
+      "Mezzo",
+      "Presto"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "\"Piano\" signifie jouer doucement, par opposition à \"forte\" qui signifie fort."
+  },
+  {
+    "id": "mu_095",
+    "category": "musique",
+    "question": "Quel instrument à cordes pincées de grande taille se joue avec les deux mains et possède des pédales ?",
+    "options": [
+      "La harpe",
+      "La guitare basse",
+      "Le clavecin",
+      "La cithare"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "La harpe de concert se joue avec les deux mains et utilise des pédales pour changer de tonalité."
+  },
+  {
+    "id": "mu_096",
+    "category": "musique",
+    "question": "Quel genre musical camerounais rythmé est traditionnellement associé au peuple beti ?",
+    "options": [
+      "Le bikutsi",
+      "Le makossa",
+      "Le mbalax",
+      "L'assiko"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "Le bikutsi est un genre musical traditionnel camerounais, associé notamment au peuple beti."
+  },
+  {
+    "id": "mu_097",
+    "category": "musique",
+    "question": "Combien de cordes possède approximativement une harpe de concert classique ?",
+    "options": [
+      "Environ 25 cordes",
+      "Environ 47 cordes",
+      "Environ 60 cordes",
+      "Environ 12 cordes"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Une harpe de concert classique compte généralement environ 47 cordes."
+  },
+  {
+    "id": "mu_098",
+    "category": "musique",
+    "question": "Comment appelle-t-on la voix masculine la plus grave, en chant classique ?",
+    "options": [
+      "Le ténor",
+      "Le baryton",
+      "La basse",
+      "Le contre-ténor"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "La basse est la voix masculine la plus grave dans la classification du chant classique."
+  },
+  {
+    "id": "mu_099",
+    "category": "musique",
+    "question": "Comment appelle-t-on un groupe de chanteurs interprétant de la musique à plusieurs voix, sans forcément d'instrument ?",
+    "options": [
+      "Un ensemble",
+      "Un chœur",
+      "Un orchestre",
+      "Une chorale uniquement"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Un chœur est un ensemble de chanteurs interprétant de la musique à plusieurs voix."
+  },
+  {
+    "id": "mu_100",
+    "category": "musique",
+    "question": "Quelle danse traditionnelle viennoise à trois temps est devenue un genre musical classique au XIXe siècle, grâce notamment à la famille Strauss ?",
+    "options": [
+      "La polka",
+      "La valse",
+      "La mazurka",
+      "Le menuet"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La valse viennoise, popularisée par la famille Strauss, est devenue un genre musical à part entière au XIXe siècle."
+  }
+]

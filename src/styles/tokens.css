@@ -1,0 +1,85 @@
+/* ==========================================================================
+   BATAILLE — Design tokens
+   Identité : arène nocturne, énergie de duel, feedback immédiat.
+   ========================================================================== */
+
+:root {
+  /* Couleurs — base */
+  --ink: #14102B;           /* fond principal, violet-nuit chaud (pas de noir pur) */
+  --ink-deep: #0D0A1F;      /* fond le plus sombre (footer, overlays) */
+  --surface: #1E1840;       /* cartes, panneaux */
+  --surface-raised: #2A2154;/* éléments au-dessus des cartes (hover, modales) */
+  --line: #392F6E;          /* bordures discrètes sur fond sombre */
+  --line-subtle: rgba(245, 241, 255, 0.06); /* liseré à peine visible, pour la profondeur des cartes */
+
+  /* Couleurs — accents de marque */
+  --accent-battle: #FF4D3D;   /* corail-rouge : CTA principal, duel, urgence */
+  --accent-battle-dim: #C93A2E;
+  --accent-victory: #FFC93C;  /* or : XP, trophées, série */
+  --accent-victory-dim: #E0AC1F;
+
+  /* Couleurs — feedback de jeu */
+  --feedback-correct: #2FE6A6;
+  --feedback-wrong: #FF2E63;
+
+  /* Texte */
+  --text-primary: #F5F1FF;
+  --text-secondary: #B6AEDD;
+  --text-muted: #7C74A8;
+  --text-on-accent: #14102B; /* texte sombre sur fond corail/or (contraste) */
+
+  /* Typographie */
+  --font-display: 'Sora', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2.25rem;
+  --text-4xl: 3rem;
+  --text-5xl: 3.75rem;
+
+  --leading-tight: 1.1;
+  --leading-snug: 1.35;
+  --leading-normal: 1.6;
+  --tracking-tight: -0.03em;  /* gros titres display */
+  --tracking-normal: -0.01em;
+  --tracking-wide: 0.08em;    /* petits labels/eyebrows en majuscules */
+
+  /* Espacement (échelle 4px) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-8: 3rem;
+  --space-10: 4rem;
+  --space-12: 5rem;
+
+  /* Rayons — volontairement différenciés selon l'usage, pas un seul radius partout */
+  --radius-pill: 999px;   /* CTA principaux, tags de statut */
+  --radius-card: 20px;    /* cartes de contenu */
+  --radius-card-sharp: 10px; /* cartes de jeu / compétition : plus anguleux */
+  --radius-input: 14px;
+
+  /* Ombres — multicouches (ombre proche nette + ombre lointaine diffuse),
+     comme les vrais design systems premium plutôt qu'un seul flou générique */
+  --shadow-sm: 0 1px 2px rgba(13, 10, 31, 0.24);
+  --shadow-card: 0 2px 4px rgba(13, 10, 31, 0.2), 0 12px 28px rgba(13, 10, 31, 0.32);
+  --shadow-card-hover: 0 4px 8px rgba(13, 10, 31, 0.28), 0 20px 40px rgba(13, 10, 31, 0.4);
+  --shadow-cta: 0 2px 6px rgba(255, 77, 61, 0.28), 0 12px 24px rgba(255, 77, 61, 0.3);
+  --shadow-cta-hover: 0 4px 10px rgba(255, 77, 61, 0.34), 0 18px 36px rgba(255, 77, 61, 0.4);
+
+  /* Timing — deux courbes : "snap" pour le feedback tactile immédiat
+     (boutons, réponses), "premium" (ease-out expo) pour les révélations
+     et transitions de mise en page, plus naturelle et moins mécanique */
+  --ease-snap: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-premium: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 150ms;
+  --duration-base: 300ms;
+  --duration-slow: 600ms;
+}

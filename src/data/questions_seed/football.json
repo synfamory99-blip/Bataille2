@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "fb_001",
+    "category": "football",
+    "question": "Combien de joueurs une équipe aligne-t-elle sur le terrain (hors remplaçants) ?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Une équipe de football compte 11 joueurs sur le terrain, gardien compris."
+  },
+  {
+    "id": "fb_002",
+    "category": "football",
+    "question": "Combien de temps dure un match de football (temps réglementaire) ?",
+    "options": [
+      "80 minutes",
+      "90 minutes",
+      "100 minutes",
+      "120 minutes"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Un match dure 90 minutes, réparties en deux mi-temps de 45 minutes."
+  },
+  {
+    "id": "fb_003",
+    "category": "football",
+    "question": "Quel pays a remporté la Coupe du Monde de football 2018 ?",
+    "options": [
+      "Croatie",
+      "Belgique",
+      "France",
+      "Brésil"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "La France a remporté la Coupe du Monde 2018 en Russie, face à la Croatie en finale."
+  },
+  {
+    "id": "fb_004",
+    "category": "football",
+    "question": "Combien de Coupes du Monde le Brésil a-t-il remportées ?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Le Brésil a remporté 5 Coupes du Monde : 1958, 1962, 1970, 1994 et 2002."
+  },
+  {
+    "id": "fb_005",
+    "category": "football",
+    "question": "Quel est le surnom de l'équipe nationale de Côte d'Ivoire ?",
+    "options": [
+      "Les Lions",
+      "Les Éléphants",
+      "Les Aigles",
+      "Les Panthères"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "L'équipe nationale ivoirienne est surnommée « Les Éléphants »."
+  },
+  {
+    "id": "fb_006",
+    "category": "football",
+    "question": "Quelle sanction exclut définitivement un joueur du reste du match ?",
+    "options": [
+      "Le carton jaune",
+      "Le carton rouge",
+      "Le hors-jeu",
+      "Le corner"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Un carton rouge entraîne l'expulsion immédiate du joueur pour le reste du match."
+  },
+  {
+    "id": "fb_007",
+    "category": "football",
+    "question": "Combien de fois la Côte d'Ivoire a-t-elle remporté la Coupe d'Afrique des Nations (CAN) ?",
+    "options": [
+      "1 fois",
+      "2 fois",
+      "3 fois",
+      "4 fois"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "La Côte d'Ivoire a remporté la CAN en 1992, 2015 et 2023."
+  },
+  {
+    "id": "fb_008",
+    "category": "football",
+    "question": "Combien de temps dure la pause entre les deux mi-temps ?",
+    "options": [
+      "5 minutes",
+      "15 minutes",
+      "20 minutes",
+      "30 minutes"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La mi-temps dure généralement 15 minutes maximum."
+  },
+  {
+    "id": "fb_009",
+    "category": "football",
+    "question": "Combien de minutes de jeu (hors tirs au but) un match peut-il durer au maximum avec les prolongations ?",
+    "options": [
+      "90 minutes",
+      "105 minutes",
+      "120 minutes",
+      "130 minutes"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Avec deux prolongations de 15 minutes ajoutées aux 90 minutes réglementaires, un match peut durer 120 minutes avant les tirs au but."
+  },
+  {
+    "id": "fb_010",
+    "category": "football",
+    "question": "Combien de remplacements une équipe peut-elle effectuer au maximum lors d'un match officiel, selon la règle en vigueur ces dernières années ?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "7"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Depuis son adoption permanente par l'IFAB, la règle autorise 5 remplacements par équipe dans de nombreuses compétitions officielles."
+  },
+  {
+    "id": "fb_011",
+    "category": "football",
+    "question": "Quel pays a organisé et remporté la toute première Coupe du Monde de football, en 1930 ?",
+    "options": [
+      "Le Brésil",
+      "L'Italie",
+      "L'Uruguay",
+      "La France"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "L'Uruguay a organisé et remporté la première Coupe du Monde en 1930, à Montevideo."
+  },
+  {
+    "id": "fb_012",
+    "category": "football",
+    "question": "Combien de fois l'Allemagne a-t-elle été championne du monde de football ?",
+    "options": [
+      "3 fois",
+      "4 fois",
+      "5 fois",
+      "2 fois"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'Allemagne (RFA puis Allemagne réunifiée) a remporté la Coupe du Monde en 1954, 1974, 1990 et 2014, soit 4 titres."
+  },
+  {
+    "id": "fb_013",
+    "category": "football",
+    "question": "Quel joueur détient le record du plus grand nombre de buts marqués en phases finales de Coupe du Monde ?",
+    "options": [
+      "Miroslav Klose",
+      "Ronaldo Nazário",
+      "Pelé",
+      "Just Fontaine"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "L'Allemand Miroslav Klose détient le record avec 16 buts inscrits en Coupe du Monde."
+  },
+  {
+    "id": "fb_014",
+    "category": "football",
+    "question": "Quel pays a remporté la toute première Coupe d'Afrique des Nations, en 1957 ?",
+    "options": [
+      "Le Ghana",
+      "L'Éthiopie",
+      "L'Égypte",
+      "Le Soudan"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "L'Égypte a remporté la première édition de la CAN en 1957."
+  },
+  {
+    "id": "fb_015",
+    "category": "football",
+    "question": "Quel ancien capitaine des Éléphants a remporté plusieurs fois le titre de meilleur joueur africain ?",
+    "options": [
+      "Kolo Touré",
+      "Didier Drogba",
+      "Gervinho",
+      "Yaya Touré"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Didier Drogba, longtemps capitaine de la Côte d'Ivoire, a été sacré meilleur joueur africain à plusieurs reprises."
+  },
+  {
+    "id": "fb_016",
+    "category": "football",
+    "question": "Comment se nomme le trophée remis à l'équipe championne du monde de football ?",
+    "options": [
+      "Le Trophée de la Coupe du Monde de la FIFA",
+      "La Coupe Jules Rimet",
+      "Le Ballon d'Or",
+      "La Coupe UEFA"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Depuis 1974, le trophée remis au vainqueur est le Trophée de la Coupe du Monde de la FIFA, la Coupe Jules Rimet ayant été remise définitivement au Brésil en 1970."
+  },
+  {
+    "id": "fb_017",
+    "category": "football",
+    "question": "Quelle compétition est considérée comme la plus prestigieuse pour les clubs européens ?",
+    "options": [
+      "La Ligue Europa",
+      "La Ligue des Champions",
+      "La Coupe de la Ligue",
+      "Le Community Shield"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La Ligue des Champions de l'UEFA est la compétition de clubs la plus prestigieuse en Europe."
+  },
+  {
+    "id": "fb_018",
+    "category": "football",
+    "question": "Quel club détient le plus grand nombre de titres en Ligue des Champions / Coupe d'Europe des clubs champions ?",
+    "options": [
+      "Le Real Madrid",
+      "L'AC Milan",
+      "Le Bayern Munich",
+      "Liverpool"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le Real Madrid est le club le plus titré de l'histoire de la compétition."
+  },
+  {
+    "id": "fb_019",
+    "category": "football",
+    "question": "Quel pays a remporté la Coupe du Monde féminine de football en 2019 ?",
+    "options": [
+      "L'Allemagne",
+      "Le Japon",
+      "Les États-Unis",
+      "La France"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "Les États-Unis ont conservé leur titre en remportant la Coupe du Monde féminine 2019 en France."
+  },
+  {
+    "id": "fb_020",
+    "category": "football",
+    "question": "Comment appelle-t-on un but marqué directement sur un corner, sans qu'un autre joueur ne touche le ballon ?",
+    "options": [
+      "Un but contre son camp",
+      "Un but olympique",
+      "Un but en or",
+      "Un coup du chapeau"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Un but marqué directement depuis un corner est appelé \"but olympique\"."
+  },
+  {
+    "id": "fb_021",
+    "category": "football",
+    "question": "Comment appelle-t-on un joueur qui marque trois buts dans le même match ?",
+    "options": [
+      "Il réalise un triplé",
+      "Il réalise un doublé",
+      "Il réalise un grand chelem",
+      "Il réalise un poker"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "Marquer trois buts dans un même match s'appelle réaliser un triplé (hat-trick en anglais)."
+  },
+  {
+    "id": "fb_022",
+    "category": "football",
+    "question": "Dans quel pays évolue le club du FC Barcelone ?",
+    "options": [
+      "Le Portugal",
+      "L'Italie",
+      "L'Espagne",
+      "La France"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Le FC Barcelone est un club espagnol basé en Catalogne."
+  },
+  {
+    "id": "fb_023",
+    "category": "football",
+    "question": "Quel est le surnom de l'équipe nationale de football du Sénégal ?",
+    "options": [
+      "Les Lions de la Teranga",
+      "Les Éléphants",
+      "Les Aigles",
+      "Les Panthères"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "L'équipe nationale sénégalaise est surnommée les \"Lions de la Teranga\"."
+  },
+  {
+    "id": "fb_024",
+    "category": "football",
+    "question": "Quel est le surnom de l'équipe nationale du Ghana ?",
+    "options": [
+      "Les Super Eagles",
+      "Les Black Stars",
+      "Les Bafana Bafana",
+      "Les Lions Indomptables"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'équipe nationale du Ghana est surnommée les \"Black Stars\"."
+  },
+  {
+    "id": "fb_025",
+    "category": "football",
+    "question": "Quel est le surnom de l'équipe nationale du Nigeria ?",
+    "options": [
+      "Les Black Stars",
+      "Les Étalons",
+      "Les Super Eagles",
+      "Les Lions Indomptables"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "L'équipe nationale du Nigeria est surnommée les \"Super Eagles\"."
+  },
+  {
+    "id": "fb_026",
+    "category": "football",
+    "question": "Quel est le surnom de l'équipe nationale du Cameroun ?",
+    "options": [
+      "Les Fennecs",
+      "Les Éléphants",
+      "Les Lions Indomptables",
+      "Les Aigles"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "L'équipe nationale du Cameroun est surnommée les \"Lions Indomptables\"."
+  },
+  {
+    "id": "fb_027",
+    "category": "football",
+    "question": "Combien de temps dure chaque période de prolongation dans un match de football ?",
+    "options": [
+      "10 minutes",
+      "15 minutes",
+      "20 minutes",
+      "5 minutes"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Une prolongation se compose de deux périodes de 15 minutes chacune."
+  },
+  {
+    "id": "fb_028",
+    "category": "football",
+    "question": "Que se passe-t-il quand un joueur reçoit un deuxième carton jaune dans le même match ?",
+    "options": [
+      "Rien de plus",
+      "Il est expulsé (carton rouge)",
+      "Il doit sortir 10 minutes",
+      "Le match est arrêté"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Un deuxième carton jaune dans le même match équivaut à un carton rouge : le joueur est expulsé."
+  },
+  {
+    "id": "fb_029",
+    "category": "football",
+    "question": "Combien de points rapporte une victoire dans la plupart des championnats de football modernes ?",
+    "options": [
+      "1 point",
+      "2 points",
+      "3 points",
+      "5 points"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "Depuis la généralisation de ce système, une victoire rapporte 3 points en championnat."
+  },
+  {
+    "id": "fb_030",
+    "category": "football",
+    "question": "Combien de points rapporte un match nul ?",
+    "options": [
+      "0 point",
+      "1 point",
+      "2 points",
+      "3 points"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Un match nul rapporte 1 point à chaque équipe."
+  },
+  {
+    "id": "fb_031",
+    "category": "football",
+    "question": "Comment appelle-t-on le tir accordé suite à une faute commise dans la surface de réparation ?",
+    "options": [
+      "Le coup franc",
+      "Le penalty",
+      "Le corner",
+      "Le hors-jeu"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Une faute dans la surface de réparation donne lieu à un penalty."
+  },
+  {
+    "id": "fb_032",
+    "category": "football",
+    "question": "À combien de mètres du but se situe le point de penalty ?",
+    "options": [
+      "9 mètres",
+      "11 mètres",
+      "14 mètres",
+      "16 mètres"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le point de penalty est situé à 11 mètres de la ligne de but."
+  },
+  {
+    "id": "fb_033",
+    "category": "football",
+    "question": "Dans quel pays les règles modernes du football ont-elles été codifiées au XIXe siècle ?",
+    "options": [
+      "La France",
+      "L'Angleterre",
+      "L'Italie",
+      "L'Allemagne"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Les règles modernes du football ont été codifiées en Angleterre en 1863."
+  },
+  {
+    "id": "fb_034",
+    "category": "football",
+    "question": "Quelle instance internationale dirige le football mondial ?",
+    "options": [
+      "L'UEFA",
+      "La FIFA",
+      "Le CIO",
+      "La CAF"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La FIFA (Fédération Internationale de Football Association) est l'instance dirigeante mondiale du football."
+  },
+  {
+    "id": "fb_035",
+    "category": "football",
+    "question": "Quelle instance dirige le football sur le continent africain ?",
+    "options": [
+      "La CAF",
+      "L'UEFA",
+      "La CONMEBOL",
+      "L'AFC"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La CAF (Confédération Africaine de Football) dirige le football sur le continent africain."
+  },
+  {
+    "id": "fb_036",
+    "category": "football",
+    "question": "Combien d'arbitres assistants de touche officient traditionnellement aux côtés de l'arbitre central ?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Deux arbitres assistants de touche assistent l'arbitre central le long des lignes de touche."
+  },
+  {
+    "id": "fb_037",
+    "category": "football",
+    "question": "Quel club anglais est historiquement l'un des plus titrés en championnat national ?",
+    "options": [
+      "Manchester United",
+      "Chelsea",
+      "Arsenal",
+      "Tottenham"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Manchester United compte parmi les clubs les plus titrés du championnat d'Angleterre."
+  },
+  {
+    "id": "fb_038",
+    "category": "football",
+    "question": "Quel joueur portugais, multiple Ballon d'Or, est l'un des plus grands buteurs de l'histoire du football ?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Luís Figo",
+      "Eusébio",
+      "Ricardo Quaresma"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "Cristiano Ronaldo est l'un des footballeurs les plus titrés et prolifiques de l'histoire."
+  },
+  {
+    "id": "fb_039",
+    "category": "football",
+    "question": "Quel joueur argentin, plusieurs fois Ballon d'Or, a remporté la Coupe du Monde en 2022 ?",
+    "options": [
+      "Diego Maradona",
+      "Lionel Messi",
+      "Sergio Agüero",
+      "Ángel Di María"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Lionel Messi a mené l'Argentine au titre mondial en 2022 au Qatar."
+  },
+  {
+    "id": "fb_040",
+    "category": "football",
+    "question": "Quel pays a remporté la Coupe du Monde de football 2022 au Qatar ?",
+    "options": [
+      "La France",
+      "Le Brésil",
+      "L'Argentine",
+      "La Croatie"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "L'Argentine a remporté la Coupe du Monde 2022, battant la France en finale aux tirs au but."
+  },
+  {
+    "id": "fb_041",
+    "category": "football",
+    "question": "Comment se nomme la compétition qui oppose chaque année les champions de chaque confédération continentale ?",
+    "options": [
+      "La Coupe des Confédérations",
+      "La Coupe du Monde des clubs de la FIFA",
+      "La Ligue des Nations",
+      "La Supercoupe"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "La Coupe du Monde des clubs de la FIFA réunit les champions de chaque confédération continentale."
+  },
+  {
+    "id": "fb_042",
+    "category": "football",
+    "question": "Comment se nomme le célèbre stade londonien, considéré comme le temple du football anglais ?",
+    "options": [
+      "Old Trafford",
+      "Wembley",
+      "Anfield",
+      "Stamford Bridge"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le stade de Wembley, à Londres, est le stade national anglais."
+  },
+  {
+    "id": "fb_043",
+    "category": "football",
+    "question": "Quel numéro de maillot est traditionnellement associé au gardien de but ?",
+    "options": [
+      "Le numéro 1",
+      "Le numéro 7",
+      "Le numéro 9",
+      "Le numéro 10"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "Le numéro 1 est traditionnellement porté par le gardien de but titulaire."
+  },
+  {
+    "id": "fb_044",
+    "category": "football",
+    "question": "Que signifie l'abréviation VAR, utilisée dans l'arbitrage moderne ?",
+    "options": [
+      "Assistance vidéo à l'arbitrage",
+      "Validation automatique du résultat",
+      "Vitesse et rythme",
+      "Vérification anti-recours"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "VAR signifie \"Video Assistant Referee\", soit l'assistance vidéo à l'arbitrage."
+  },
+  {
+    "id": "fb_045",
+    "category": "football",
+    "question": "Quelle équipe africaine a atteint, de façon historique, les demi-finales de la Coupe du Monde 2022 ?",
+    "options": [
+      "Le Sénégal",
+      "Le Maroc",
+      "Le Ghana",
+      "La Tunisie"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le Maroc a créé la surprise en devenant la première équipe africaine à atteindre les demi-finales d'une Coupe du Monde, en 2022."
+  },
+  {
+    "id": "fb_046",
+    "category": "football",
+    "question": "Quels pays coorganisent la Coupe du Monde de football 2026 ?",
+    "options": [
+      "France, Allemagne, Espagne",
+      "États-Unis, Canada et Mexique",
+      "Brésil et Argentine",
+      "Chine et Japon"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La Coupe du Monde 2026 sera coorganisée par les États-Unis, le Canada et le Mexique."
+  },
+  {
+    "id": "fb_047",
+    "category": "football",
+    "question": "Quel pays a accueilli la Coupe du Monde 2010, première organisée sur le continent africain ?",
+    "options": [
+      "Le Nigeria",
+      "L'Afrique du Sud",
+      "L'Égypte",
+      "Le Maroc"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'Afrique du Sud a accueilli la Coupe du Monde 2010, une première pour le continent africain."
+  },
+  {
+    "id": "fb_048",
+    "category": "football",
+    "question": "La règle du hors-jeu concerne principalement quel type de joueurs sur le terrain ?",
+    "options": [
+      "Les gardiens de but",
+      "Les défenseurs uniquement",
+      "Les attaquants",
+      "Les arbitres"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy",
+    "explanation": "La règle du hors-jeu s'applique aux joueurs offensifs situés trop proches du but adverse au moment de la passe."
+  },
+  {
+    "id": "fb_049",
+    "category": "football",
+    "question": "Quel pays a remporté la toute première Coupe du Monde féminine de football, en 1991 ?",
+    "options": [
+      "L'Allemagne",
+      "La Norvège",
+      "Les États-Unis",
+      "La Chine"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "Les États-Unis ont remporté la première édition de la Coupe du Monde féminine, organisée en Chine en 1991."
+  },
+  {
+    "id": "fb_050",
+    "category": "football",
+    "question": "Combien de fois les États-Unis ont-ils remporté la Coupe du Monde féminine de football (record) ?",
+    "options": [
+      "2 fois",
+      "3 fois",
+      "4 fois",
+      "5 fois"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard",
+    "explanation": "Les États-Unis ont remporté 4 titres féminins (1991, 1999, 2015, 2019), un record."
+  },
+  {
+    "id": "fb_051",
+    "category": "football",
+    "question": "Quel est le surnom de l'équipe nationale masculine du Brésil ?",
+    "options": [
+      "La Albiceleste",
+      "La Seleção",
+      "La Roja",
+      "Les Bleus"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'équipe nationale brésilienne est surnommée \"A Seleção\"."
+  },
+  {
+    "id": "fb_052",
+    "category": "football",
+    "question": "Quel est le surnom de l'équipe nationale d'Italie ?",
+    "options": [
+      "La Squadra Azzurra",
+      "La Mannschaft",
+      "La Roja",
+      "Les Diables Rouges"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "L'équipe nationale italienne est surnommée la \"Squadra Azzurra\" en référence à son maillot bleu."
+  },
+  {
+    "id": "fb_053",
+    "category": "football",
+    "question": "Quel est le surnom de l'équipe nationale d'Allemagne ?",
+    "options": [
+      "Les Bleus",
+      "La Mannschaft",
+      "La Roja",
+      "Les Diables Rouges"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'équipe nationale allemande est surnommée \"die Mannschaft\" (\"l'équipe\")."
+  },
+  {
+    "id": "fb_054",
+    "category": "football",
+    "question": "Quel est le surnom de l'équipe nationale d'Espagne ?",
+    "options": [
+      "La Roja",
+      "La Squadra Azzurra",
+      "Les Bleus",
+      "La Seleção"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "L'équipe nationale espagnole est surnommée \"La Roja\" en référence à son maillot rouge."
+  },
+  {
+    "id": "fb_055",
+    "category": "football",
+    "question": "Quel est le surnom de l'équipe nationale de France ?",
+    "options": [
+      "Les Bleus",
+      "Les Rouges",
+      "La Squadra",
+      "Les Diables"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "L'équipe de France est surnommée \"Les Bleus\" en référence à la couleur de son maillot."
+  },
+  {
+    "id": "fb_056",
+    "category": "football",
+    "question": "Comment se nomme la compétition sud-américaine des sélections nationales, équivalente de la Coupe d'Afrique des Nations ?",
+    "options": [
+      "La Copa América",
+      "La Copa Libertadores",
+      "La Copa Sudamericana",
+      "La Gold Cup"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La Copa América est la compétition continentale des sélections nationales d'Amérique du Sud."
+  },
+  {
+    "id": "fb_057",
+    "category": "football",
+    "question": "En 1998, quel pays a organisé et remporté la Coupe du Monde de football ?",
+    "options": [
+      "Le Brésil",
+      "La France",
+      "L'Italie",
+      "L'Allemagne"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La France a organisé et remporté la Coupe du Monde 1998 sur son sol."
+  },
+  {
+    "id": "fb_058",
+    "category": "football",
+    "question": "Quelle équipe a remporté la Coupe du Monde 1990, disputée en Italie ?",
+    "options": [
+      "L'Argentine",
+      "Le Brésil",
+      "L'Allemagne de l'Ouest",
+      "Les Pays-Bas"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium",
+    "explanation": "L'Allemagne de l'Ouest a remporté la Coupe du Monde 1990 en Italie, face à l'Argentine en finale."
+  },
+  {
+    "id": "fb_059",
+    "category": "football",
+    "question": "Quel pays a remporté la Coupe du Monde 1970 au Mexique, avec Pelé dans ses rangs ?",
+    "options": [
+      "Le Brésil",
+      "L'Italie",
+      "L'Uruguay",
+      "Le Pérou"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le Brésil de Pelé a remporté son troisième titre mondial en 1970 au Mexique."
+  },
+  {
+    "id": "fb_060",
+    "category": "football",
+    "question": "Quelle légende brésilienne, triple championne du monde (1958, 1962, 1970), est considérée comme l'un des plus grands joueurs de l'histoire ?",
+    "options": [
+      "Ronaldinho",
+      "Pelé",
+      "Zico",
+      "Romário"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Pelé a remporté trois Coupes du Monde avec le Brésil et est une légende du football mondial."
+  },
+  {
+    "id": "fb_061",
+    "category": "football",
+    "question": "Comment se nomme le célèbre stade de Rio de Janeiro, qui a accueilli les finales des Coupes du Monde 1950 et 2014 ?",
+    "options": [
+      "Le Maracanã",
+      "Le Morumbi",
+      "L'Estádio Nacional",
+      "Le Mineirão"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Le stade Maracanã, à Rio de Janeiro, est l'un des stades les plus mythiques du football mondial."
+  },
+  {
+    "id": "fb_062",
+    "category": "football",
+    "question": "Comment se nommait la Ligue des Champions avant sa refonte en 1992 ?",
+    "options": [
+      "La Coupe UEFA",
+      "La Coupe d'Europe des clubs champions",
+      "La Coupe des Coupes",
+      "Le Trophée européen"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "L'ancienne \"Coupe d'Europe des clubs champions\" a été renommée Ligue des Champions de l'UEFA en 1992."
+  },
+  {
+    "id": "fb_063",
+    "category": "football",
+    "question": "Comment se nomme le prix individuel annuel, décerné par France Football, récompensant le meilleur joueur du monde ?",
+    "options": [
+      "Le Soulier d'or",
+      "Le Ballon d'Or",
+      "Le Trophée FIFA The Best",
+      "Le Prix Puskás"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le Ballon d'Or, créé par France Football en 1956, récompense chaque année le meilleur joueur du monde."
+  },
+  {
+    "id": "fb_064",
+    "category": "football",
+    "question": "Quel joueur détient le record du plus grand nombre de Ballons d'Or remportés dans l'histoire ?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Michel Platini",
+      "Johan Cruyff"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Lionel Messi détient le record du plus grand nombre de Ballons d'Or remportés."
+  },
+  {
+    "id": "fb_065",
+    "category": "football",
+    "question": "Comment se nomme la compétition continentale regroupant les sélections nationales d'Asie ?",
+    "options": [
+      "La Coupe d'Asie des nations",
+      "La Copa Asia",
+      "L'AFC Trophy",
+      "La Coupe du Golfe"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La Coupe d'Asie des nations (AFC Asian Cup) est la principale compétition des sélections nationales asiatiques."
+  },
+  {
+    "id": "fb_066",
+    "category": "football",
+    "question": "Comment appelle-t-on le poste de milieu de terrain créatif évoluant juste derrière les attaquants, souvent numéro 10 ?",
+    "options": [
+      "Le libéro",
+      "Le meneur de jeu",
+      "Le latéral",
+      "Le sentinelle"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le meneur de jeu, souvent numéro 10, est chargé de créer le jeu offensif derrière les attaquants."
+  },
+  {
+    "id": "fb_067",
+    "category": "football",
+    "question": "Pour des raisons de sécurité, que les joueurs ne sont-ils pas autorisés à porter sur le terrain ?",
+    "options": [
+      "Des chaussettes longues",
+      "Des bijoux",
+      "Des gants",
+      "Des protège-tibias"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le règlement du football interdit le port de bijoux sur le terrain pour la sécurité des joueurs."
+  },
+  {
+    "id": "fb_068",
+    "category": "football",
+    "question": "Comment appelle-t-on une passe qui mène directement un coéquipier à marquer un but ?",
+    "options": [
+      "Un centre",
+      "Une passe décisive",
+      "Un une-deux",
+      "Un relais"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Une passe décisive (ou \"assist\") est une passe qui aboutit directement à un but."
+  },
+  {
+    "id": "fb_069",
+    "category": "football",
+    "question": "Quel pays a organisé la Coupe du Monde de football 1994 ?",
+    "options": [
+      "Le Mexique",
+      "Les États-Unis",
+      "Le Brésil",
+      "La France"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Les États-Unis ont organisé la Coupe du Monde 1994."
+  },
+  {
+    "id": "fb_070",
+    "category": "football",
+    "question": "Quels deux pays ont coorganisé la Coupe du Monde 2002, une première en Asie ?",
+    "options": [
+      "Chine et Japon",
+      "Corée du Sud et Japon",
+      "Chine et Corée du Sud",
+      "Japon et Thaïlande"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La Corée du Sud et le Japon ont coorganisé la Coupe du Monde 2002, une première pour l'Asie."
+  },
+  {
+    "id": "fb_071",
+    "category": "football",
+    "question": "Quel pays a organisé la Coupe du Monde de football 2006 ?",
+    "options": [
+      "La France",
+      "L'Allemagne",
+      "L'Espagne",
+      "L'Italie"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'Allemagne a organisé et accueilli la Coupe du Monde 2006."
+  },
+  {
+    "id": "fb_072",
+    "category": "football",
+    "question": "Quel pays a organisé la Coupe du Monde de football 2014 ?",
+    "options": [
+      "L'Argentine",
+      "Le Brésil",
+      "Le Chili",
+      "L'Uruguay"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le Brésil a accueilli la Coupe du Monde 2014."
+  },
+  {
+    "id": "fb_073",
+    "category": "football",
+    "question": "Comment se nomme la compétition de clubs sud-américaine, équivalent de la Ligue des Champions européenne ?",
+    "options": [
+      "La Copa Libertadores",
+      "La Copa América",
+      "La Recopa",
+      "La Copa Sudamericana"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La Copa Libertadores est la principale compétition de clubs en Amérique du Sud."
+  },
+  {
+    "id": "fb_074",
+    "category": "football",
+    "question": "Comment se nomme la compétition de clubs africaine, équivalent continental de la Ligue des Champions ?",
+    "options": [
+      "La Coupe CAF",
+      "La Ligue des Champions de la CAF",
+      "La Supercoupe d'Afrique",
+      "La Coupe des vainqueurs de coupe"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La Ligue des Champions de la CAF est la principale compétition de clubs sur le continent africain."
+  },
+  {
+    "id": "fb_075",
+    "category": "football",
+    "question": "En quelle année la règle interdisant au gardien de prendre en main une passe en retrait volontaire d'un coéquipier a-t-elle été introduite ?",
+    "options": [
+      "1986",
+      "1992",
+      "1998",
+      "2004"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Cette règle, dite de la \"passe en retrait\", a été introduite par l'IFAB en 1992."
+  },
+  {
+    "id": "fb_076",
+    "category": "football",
+    "question": "Lors de quelle Coupe du Monde les cartons jaune et rouge ont-ils été utilisés pour la première fois ?",
+    "options": [
+      "1966",
+      "1970",
+      "1974",
+      "1982"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Les cartons jaune et rouge ont fait leur apparition lors de la Coupe du Monde 1970 au Mexique."
+  },
+  {
+    "id": "fb_077",
+    "category": "football",
+    "question": "Entre quels deux pays s'est déroulé le tout premier match international officiel de football, en 1872 ?",
+    "options": [
+      "Angleterre et Pays de Galles",
+      "Écosse et Angleterre",
+      "Angleterre et Irlande",
+      "Écosse et Pays de Galles"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "Le premier match international officiel a opposé l'Écosse à l'Angleterre en 1872, terminé sur un match nul."
+  },
+  {
+    "id": "fb_078",
+    "category": "football",
+    "question": "Comment appelle-t-on le prix récompensant le meilleur buteur d'une Coupe du Monde ?",
+    "options": [
+      "Le Ballon d'Or",
+      "Le Soulier d'or",
+      "Le Trophée Puskás",
+      "Le Prix Yashin"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le Soulier d'or récompense le meilleur buteur de chaque édition de la Coupe du Monde."
+  },
+  {
+    "id": "fb_079",
+    "category": "football",
+    "question": "Comment appelle-t-on l'espace délimité près du banc de touche où l'entraîneur peut donner ses consignes ?",
+    "options": [
+      "La zone technique",
+      "Le rectangle vert",
+      "La surface de coaching",
+      "Le couloir d'entraîneur"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La zone technique est l'espace réservé à l'entraîneur et au staff au bord du terrain."
+  },
+  {
+    "id": "fb_080",
+    "category": "football",
+    "question": "Quel officiel supplémentaire, en plus de l'arbitre central et des assistants de touche, gère les remplacements et affiche le temps additionnel ?",
+    "options": [
+      "Le délégué du match",
+      "Le quatrième arbitre",
+      "L'arbitre vidéo",
+      "Le commissaire de match"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le quatrième arbitre gère notamment les remplacements et le temps additionnel depuis la ligne de touche."
+  },
+  {
+    "id": "fb_081",
+    "category": "football",
+    "question": "Quel sport, dérivé du football, se joue en salle à 5 contre 5 sur un terrain réduit ?",
+    "options": [
+      "Le futsal",
+      "Le beach soccer",
+      "Le foot à 7",
+      "Le mini-foot uniquement"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy",
+    "explanation": "Le futsal est une variante du football jouée en salle, à 5 contre 5."
+  },
+  {
+    "id": "fb_082",
+    "category": "football",
+    "question": "Quel gardien de but espagnol, réputé parmi les meilleurs de l'histoire, a remporté la Coupe du Monde 2010 ?",
+    "options": [
+      "David de Gea",
+      "Iker Casillas",
+      "Pepe Reina",
+      "Victor Valdés"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Iker Casillas était le gardien titulaire de l'Espagne, championne du monde en 2010."
+  },
+  {
+    "id": "fb_083",
+    "category": "football",
+    "question": "Quel joueur français, capitaine de l'équipe de France, a soulevé la Coupe du Monde en 1998 ?",
+    "options": [
+      "Zinédine Zidane",
+      "Didier Deschamps",
+      "Marcel Desailly",
+      "Laurent Blanc"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Didier Deschamps était le capitaine de l'équipe de France, championne du monde en 1998."
+  },
+  {
+    "id": "fb_084",
+    "category": "football",
+    "question": "Combien de fois l'Italie a-t-elle été championne du monde de football ?",
+    "options": [
+      "3 fois",
+      "4 fois",
+      "5 fois",
+      "2 fois"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'Italie a remporté 4 titres mondiaux (1934, 1938, 1982, 2006)."
+  },
+  {
+    "id": "fb_085",
+    "category": "football",
+    "question": "Combien de fois l'Argentine a-t-elle été championne du monde de football, en comptant le titre de 2022 ?",
+    "options": [
+      "2 fois",
+      "3 fois",
+      "4 fois",
+      "1 fois"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'Argentine a remporté 3 titres mondiaux (1978, 1986, 2022)."
+  },
+  {
+    "id": "fb_086",
+    "category": "football",
+    "question": "Combien de fois l'Uruguay a-t-il été champion du monde de football ?",
+    "options": [
+      "1 fois",
+      "2 fois",
+      "3 fois",
+      "4 fois"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "L'Uruguay a remporté 2 titres mondiaux, dont la toute première édition en 1930."
+  },
+  {
+    "id": "fb_087",
+    "category": "football",
+    "question": "Quel joueur néerlandais est célèbre pour une feinte de contrôle portant son nom, le \"Cruyff turn\" ?",
+    "options": [
+      "Johan Cruyff",
+      "Marco van Basten",
+      "Dennis Bergkamp",
+      "Ruud Gullit"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Johan Cruyff a inventé et popularisé cette feinte technique qui porte désormais son nom."
+  },
+  {
+    "id": "fb_088",
+    "category": "football",
+    "question": "Quel pays européen, sans grande tradition footballistique auparavant, a créé la surprise en remportant l'Euro 2004 ?",
+    "options": [
+      "La Grèce",
+      "La Norvège",
+      "La Slovénie",
+      "La Croatie"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "La Grèce a créé la sensation en remportant l'Euro 2004, contre toute attente."
+  },
+  {
+    "id": "fb_089",
+    "category": "football",
+    "question": "Comment se nomme la compétition regroupant les sélections nationales d'Europe tous les 4 ans ?",
+    "options": [
+      "La Coupe UEFA",
+      "Le Championnat d'Europe (Euro)",
+      "La Ligue des Nations",
+      "La Coupe des Confédérations"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Le Championnat d'Europe des nations, ou Euro, est la principale compétition des sélections européennes."
+  },
+  {
+    "id": "fb_090",
+    "category": "football",
+    "question": "Quel pays a remporté le tout premier championnat d'Europe des nations, en 1960 ?",
+    "options": [
+      "La France",
+      "L'URSS",
+      "L'Espagne",
+      "La Yougoslavie"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "L'URSS a remporté la première édition du championnat d'Europe des nations, en 1960."
+  },
+  {
+    "id": "fb_091",
+    "category": "football",
+    "question": "Comment se nomme la compétition regroupant les sélections nationales d'Amérique du Nord, centrale et des Caraïbes ?",
+    "options": [
+      "La Copa América",
+      "La Gold Cup",
+      "La CONCACAF Cup",
+      "La Coupe caribéenne"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "La Gold Cup est la principale compétition des sélections de la zone CONCACAF."
+  },
+  {
+    "id": "fb_092",
+    "category": "football",
+    "question": "Comment se nomme l'instance qui dirige le football en Amérique du Nord, centrale et dans les Caraïbes ?",
+    "options": [
+      "La CONCACAF",
+      "La CONMEBOL",
+      "L'AFC",
+      "L'OFC"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard",
+    "explanation": "La CONCACAF regroupe les fédérations d'Amérique du Nord, centrale et des Caraïbes."
+  },
+  {
+    "id": "fb_093",
+    "category": "football",
+    "question": "Comment se nomme l'instance qui dirige le football en Amérique du Sud ?",
+    "options": [
+      "La CONCACAF",
+      "La CONMEBOL",
+      "L'UEFA",
+      "La CAF"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard",
+    "explanation": "La CONMEBOL est la confédération dirigeant le football en Amérique du Sud."
+  },
+  {
+    "id": "fb_094",
+    "category": "football",
+    "question": "Comment se nomme l'instance qui dirige le football en Asie ?",
+    "options": [
+      "L'AFC",
+      "La CAF",
+      "L'OFC",
+      "La CONCACAF"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "L'AFC (Asian Football Confederation) dirige le football sur le continent asiatique."
+  },
+  {
+    "id": "fb_095",
+    "category": "football",
+    "question": "En dessous de combien de joueurs sur le terrain un match doit-il être arrêté, en cas d'expulsions multiples ?",
+    "options": [
+      "6 joueurs",
+      "7 joueurs",
+      "8 joueurs",
+      "9 joueurs"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Un match est arrêté si une équipe se retrouve à moins de 7 joueurs sur le terrain."
+  },
+  {
+    "id": "fb_096",
+    "category": "football",
+    "question": "Comment se nomme le tir concédé pour une faute commise en dehors de la surface de réparation ?",
+    "options": [
+      "Le penalty",
+      "Le coup franc",
+      "Le corner",
+      "Le coup d'envoi"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "Une faute commise hors de la surface de réparation donne lieu à un coup franc."
+  },
+  {
+    "id": "fb_097",
+    "category": "football",
+    "question": "Contrairement à un coup franc indirect, un coup franc direct peut être...",
+    "options": [
+      "Tiré directement au but",
+      "Joué uniquement à la main",
+      "Annulé par l'arbitre",
+      "Retardé de 10 secondes"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "medium",
+    "explanation": "Un coup franc direct peut être tiré directement vers le but, contrairement à l'indirect qui doit d'abord toucher un autre joueur."
+  },
+  {
+    "id": "fb_098",
+    "category": "football",
+    "question": "Quel pays détient le record du plus grand nombre de participations à la Coupe du Monde masculine, présent à toutes les éditions ?",
+    "options": [
+      "L'Allemagne",
+      "Le Brésil",
+      "L'Italie",
+      "L'Argentine"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Le Brésil est le seul pays à avoir participé à toutes les éditions de la Coupe du Monde."
+  },
+  {
+    "id": "fb_099",
+    "category": "football",
+    "question": "Comment appelle-t-on la procédure utilisée pour départager deux équipes après une prolongation infructueuse en match à élimination directe ?",
+    "options": [
+      "Le but en or",
+      "La séance de tirs au but",
+      "Le match rejoué",
+      "Le tirage au sort"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy",
+    "explanation": "La séance de tirs au but permet de désigner un vainqueur après une prolongation sans but décisif."
+  },
+  {
+    "id": "fb_100",
+    "category": "football",
+    "question": "Combien de tirs sont généralement exécutés par chaque équipe lors de la première série d'une séance de tirs au but ?",
+    "options": [
+      "3 tirs",
+      "5 tirs",
+      "7 tirs",
+      "10 tirs"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium",
+    "explanation": "Chaque équipe tire généralement 5 tirs au but lors de la première série, avant une éventuelle \"mort subite\"."
+  }
+]

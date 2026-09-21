@@ -1,0 +1,15 @@
+node_modules/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Replit/workspace-only files
+.agents/
+.cache/
+.local/
+attached_assets/
+
+# Logs
+*.log

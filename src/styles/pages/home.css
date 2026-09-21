@@ -1,0 +1,227 @@
+/* ==========================================================================
+   Page d'accueil — hero "collision"
+   ========================================================================== */
+
+.hero {
+  position: relative;
+  padding: var(--space-10) 0 var(--space-8);
+  overflow: hidden;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .hero { padding: var(--space-10) 0 var(--space-10); }
+}
+
+/* Deux cartes de duel en arrière-plan — élément signature de BATAILLE
+   (section "identité de jeu" : les cartes doivent devenir récurrentes
+   dans l'expérience, pas juste des formes décoratives). Contenu factice
+   (barres) suggérant une carte de question sans en copier une vraie. */
+.hero-card {
+  position: absolute;
+  top: 50%;
+  width: 148px;
+  height: 184px;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  border: 1px solid var(--line-subtle);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  opacity: 0;
+  transition: transform var(--duration-base) var(--ease-premium), box-shadow var(--duration-base) var(--ease-premium);
+}
+
+.hero-card-bar {
+  height: 10px;
+  width: 55%;
+  border-radius: 4px;
+  background: var(--accent-battle);
+}
+
+.hero-card-bar--alt { background: var(--accent-victory); }
+
+.hero-card-line {
+  height: 8px;
+  border-radius: 4px;
+  background: var(--surface-raised);
+}
+
+.hero-card-line--80 { width: 80%; }
+.hero-card-line--70 { width: 70%; }
+.hero-card-line--60 { width: 60%; }
+.hero-card-line--50 { width: 50%; }
+.hero-card-line--40 { width: 40%; }
+.hero-card-line--30 { width: 30%; }
+
+.hero-card--left {
+  left: -46px;
+  animation: card-enter-left var(--duration-slow) var(--ease-premium) 80ms forwards;
+}
+
+.hero-card--right {
+  right: -46px;
+  animation: card-enter-right var(--duration-slow) var(--ease-premium) 80ms forwards;
+}
+
+@keyframes card-enter-left {
+  0% { opacity: 0; transform: translateY(-50%) rotate(-20deg) translateX(-90px) scale(0.85); }
+  100% { opacity: 0.92; transform: translateY(-50%) rotate(-11deg) translateX(-26px) scale(1); }
+}
+
+@keyframes card-enter-right {
+  0% { opacity: 0; transform: translateY(-50%) rotate(20deg) translateX(90px) scale(0.85); }
+  100% { opacity: 0.92; transform: translateY(-50%) rotate(11deg) translateX(26px) scale(1); }
+}
+
+/* Mouvement très léger au survol — uniquement souris réelle desktop,
+   jamais sur tactile (voir la règle générale dans base.css). */
+@media (hover: hover) and (pointer: fine) {
+  .hero-card--left:hover { transform: translateY(calc(-50% - 4px)) rotate(-8deg) translateX(-26px) scale(1.03); box-shadow: var(--shadow-card-hover); }
+  .hero-card--right:hover { transform: translateY(calc(-50% - 4px)) rotate(8deg) translateX(26px) scale(1.03); box-shadow: var(--shadow-card-hover); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-card--left, .hero-card--right { animation: none; opacity: 0.75; }
+}
+
+@media (max-width: 420px) {
+  /* Cartes moins larges sur très petits écrans pour ne jamais provoquer
+     de débordement horizontal (vérifié dès 320px). */
+  .hero-card { width: 108px; height: 140px; padding: var(--space-3); }
+}
+
+.hero-content { position: relative; z-index: 1; }
+
+.hero-content .eyebrow { justify-content: center; width: 100%; }
+
+.hero-logo {
+  margin-top: var(--space-3);
+  font-size: var(--text-4xl);
+}
+
+@media (min-width: 640px) {
+  .hero-logo { font-size: var(--text-5xl); }
+}
+
+.hero-slogan {
+  margin-top: var(--space-2);
+  color: var(--text-secondary);
+  font-size: var(--text-lg);
+}
+
+.hero-pitch {
+  margin-top: var(--space-3);
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+  max-width: 34ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-actions {
+  margin-top: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+@media (min-width: 480px) {
+  .hero-actions { flex-direction: row; justify-content: center; }
+  .hero-actions .btn { flex: 0 1 auto; }
+}
+
+.section {
+  padding: var(--space-10) 0;
+}
+
+.section .eyebrow { margin-bottom: var(--space-2); }
+
+.section-title {
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-6);
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.step-number {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-raised);
+  border: 1px solid var(--line-subtle);
+  color: var(--accent-victory);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step p { color: var(--text-primary); font-weight: 500; }
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3);
+}
+
+@media (min-width: 640px) {
+  .categories-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  text-align: left;
+}
+
+.category-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-input);
+  background: var(--surface-raised);
+  font-size: var(--text-lg);
+}
+
+.category-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-base);
+  letter-spacing: var(--tracking-normal);
+}
+
+.category-count {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
+.category-mix {
+  grid-column: 1 / -1;
+  background: linear-gradient(135deg, var(--accent-battle) 0%, var(--accent-battle-dim) 100%);
+  color: var(--text-on-accent);
+  border-color: transparent;
+}
+
+.category-mix .category-icon { background: rgba(20, 16, 43, 0.18); }
+.category-mix .category-count { color: rgba(20, 16, 43, 0.7); }
+
+.category-icon svg { width: 24px; height: 24px; }

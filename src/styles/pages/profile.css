@@ -1,0 +1,135 @@
+/* ========================================================================
+   Profil & classement
+   ======================================================================== */
+
+.profile-page, .leaderboard-page { padding-bottom: var(--space-8); }
+
+.profile-header {
+  text-align: center;
+  padding: var(--space-6) 0;
+}
+
+.profile-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-raised);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-3xl);
+  margin: 0 auto var(--space-3);
+}
+
+.profile-pseudo {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 700;
+}
+
+.profile-level {
+  margin-top: var(--space-2);
+  color: var(--accent-victory);
+  font-weight: 600;
+}
+
+.xp-bar-track {
+  width: 100%;
+  height: 10px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-raised);
+  overflow: hidden;
+  margin-top: var(--space-3);
+}
+
+.xp-bar-fill {
+  height: 100%;
+  background: var(--accent-victory);
+  border-radius: var(--radius-pill);
+  transition: width var(--duration-slow) var(--ease-premium);
+}
+
+.xp-bar-label {
+  margin-top: var(--space-2);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
+.profile-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+@media (min-width: 640px) {
+  .profile-stats { grid-template-columns: repeat(4, 1fr); }
+}
+
+.stat-card { text-align: center; }
+
+.stat-value {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  font-weight: 800;
+}
+
+.stat-label {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  margin-top: var(--space-1);
+}
+
+.streak-banner {
+  margin-top: var(--space-5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font-weight: 700;
+  color: var(--accent-battle);
+}
+
+/* Classement */
+.leaderboard-intro { text-align: center; margin: var(--space-6) 0; }
+
+.leaderboard-me {
+  margin-bottom: var(--space-4);
+  text-align: center;
+}
+
+.leaderboard-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.leaderboard-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+}
+
+.leaderboard-rank {
+  font-family: var(--font-display);
+  font-weight: 800;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-pill);
+  font-size: var(--text-sm);
+}
+
+.leaderboard-rank.rank-gold { background: var(--accent-victory); color: var(--text-on-accent); }
+.leaderboard-rank.rank-silver { background: #C7CBD6; color: var(--text-on-accent); }
+.leaderboard-rank.rank-bronze { background: #D18C55; color: var(--text-on-accent); }
+
+.leaderboard-pseudo { flex: 1; font-weight: 600; }
+
+.leaderboard-xp { color: var(--accent-victory); font-weight: 700; }
+
+.leaderboard-row.is-me { border: 2px solid var(--accent-battle); }

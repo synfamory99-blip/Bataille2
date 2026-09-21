@@ -1,0 +1,274 @@
+/* ==========================================================================
+   BATAILLE — Base styles
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+@import 'tokens.css';
+
+*, *::before, *::after { box-sizing: border-box; }
+
+/* CORRECTIF IMPORTANT : sans cette règle, l'attribut [hidden] ne masque
+   pas un élément dont une classe fixe déjà `display` (ex. .btn en
+   inline-flex, .game-page/.end-screen en flex) — les deux règles ont la
+   même spécificité et celle du fichier chargé en dernier gagne, donc la
+   classe l'emporte sur [hidden] et l'élément reste visible. C'est
+   exactement ce qui causait l'écran de jeu et l'écran de résultat
+   superposés. Le !important ici est volontaire et nécessaire : c'est le
+   correctif standard pour ce piège CSS bien connu. */
+[hidden] { display: none !important; }
+
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  letter-spacing: var(--tracking-normal);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent; /* pas de flash gris au tap sur mobile */
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+  margin: 0;
+}
+
+p { margin: 0; color: var(--text-secondary); line-height: var(--leading-normal); }
+
+a { color: inherit; text-decoration: none; }
+
+img, svg { display: block; max-width: 100%; }
+
+/* Icônes SVG inline — taille par défaut alignée sur le texte environnant
+   (comme une emoji l'aurait été), tailles explicites pour les contextes
+   plus grands (chips de catégorie, gros symboles). */
+.icon {
+  width: 1.1em;
+  height: 1.1em;
+  display: inline-block;
+  vertical-align: -0.2em;
+  flex-shrink: 0;
+}
+
+.icon-lg { width: 28px; height: 28px; }
+.icon-xl { width: 40px; height: 40px; }
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+/* Petit label en majuscules ("eyebrow") au-dessus d'un titre — utilisé
+   pour donner du contexte avant le titre principal, sans l'alourdir. */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--accent-victory);
+}
+
+/* Respect des préférences de mouvement réduit — neutralise aussi bien les
+   animations CSS que celles pilotées par IntersectionObserver (reveal.js
+   vérifie ce média lui-même avant d'animer). */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus clavier visible — accessibilité, jamais supprimé */
+:focus-visible {
+  outline: 2px solid var(--accent-victory);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.container {
+  width: 100%;
+  max-width: 480px; /* mobile-first : le contenu reste centré comme sur un téléphone même en desktop */
+  margin: 0 auto;
+  padding: 0 var(--space-5);
+  padding-left: max(var(--space-5), env(safe-area-inset-left));
+  padding-right: max(var(--space-5), env(safe-area-inset-right));
+  animation: page-fade-in var(--duration-base) var(--ease-premium);
+}
+
+@keyframes page-fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (min-width: 900px) {
+  .container { max-width: 720px; }
+}
+
+/* Révélation progressive au scroll (voir src/utils/reveal.js). Repli
+   correct si JS est indisponible : le contenu reste visible (opacity: 1
+   par défaut), reveal.js ajoute .reveal-ready seulement quand il est prêt
+   à piloter l'animation, pour ne jamais risquer un contenu invisible. */
+.reveal {
+  opacity: 1;
+  transform: none;
+}
+
+.reveal-ready .reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity var(--duration-slow) var(--ease-premium), transform var(--duration-slow) var(--ease-premium);
+}
+
+.reveal-ready .reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---- Composants partagés ---- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-6);
+  border-radius: var(--radius-pill);
+  font-weight: 700;
+  font-size: var(--text-base);
+  letter-spacing: var(--tracking-normal);
+  transition: transform var(--duration-fast) var(--ease-snap), box-shadow var(--duration-fast) var(--ease-premium), background var(--duration-fast) var(--ease-snap), border-color var(--duration-fast) var(--ease-snap);
+  min-height: 52px; /* cible tactile confortable */
+}
+
+.btn:active { transform: scale(0.97) translateY(1px); }
+
+.btn-primary {
+  background: var(--accent-battle);
+  color: var(--text-on-accent);
+  box-shadow: var(--shadow-cta);
+}
+
+.btn-secondary {
+  background: var(--surface-raised);
+  color: var(--text-primary);
+  border: 1px solid var(--line);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none !important;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line-subtle);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-5);
+  transition: transform var(--duration-fast) var(--ease-premium), box-shadow var(--duration-fast) var(--ease-premium), border-color var(--duration-fast) var(--ease-snap);
+}
+
+/* Hover uniquement pour une vraie souris — jamais sur tactile (évite
+   l'état "collé" après un tap sur mobile/tablette). */
+@media (hover: hover) and (pointer: fine) {
+  .btn-primary:hover:not(:disabled) { box-shadow: var(--shadow-cta-hover); transform: translateY(-2px); }
+  .btn-secondary:hover:not(:disabled) { border-color: var(--accent-victory); background: var(--surface); }
+  button.card:hover, a.card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-card-hover);
+    border-color: rgba(255, 201, 60, 0.25);
+  }
+}
+
+.card-game {
+  border-radius: var(--radius-card-sharp);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) var(--space-5);
+  padding-top: max(var(--space-4), env(safe-area-inset-top));
+  background: rgba(20, 16, 43, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--duration-base) var(--ease-premium), box-shadow var(--duration-base) var(--ease-premium);
+}
+
+/* .is-scrolled est ajoutée en JS (voir header.js) après quelques pixels
+   de défilement — une bordure/ombre n'apparaît que quand elle a un sens,
+   plutôt qu'un header figé dans un seul état. */
+.site-header.is-scrolled {
+  border-bottom-color: var(--line-subtle);
+  box-shadow: var(--shadow-sm);
+}
+
+.site-header .logo {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: var(--text-lg);
+  letter-spacing: var(--tracking-tight);
+}
+
+.site-header .auth-status {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+}
+
+.site-header .auth-status button {
+  color: var(--accent-victory);
+  font-weight: 600;
+  transition: opacity var(--duration-fast) var(--ease-snap);
+}
+
+.site-header .auth-status button:hover { opacity: 0.8; }
+
+.header-nav {
+  display: flex;
+  gap: var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+}
+
+.header-nav a { transition: color var(--duration-fast) var(--ease-snap); }
+.header-nav a:hover { color: var(--text-primary); }
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  background: var(--surface-raised);
+  color: var(--text-secondary);
+}

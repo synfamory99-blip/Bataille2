@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>BATAILLE — Qui est le plus fort ?</title>
+  <meta name="description" content="Défie tes amis. Réponds vite. Gagne. Le quiz compétitif BATAILLE." />
+  <link rel="stylesheet" href="/src/styles/base.css" />
+  <link rel="stylesheet" href="/src/styles/footer.css" />
+  <link rel="stylesheet" href="/src/styles/pages/home.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <span class="logo">BATAILLE</span>
+    <nav class="header-nav">
+      <a href="/leaderboard.html">Classement</a>
+      <a href="/profile.html">Profil</a>
+    </nav>
+    <div class="auth-status" id="auth-status">
+      <a href="/auth.html">Connexion</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-card hero-card--left" aria-hidden="true">
+        <div class="hero-card-bar"></div>
+        <div class="hero-card-line hero-card-line--80"></div>
+        <div class="hero-card-line hero-card-line--60"></div>
+        <div class="hero-card-line hero-card-line--40"></div>
+      </div>
+      <div class="hero-card hero-card--right" aria-hidden="true">
+        <div class="hero-card-bar hero-card-bar--alt"></div>
+        <div class="hero-card-line hero-card-line--70"></div>
+        <div class="hero-card-line hero-card-line--50"></div>
+        <div class="hero-card-line hero-card-line--30"></div>
+      </div>
+      <div class="container hero-content">
+        <p class="eyebrow"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 3.5 20.5 9.5 11 19 5 19 5 13 14.5 3.5Z"/><path d="M9 15 3.5 20.5"/><path d="M16.5 5.5 18.5 7.5"/></svg> Quiz compétitif</p>
+        <h1 class="hero-logo">BATAILLE</h1>
+        <p class="hero-slogan">Qui est le plus fort ?</p>
+        <p class="hero-pitch">Défie tes amis. Réponds vite. Gagne.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" id="btn-play"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 3.5 20.5 9.5 11 19 5 19 5 13 14.5 3.5Z"/><path d="M9 15 3.5 20.5"/><path d="M16.5 5.5 18.5 7.5"/></svg> Jouer maintenant</button>
+          <button class="btn btn-secondary" id="btn-challenge"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="0.8" fill="currentColor" stroke="none"/></svg> Défier un ami</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container reveal">
+      <p class="eyebrow">Le principe</p>
+      <h2 class="section-title">Comment ça marche ?</h2>
+      <div class="steps">
+        <div class="step">
+          <span class="step-number">1</span>
+          <p>Choisis ton thème</p>
+        </div>
+        <div class="step">
+          <span class="step-number">2</span>
+          <p>Réponds à 10 questions</p>
+        </div>
+        <div class="step">
+          <span class="step-number">3</span>
+          <p>Bats ton adversaire</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container reveal">
+      <p class="eyebrow">7 façons de jouer</p>
+      <h2 class="section-title">Choisis ton camp</h2>
+      <div class="categories-grid">
+        <div class="card category-card">
+          <span class="category-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="14" rx="2" fill="#1E1840"/><rect x="5" y="6.2" width="4.67" height="11.6" fill="#FF8200"/><rect x="9.67" y="6.2" width="4.66" height="11.6" fill="#F5F1FF"/><rect x="14.33" y="6.2" width="4.67" height="11.6" fill="#009A49"/></svg></span>
+          <span class="category-name">Côte d'Ivoire</span>
+          <span class="category-count">10 questions</span>
+        </div>
+        <div class="card category-card">
+          <span class="category-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7.5 16 10l-1.5 4.5h-5L8 10l4-2.5Z"/><path d="M12 3v4.5M12 16.5V21M3 12h4.5M16.5 12H21"/></svg></span>
+          <span class="category-name">Football</span>
+          <span class="category-count">10 questions</span>
+        </div>
+        <div class="card category-card">
+          <span class="category-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.5 4 5.7 4 9s-1.5 6.5-4 9c-2.5-2.5-4-5.7-4-9s1.5-6.5 4-9Z"/></svg></span>
+          <span class="category-name">Culture générale</span>
+          <span class="category-count">10 questions</span>
+        </div>
+        <div class="card category-card">
+          <span class="category-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5.5L20 3v12.5"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="15.5" r="2.5"/></svg></span>
+          <span class="category-name">Musique</span>
+          <span class="category-count">10 questions</span>
+        </div>
+        <div class="card category-card">
+          <span class="category-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 21V4"/><path d="M5 4l14 4-14 4"/></svg></span>
+          <span class="category-name">Drapeaux & pays</span>
+          <span class="category-count">10 questions</span>
+        </div>
+        <div class="card category-card">
+          <span class="category-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="12" rx="9" ry="3.5"/><ellipse cx="12" cy="12" rx="9" ry="3.5" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.5" transform="rotate(120 12 12)"/><circle cx="12" cy="12" r="1.4" fill="currentColor" stroke="none"/></svg></span>
+          <span class="category-name">Sciences & technologie</span>
+          <span class="category-count">10 questions</span>
+        </div>
+        <div class="card category-card category-mix">
+          <span class="category-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/></svg></span>
+          <span class="category-name">BATAILLE MIX</span>
+          <span class="category-count">Questions de tous les thèmes</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
