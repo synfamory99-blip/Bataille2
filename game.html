@@ -13,21 +13,42 @@
   <main class="container game-page" id="game-screen">
     <div class="game-topbar">
       <span class="game-progress" id="progress">Question 1 / 10</span>
-      <span class="tag difficulty-tag" id="difficulty-tag">
-        <span class="difficulty-dot" id="difficulty-dot"></span>
-        <span id="difficulty-label"></span>
-      </span>
+      <div class="game-topbar-right">
+        <span class="tag difficulty-tag" id="difficulty-tag">
+          <span class="difficulty-dot" id="difficulty-dot"></span>
+          <span id="difficulty-label"></span>
+        </span>
+        <button class="sound-toggle" id="btn-sound" type="button" aria-label="Couper le son" aria-pressed="false">
+          <span id="sound-icon"></span>
+        </button>
+      </div>
     </div>
 
     <div class="progress-track" aria-hidden="true">
       <div class="progress-fill" id="progress-fill"></div>
     </div>
 
-    <div class="game-question-block" id="question-block">
-      <p class="game-question" id="question-text"></p>
-      <div class="game-options" id="options"></div>
-      <p class="game-explanation" id="explanation"></p>
+    <div class="question-card" id="question-card">
+      <div class="question-card-glow" aria-hidden="true"></div>
+      <div class="question-card-top">
+        <span class="category-chip" id="category-chip"></span>
+        <div class="timer-ring" id="timer-ring" aria-hidden="true">
+          <svg viewBox="0 0 36 36">
+            <circle class="timer-ring-track" cx="18" cy="18" r="15.5"></circle>
+            <circle class="timer-ring-fill" id="timer-ring-fill" cx="18" cy="18" r="15.5"></circle>
+          </svg>
+        </div>
+      </div>
+
+      <div class="game-question-block" id="question-block">
+        <p class="game-question" id="question-text"></p>
+        <div class="game-options" id="options"></div>
+        <p class="game-explanation" id="explanation"></p>
+      </div>
     </div>
+
+    <div class="xp-float-layer" id="xp-float-layer" aria-hidden="true"></div>
+    <div class="confetti-layer" id="confetti-layer" aria-hidden="true"></div>
 
     <div class="game-footer">
       <button class="btn btn-primary" id="btn-continue" hidden>Continuer</button>

@@ -134,6 +134,22 @@ Tous les emoji du site (⚔️🏆🎯🔥🥇🥈🥉🇨🇮⚽🌍🎵🏳️
 
 ⚠️ Vérifié par relecture complète, recherche automatisée de tout emoji restant (zéro trouvé), équilibre des accolades CSS sur tous les fichiers, validation syntaxique JS de tous les fichiers modifiés, et test de bon parsing HTML sur les 8 pages. Toujours aucun test visuel sur un vrai navigateur — l'aperçu `bataille-apercu.html` (accueil) donne un contrôle rapide, mais l'écran de jeu (le plus retravaillé) mérite vraiment un test de ta part.
 
+## Écran de jeu — refonte immersive (audio + animations)
+
+Refonte complète de l'écran de jeu demandée, en gardant strictement la logique existante (Firebase, API, scoring) intacte :
+
+- **Carte de question surélevée** avec lueur discrète, icône de catégorie, apparition animée
+- **Minuterie circulaire visuelle**, purement présentative — elle visualise la fenêtre de 15s déjà utilisée côté serveur pour le bonus de rapidité (`SPEED_BONUS_WINDOW_MS`), mais **n'influence jamais le score réel**, toujours calculé par `/api/submit-answer`
+- **Réponses en cascade** : chaque option apparaît avec un léger décalage plutôt que toutes d'un coup
+- **Bonne réponse** : icône check, glow, léger burst de confettis CSS, "+XP" flottant, son de validation
+- **Mauvaise réponse** : icône croix, shake, la bonne réponse est mise en évidence, son distinct (pas la même sonorité recolorée)
+- **Système audio complet** (`src/utils/audio.js`) : effets sonores **synthétisés via Web Audio API** — aucun fichier requis, donc zéro risque de droits d'auteur et zéro dépendance externe. Bouton 🔊/🔇 dans le jeu, préférence persistée (localStorage), déblocage propre au premier tap (contrainte autoplay des navigateurs, jamais d'erreur si Web Audio est indisponible)
+- **Musique de fond optionnelle** : purement par fichier (`/audio/background.mp3`, absent par défaut avec un `audio/README.md` expliquant comment l'ajouter) — je ne peux pas télécharger de musique libre de droits dans cet environnement (pas d'accès réseau), donc rien n'est fourni par défaut ; son absence ne casse jamais rien (échec silencieux)
+- **Écran de fin** : confettis supplémentaires si victoire, son distinct victoire/défaite, en plus du compteur animé et de la révélation orchestrée déjà en place
+- Architecture demandée respectée : un seul point d'entrée `playSound(name)`, rien de dispersé ailleurs dans le code
+
+⚠️ Vérifié par relecture complète, recherche automatisée de tout emoji restant (zéro trouvé), équilibre des accolades CSS, validation syntaxique JS de tous les fichiers modifiés, et parsing HTML de `game.html`. **Je ne peux pas vérifier l'absence d'erreur dans la vraie console du navigateur ni entendre les sons** — aucun navigateur réel ici. Teste en priorité l'écran de jeu complet (son compris, avec et sans l'option "réduire les animations" du système).
+
 ## Correctif critique : le bug de l'écran de jeu superposé au score
 
 Signalé avec une capture d'écran : l'écran de jeu (dernière question, bouton Continuer) et l'écran de résultat (BRAVO, score) s'affichaient **en même temps**.

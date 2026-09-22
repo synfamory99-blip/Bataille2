@@ -1,5 +1,5 @@
 /* ========================================================================
-   Écran de jeu
+   Écran de jeu — expérience immersive
    ======================================================================== */
 
 .game-page {
@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   padding: var(--space-5) 0 var(--space-8);
+  position: relative;
 }
 
 .game-topbar {
@@ -14,6 +15,12 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: var(--space-3);
+}
+
+.game-topbar-right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
 }
 
 .game-progress {
@@ -30,18 +37,39 @@
   height: 8px;
   border-radius: 50%;
   background: var(--text-muted);
+  animation: dot-pulse 1.8s ease-in-out infinite;
 }
 
 .difficulty-tag[data-level="easy"] .difficulty-dot { background: var(--feedback-correct); }
 .difficulty-tag[data-level="medium"] .difficulty-dot { background: var(--accent-victory); }
 .difficulty-tag[data-level="hard"] .difficulty-dot { background: var(--feedback-wrong); }
 
+@keyframes dot-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 currentColor; opacity: 1; }
+  50% { box-shadow: 0 0 0 4px transparent; opacity: 0.6; }
+}
+
+.sound-toggle {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-raised);
+  color: var(--text-secondary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color var(--duration-fast) var(--ease-snap), background var(--duration-fast) var(--ease-snap);
+}
+
+.sound-toggle svg { width: 18px; height: 18px; }
+.sound-toggle[aria-pressed="true"] { color: var(--accent-victory); }
+
 .progress-track {
   height: 6px;
   border-radius: var(--radius-pill);
   background: var(--surface-raised);
   overflow: hidden;
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-5);
 }
 
 .progress-fill {
@@ -51,10 +79,82 @@
   transition: width var(--duration-slow) var(--ease-premium);
 }
 
-/* Bloc question+réponses : transition douce entre deux questions plutôt
-   qu'un remplacement instantané du contenu. .is-entering déclenche
-   l'animation d'entrée (voir game-page.js), retirée après coup. */
+/* ---- Carte de question : élément central, surélevée ---- */
+.question-card {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--line-subtle);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-6) var(--space-5) var(--space-5);
+  overflow: hidden;
+  animation: card-enter var(--duration-slow) var(--ease-premium);
+}
+
+@keyframes card-enter {
+  from { opacity: 0; transform: translateY(16px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Lueur très discrète, statique — pas d'animation permanente qui distrairait */
+.question-card-glow {
+  position: absolute;
+  top: -40%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
+  height: 220px;
+  background: radial-gradient(circle, rgba(255, 201, 60, 0.10) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.question-card-top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-4);
+}
+
+.category-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-input);
+  background: var(--surface-raised);
+  color: var(--accent-victory);
+}
+
+.category-chip svg { width: 18px; height: 18px; }
+
+/* Minuterie circulaire — visualise la fenêtre de bonus de rapidité déjà
+   calculée côté serveur (15s), purement présentative : aucune valeur
+   utilisée ici n'influence le score, qui reste calculé par l'API. */
+.timer-ring { width: 34px; height: 34px; }
+.timer-ring svg { width: 34px; height: 34px; transform: rotate(-90deg); }
+
+.timer-ring-track {
+  fill: none;
+  stroke: var(--surface-raised);
+  stroke-width: 3;
+}
+
+.timer-ring-fill {
+  fill: none;
+  stroke: var(--accent-victory);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-dasharray: 97.4; /* 2 * π * 15.5 */
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 250ms linear, stroke var(--duration-fast) var(--ease-snap);
+}
+
+.timer-ring-fill.is-low { stroke: var(--feedback-wrong); }
+
 .game-question-block {
+  position: relative;
   animation: question-enter var(--duration-base) var(--ease-premium);
 }
 
@@ -88,14 +188,36 @@
   text-align: left;
   padding: var(--space-4);
   border-radius: var(--radius-card-sharp);
-  background: var(--surface);
+  background: var(--surface-raised);
   border: 2px solid var(--line);
   color: var(--text-primary);
   font-size: var(--text-base);
   font-weight: 600;
-  min-height: 56px;
-  transition: background var(--duration-fast) var(--ease-snap), border-color var(--duration-fast) var(--ease-snap), transform var(--duration-fast) var(--ease-snap);
+  min-height: 58px;
+  opacity: 0;
+  transform: translateY(8px);
+  animation: option-enter var(--duration-base) var(--ease-premium) forwards;
+  transition: background var(--duration-fast) var(--ease-snap), border-color var(--duration-fast) var(--ease-snap), transform var(--duration-fast) var(--ease-snap), box-shadow var(--duration-fast) var(--ease-snap);
 }
+
+/* Décalage successif — chaque réponse apparaît juste après la précédente */
+.option-btn:nth-child(1) { animation-delay: 60ms; }
+.option-btn:nth-child(2) { animation-delay: 120ms; }
+.option-btn:nth-child(3) { animation-delay: 180ms; }
+.option-btn:nth-child(4) { animation-delay: 240ms; }
+
+@keyframes option-enter {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+
+.option-btn:active:not(:disabled) { transform: scale(0.97); }
+
+@media (hover: hover) and (pointer: fine) {
+  .option-btn:not(:disabled):hover { border-color: var(--accent-victory); background: var(--surface); }
+}
+
+.option-btn:disabled { cursor: default; }
 
 .option-icon {
   width: 22px;
@@ -112,20 +234,11 @@
   transform: scale(1);
 }
 
-.option-btn:active:not(:disabled) { transform: scale(0.98); }
-
-@media (hover: hover) and (pointer: fine) {
-  .option-btn:not(:disabled):hover { border-color: var(--accent-victory); }
-}
-
-.option-btn:disabled { cursor: default; }
-
-/* Bonne réponse : un "pop" net avec un léger dépassement (overshoot),
-   sensation de récompense plutôt qu'un simple changement de couleur. */
 .option-btn.is-correct {
   background: rgba(47, 230, 166, 0.15);
   border-color: var(--feedback-correct);
   color: var(--feedback-correct);
+  box-shadow: 0 0 0 3px rgba(47, 230, 166, 0.18), 0 0 24px rgba(47, 230, 166, 0.25);
   animation: answer-correct 480ms var(--ease-premium);
 }
 
@@ -136,8 +249,6 @@
   100% { transform: scale(1); }
 }
 
-/* Mauvaise réponse : un "shake" horizontal, signal clairement différent
-   d'une bonne réponse — pas la même animation recolorée. */
 .option-btn.is-wrong {
   background: rgba(255, 46, 99, 0.15);
   border-color: var(--feedback-wrong);
@@ -158,7 +269,7 @@
   margin-top: var(--space-5);
   padding: var(--space-4);
   border-radius: var(--radius-card);
-  background: var(--surface);
+  background: var(--surface-raised);
   color: var(--text-secondary);
   font-size: var(--text-sm);
 }
@@ -179,11 +290,65 @@
   padding-bottom: max(0px, env(safe-area-inset-bottom));
 }
 
+/* ---- +XP flottant au-dessus de la réponse correcte ---- */
+.xp-float-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.xp-float {
+  position: absolute;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: var(--text-lg);
+  color: var(--accent-victory);
+  animation: xp-float-up 900ms var(--ease-premium) forwards;
+}
+
+@keyframes xp-float-up {
+  0% { opacity: 0; transform: translateY(0) scale(0.8); }
+  20% { opacity: 1; transform: translateY(-6px) scale(1.05); }
+  100% { opacity: 0; transform: translateY(-46px) scale(1); }
+}
+
+/* ---- Confettis légers (bonne réponse / victoire) ---- */
+.confetti-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 40;
+}
+
+.confetti-piece {
+  position: absolute;
+  top: -12px;
+  width: 7px;
+  height: 12px;
+  border-radius: 2px;
+  animation: confetti-fall 900ms ease-in forwards;
+}
+
+@keyframes confetti-fall {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(220px) rotate(280deg); opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .question-card, .game-question-block, .option-btn, .xp-float, .confetti-piece {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .difficulty-dot { animation: none; }
+}
+
 /* ---- Écran de résultat ----
-   Arrivée en scène orchestrée plutôt qu'un bloc statique qui apparaît
-   d'un coup : le trophée "pop" en premier, puis chaque ligne suivante
-   se révèle avec un léger décalage (stagger). Le score lui-même est
-   compté en JS (voir game-page.js) plutôt qu'affiché brut. */
+   Arrivée en scène orchestrée : le trophée "pop" en premier, puis
+   chaque ligne suivante se révèle avec un léger décalage (stagger).
+   Le score lui-même est compté en JS plutôt qu'affiché brut. */
 .end-screen {
   min-height: 100vh;
   display: flex;
@@ -196,15 +361,33 @@
 }
 
 .end-screen > * {
-  opacity: 0; /* état de départ explicite, pas seulement via le keyframe — évite un flash avant que l'animation ne démarre */
+  opacity: 0;
   animation: end-reveal var(--duration-slow) var(--ease-premium) forwards;
 }
 
-.end-title { animation-name: end-reveal-bounce; animation-delay: 0ms; }
+.end-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  animation-name: end-reveal-bounce;
+  animation-delay: 0ms;
+}
+
 .end-score { animation-delay: 150ms; }
 .end-points { animation-delay: 260ms; }
 .end-xp { animation-delay: 370ms; }
-.end-streak { animation-delay: 460ms; }
+.end-streak {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  animation-delay: 460ms;
+}
 .end-note { animation-delay: 560ms; }
 .end-screen > .btn, .end-screen > a.btn { animation-delay: 620ms; }
 
@@ -221,32 +404,13 @@
 
 @media (prefers-reduced-motion: reduce) {
   .end-screen > * { animation: none; opacity: 1; }
-  .game-question-block { animation: none; }
-}
-
-.end-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-2);
-  font-family: var(--font-display);
-  font-size: var(--text-2xl);
-}
-
-.end-streak {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-2);
-  font-size: var(--text-sm);
-  color: var(--text-secondary);
 }
 
 .end-score {
   font-family: var(--font-display);
   font-size: var(--text-3xl);
   color: var(--accent-victory);
-  font-variant-numeric: tabular-nums; /* les chiffres ne "dansent" pas pendant le comptage */
+  font-variant-numeric: tabular-nums;
 }
 
 .end-points {
