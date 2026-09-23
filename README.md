@@ -134,6 +134,24 @@ Tous les emoji du site (⚔️🏆🎯🔥🥇🥈🥉🇨🇮⚽🌍🎵🏳️
 
 ⚠️ Vérifié par relecture complète, recherche automatisée de tout emoji restant (zéro trouvé), équilibre des accolades CSS sur tous les fichiers, validation syntaxique JS de tous les fichiers modifiés, et test de bon parsing HTML sur les 8 pages. Toujours aucun test visuel sur un vrai navigateur — l'aperçu `bataille-apercu.html` (accueil) donne un contrôle rapide, mais l'écran de jeu (le plus retravaillé) mérite vraiment un test de ta part.
 
+## Correctif : 2 réponses sur 4 restaient invisibles mais cliquables
+
+Signalé avec une capture d'écran en conditions réelles.
+
+**Cause réelle** : l'apparition en cascade des 4 réponses utilisait `animation-delay` CSS (60/120/180/240ms). Juste après avoir créé ces boutons, le code forçait un reflow sur le bloc parent (`offsetWidth`) pour rejouer sa propre animation d'entrée. Ce reflow, survenant avant que le délai des réponses 3 et 4 (180ms/240ms) ne soit écoulé, interrompait leur animation planifiée — elles restaient bloquées à `opacity: 0` (invisibles) tout en occupant leur place dans la mise en page et en restant cliquables (d'où le tap "dans le vide" qui fonctionnait quand même). Les réponses 1 et 2, au délai plus court, avaient le temps de démarrer avant l'interruption.
+
+**Correctif** :
+- L'apparition en cascade est maintenant pilotée entièrement en JavaScript (`setTimeout` par bouton + classe `.is-visible` + transition CSS), plus par `animation-delay`
+- Les boutons de réponse sont désormais créés **après** le reflow forcé du bloc parent, jamais dans la même passe synchrone
+
+⚠️ Toujours pas de test réel — corrigé par relecture du code et compréhension du mécanisme exact, vérifié par relecture, équilibre des accolades et validation syntaxique. À retester en priorité.
+
+## Question ouverte : le classement ne fonctionne pas
+
+Signalé sans détail (pas de capture ni de message d'erreur). J'ai relu `src/pages/leaderboard-page.js`, `src/services/profile.js` et `firestore.rules` en entier — rien d'incorrect trouvé à la lecture : les règles autorisent bien la lecture publique de `users`, les requêtes Firestore sont correctement formées (`orderBy('xp','desc').limit(10)`, `getCountFromServer` sur une requête d'inégalité simple, aucune des deux ne nécessite d'index composite).
+
+**Prochaine étape : j'ai besoin du symptôme exact** (bloqué sur "Chargement…", message d'erreur précis, liste vide, mauvaises données…) pour continuer le diagnostic — deviner sans information risquerait de "corriger" quelque chose qui n'est pas cassé.
+
 ## Écran de jeu — refonte immersive (audio + animations)
 
 Refonte complète de l'écran de jeu demandée, en gardant strictement la logique existante (Firebase, API, scoring) intacte :

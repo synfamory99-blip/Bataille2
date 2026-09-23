@@ -196,19 +196,17 @@
   min-height: 58px;
   opacity: 0;
   transform: translateY(8px);
-  animation: option-enter var(--duration-base) var(--ease-premium) forwards;
-  transition: background var(--duration-fast) var(--ease-snap), border-color var(--duration-fast) var(--ease-snap), transform var(--duration-fast) var(--ease-snap), box-shadow var(--duration-fast) var(--ease-snap);
+  transition: opacity var(--duration-base) var(--ease-premium), transform var(--duration-base) var(--ease-premium), background var(--duration-fast) var(--ease-snap), border-color var(--duration-fast) var(--ease-snap), box-shadow var(--duration-fast) var(--ease-snap);
 }
 
-/* Décalage successif — chaque réponse apparaît juste après la précédente */
-.option-btn:nth-child(1) { animation-delay: 60ms; }
-.option-btn:nth-child(2) { animation-delay: 120ms; }
-.option-btn:nth-child(3) { animation-delay: 180ms; }
-.option-btn:nth-child(4) { animation-delay: 240ms; }
-
-@keyframes option-enter {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: none; }
+/* La classe .is-visible est ajoutée par JS avec un léger décalage par
+   bouton (voir game-page.js) — piloté par setTimeout, jamais par
+   animation-delay CSS, qui s'est révélé interrompu par le reflow forcé
+   du conteneur parent (bug corrigé : 2 réponses sur 4 restaient
+   invisibles mais cliquables). */
+.option-btn.is-visible {
+  opacity: 1;
+  transform: none;
 }
 
 .option-btn:active:not(:disabled) { transform: scale(0.97); }
@@ -339,6 +337,7 @@
 @media (prefers-reduced-motion: reduce) {
   .question-card, .game-question-block, .option-btn, .xp-float, .confetti-piece {
     animation: none !important;
+    transition: none !important;
     opacity: 1 !important;
     transform: none !important;
   }

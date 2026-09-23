@@ -178,6 +178,18 @@ function renderQuestionContent() {
     btn.append(label, iconSpan);
     btn.addEventListener('click', () => handleAnswer(index));
     els.options.appendChild(btn);
+
+    // Apparition en cascade pilotée en JS (pas par animation-delay CSS,
+    // qui s'est révélée cassée par le reflow forcé du bloc parent —
+    // voir renderQuestion ci-dessous, corrigé pour ne plus créer les
+    // boutons dans le même passage que ce reflow).
+    if (prefersReducedMotion) {
+      btn.classList.add('is-visible');
+    } else {
+      window.setTimeout(() => {
+        requestAnimationFrame(() => btn.classList.add('is-visible'));
+      }, 60 + index * 60);
+    }
   });
 }
 
@@ -191,10 +203,14 @@ function renderQuestion({ transition = false } = {}) {
   }
   els.questionBlock.classList.add('is-leaving');
   window.setTimeout(() => {
-    renderQuestionContent();
     els.questionBlock.classList.remove('game-question-block', 'is-leaving');
-    void els.questionBlock.offsetWidth; // force le reflow pour rejouer l'animation CSS
+    void els.questionBlock.offsetWidth; // force le reflow pour rejouer l'animation CSS du bloc
     els.questionBlock.classList.add('game-question-block');
+    // Les boutons de réponse sont créés APRÈS ce reflow, jamais dans la
+    // même passe synchrone : c'était la cause du bug où 2 réponses sur 4
+    // restaient invisibles (le reflow forcé interrompait leur apparition
+    // en cascade avant qu'elle n'ait eu le temps de démarrer).
+    renderQuestionContent();
   }, 160);
 }
 
